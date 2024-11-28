@@ -1,0 +1,1035 @@
+1	Common	FirstDie	Ui	Yui		Dialogue_FirstDie_01		false		
+2	Common	FirstDie	Ui	Hero		Dialogue_FirstDie_02		false		
+3	Common	FirstDie	Ui	Yui		Dialogue_FirstDie_03		false		
+4	Common	FirstDie	Ui	Hero		Dialogue_FirstDie_04		false		
+5	Common	FirstDie	Ui	Yui		Dialogue_FirstDie_05		false		
+6	Common	FirstDie	Ui	Yui		Dialogue_FirstDie_06		false		
+7	Common	FirstDie	Ui	Yui		Dialogue_FirstDie_07		false		
+8	Waltz	Tutorial_Start	Ui	Yui		Dialogue_Tutorial_Start_01		false		
+9	Waltz	Tutorial_Start	Ui	Yui		Dialogue_Tutorial_Start_02		false		
+10	Waltz	Tutorial_Start	Ui	Yui		Dialogue_Tutorial_Start_03		false		
+11	Waltz	Tutorial_Start	Ui	Hero		Dialogue_Tutorial_Start_04		false		
+12	Waltz	Tutorial_Start	Ui	Yui		Dialogue_Tutorial_Start_05		false		
+13	Waltz	Tutorial_Start	Ui	Yui		Dialogue_Tutorial_Start_06		false		
+14	Waltz	Tutorial_Start	Ui	Hero		Dialogue_Tutorial_Start_07		false		
+15	Waltz	Tutorial_Start	Ui	Yui		Dialogue_Tutorial_Start_08		false		
+16	Waltz	Tutorial_Start	Ui	Hero		Dialogue_Tutorial_Start_09		false		
+17	Waltz	Tutorial_Start	Ui	Yui		Dialogue_Tutorial_Start_10		false		
+18	Waltz	Tutorial_GivePrimaryWeapon	Ui	Yui		Dialogue_Tutorial_GivePrimaryWeapon_01		false		
+19	Waltz	Tutorial_GivePrimaryWeapon	Ui	Yui		Dialogue_Tutorial_GivePrimaryWeapon_02		false		
+20	Waltz	Tutorial_GivePrimaryWeapon	Ui	Hero		Dialogue_Tutorial_GivePrimaryWeapon_03		false		
+21	Waltz	Tutorial_GivePrimaryWeapon	Ui	Yui		Dialogue_Tutorial_GivePrimaryWeapon_04		false		
+22	Waltz	Tutorial_GivePrimaryWeapon	Ui	Yui	Embarrass2	Dialogue_Tutorial_GivePrimaryWeapon_05		false		
+23	Waltz	Tutorial_GivePrimaryWeapon	Ui	Yui	Embarrass2	Dialogue_Tutorial_GivePrimaryWeapon_06		false		
+24	Waltz	Tutorial_AfterPlantBomb	Ui	Yui		Dialogue_Tutorial_AfterPlantBomb_01		false		
+25	Waltz	Tutorial_AfterPlantBomb	Ui	Yui		Dialogue_Tutorial_AfterPlantBomb_02		false		
+26	Waltz	Tutorial_AfterPlantBomb	Ui	Yui		Dialogue_Tutorial_AfterPlantBomb_03		false		
+27	Waltz	Tutorial_AfterPlantBomb	Ui	Yui		Dialogue_Tutorial_AfterPlantBomb_04		false		
+28	Waltz	Tutorial_AfterPlantBomb	Ui	Yui		Dialogue_Tutorial_AfterPlantBomb_05		false		
+29	Waltz	Tutorial_AfterDestoryObject	Ui	Yui		Dialogue_Tutorial_AfterDestoryObject_01		false		
+30	Waltz	Tutorial_AfterDestoryObject	Ui	Hero		Dialogue_Tutorial_AfterDestoryObject_02		false		
+31	Waltz	Tutorial_AfterDestoryObject	Ui	Yui		Dialogue_Tutorial_AfterDestoryObject_03		false		
+32	Waltz	Tutorial_EnemyAppeared	Ui	Yui	Surprise	Dialogue_Tutorial_EnemyAppeared_01		false		
+33	Waltz	Tutorial_EnemyAppeared	Ui	Hero		Dialogue_Tutorial_EnemyAppeared_02		false		
+34	Waltz	Tutorial_EnemyAppeared	Ui	Yui	Surprise	Dialogue_Tutorial_EnemyAppeared_03		false		
+35	Waltz	Tutorial_EnemyAttack	Ui	Yui		Dialogue_Tutorial_EnemyAttack_01		false		
+36	Waltz	Tutorial_EnemyAttack	Ui	Yui		Dialogue_Tutorial_EnemyAttack_02		false		
+37	Waltz	Tutorial_EnemyAttack	Ui	Yui		Dialogue_Tutorial_EnemyAttack_03		false		
+38	Waltz	Tutorial_EnemyAttack	Ui	Yui		Dialogue_Tutorial_EnemyAttack_04		false		
+39	Waltz	Tutorial_EnemyAttack	Ui	Hero		Dialogue_Tutorial_EnemyAttack_05		false		
+40	Waltz	Tutorial_EnemySecondAttack	Ui	Yui		Dialogue_Tutorial_EnemySecondAttack_01		false		
+41	Waltz	Tutorial_EnemySecondAttack	Ui	Hero		Dialogue_Tutorial_EnemySecondAttack_02		false		
+42	Waltz	Tutorial_EnemySecondAttack	Ui	Yui		Dialogue_Tutorial_EnemySecondAttack_03		false		
+43	Waltz	Tutorial_GiveSecondaryWeapon	Ui	Yui		Dialogue_Tutorial_GiveSecondaryWeapon_01		false		
+44	Waltz	Tutorial_GiveSecondaryWeapon	Ui	Hero		Dialogue_Tutorial_GiveSecondaryWeapon_02		false		
+45	Waltz	Tutorial_GiveSecondaryWeapon	Ui	Yui		Dialogue_Tutorial_GiveSecondaryWeapon_03		false		
+46	Waltz	Tutorial_GiveSecondaryWeapon	Ui	Yui		Dialogue_Tutorial_GiveSecondaryWeapon_04		false		
+47	Waltz	Tutorial_GiveSecondaryWeapon	Ui	Yui		Dialogue_Tutorial_GiveSecondaryWeapon_05		false		
+48	Waltz	Tutorial_GiveSecondaryWeapon	Ui	Yui		Dialogue_Tutorial_GiveSecondaryWeapon_06		false		
+49	Waltz	Tutorial_GiveSecondaryWeapon	Ui	Hero		Dialogue_Tutorial_GiveSecondaryWeapon_07		false		
+50	Waltz	GameStart	Ui	Yui		Dialogue_Waltz_GameStart_01		false		
+51	Waltz	GameStart	Ui	Yui		Dialogue_Waltz_GameStart_02		false		
+52	Waltz	GameStart	Ui	Hero		Dialogue_Waltz_GameStart_03		false		
+53	Waltz	StageSuccess	Ui	Yui		Dialogue_Waltz_StageSuccess_01		false		
+54	Waltz	StageSuccess	Ui	Hero		Dialogue_Waltz_StageSuccess_02		false		
+55	Waltz	StageSuccess	Ui	Yui		Dialogue_Waltz_StageSuccess_03		false		
+56	Waltz	StageSuccess	Ui	Yui		Dialogue_Waltz_StageSuccess_04		false		
+57	Waltz	StageSuccess	Ui	Yui		Dialogue_Waltz_StageSuccess_05		false		
+58	Waltz	StageSuccess	Ui	Hero		Dialogue_Waltz_StageSuccess_06		false		
+59	ElectricSoldiers	GameStart	Ui	Yui		Dialogue_ElectricSoldiers_GameStart_01		false		
+60	ElectricSoldiers	GameStart	Ui	Hero		Dialogue_ElectricSoldiers_GameStart_02		false		
+61	ElectricSoldiers	GameStart	Ui	Yui		Dialogue_ElectricSoldiers_GameStart_03		false		
+62	ElectricSoldiers	GameStart	Ui	Hero		Dialogue_ElectricSoldiers_GameStart_04		false		
+63	ElectricSoldiers	GameStart	Ui	Yui		Dialogue_ElectricSoldiers_GameStart_05		false		
+64	ElectricSoldiers	GameStart	Object	Enemy		Dialogue_ElectricSoldiers_GameStart_06		false		
+65	ElectricSoldiers	GameStart	Object	Enemy		Dialogue_ElectricSoldiers_GameStart_07	soldiers_voice_01	false		
+66	ElectricSoldiers	StageSuccess	Ui	Yui		Dialogue_ElectricSoldiers_StageSuccess_01		false		
+67	ElectricSoldiers	StageSuccess	Ui	Yui		Dialogue_ElectricSoldiers_StageSuccess_02		false		
+68	ElectricSoldiers	StageSuccess	Ui	Hero		Dialogue_ElectricSoldiers_StageSuccess_03		false		
+69	ElectricSoldiers	StageSuccess	Ui	Yui		Dialogue_ElectricSoldiers_StageSuccess_04		false		
+70	ElectricSoldiers	StageSuccess	Ui	Yui		Dialogue_ElectricSoldiers_StageSuccess_05		false		
+71	RifleSoldiers	GameStart	Ui	Yui	Surprise	Dialogue_RifleSoldiers_GameStart_01		false		
+72	RifleSoldiers	GameStart	Ui	Yui		Dialogue_RifleSoldiers_GameStart_02		false		
+73	RifleSoldiers	GameStart	Ui	Hero		Dialogue_RifleSoldiers_GameStart_03		false		
+74	RifleSoldiers	GameStart	Ui	Yui		Dialogue_RifleSoldiers_GameStart_04		false		
+75	RifleSoldiers	GameStart	Ui	Yui	Embarrass2	Dialogue_RifleSoldiers_GameStart_05		false		
+76	RifleSoldiers	EnemyDie	Object	Enemy		Dialogue_RifleSoldiers_StageSuccess_01	soldiers_voice_03	true		
+77	RifleSoldiers	EnemyDie	Object	Enemy		Dialogue_RifleSoldiers_StageSuccess_02	soldiers_voice_04	true		
+78	RifleSoldiers	EnemyDie	Object	Player		Dialogue_RifleSoldiers_StageSuccess_03		true		
+79	RifleSoldiers	StageSuccess	Ui	Ulrich		Dialogue_RifleSoldiers_StageSuccess_04		false		
+80	RifleSoldiers	StageSuccess	Ui	Hero		Dialogue_RifleSoldiers_StageSuccess_05		false		
+81	RifleSoldiers	StageSuccess	Ui	Ulrich		Dialogue_RifleSoldiers_StageSuccess_06		false		
+82	RifleSoldiers	StageSuccess	Ui	Hero		Dialogue_RifleSoldiers_StageSuccess_07		false		
+83	RifleSoldiers	StageSuccess	Ui	Ulrich		Dialogue_RifleSoldiers_StageSuccess_08		false		
+84	RifleSoldiers	StageSuccess	Ui	Hero		Dialogue_RifleSoldiers_StageSuccess_09		false		
+85	RifleSoldiers	StageSuccess	Ui	Ulrich		Dialogue_RifleSoldiers_StageSuccess_10		false		
+86	RifleSoldiers	StageSuccess	Ui	Ulrich		Dialogue_RifleSoldiers_StageSuccess_11		false		
+87	RifleSoldiers	StageSuccess	Ui	Yui		Dialogue_RifleSoldiers_StageSuccess_12		false		
+88	RifleSoldiers	StageSuccess	Ui	Hero		Dialogue_RifleSoldiers_StageSuccess_13		false		
+89	RifleSoldiers	StageSuccess	Ui	Yui	Surprise	Dialogue_RifleSoldiers_StageSuccess_14		false		
+90	RifleSoldiers	StageSuccess	Ui	Hero		Dialogue_RifleSoldiers_StageSuccess_15		false		
+91	RifleSoldiers	StageSuccess	Ui	Yui		Dialogue_RifleSoldiers_StageSuccess_16		false		
+92	Otto	GameStart	Ui	Yui	Love	Dialogue_Otto_GameStart_01		false		
+93	Otto	GameStart	Ui	Hero		Dialogue_Otto_GameStart_02		false		
+94	Otto	GameStart	Ui	Yui		Dialogue_Otto_GameStart_03		false		
+95	Otto	GameStart	Ui	Hero		Dialogue_Otto_GameStart_04		false		
+96	Otto	StageSuccess	Ui	Ulrich		Dialogue_Otto_StageSuccess_01		false		
+97	Otto	StageSuccess	Ui	Hero		Dialogue_Otto_StageSuccess_02		false		
+98	Otto	StageSuccess	Ui	Ulrich		Dialogue_Otto_StageSuccess_03		false		
+99	Otto	StageSuccess	Ui	Ulrich		Dialogue_Otto_StageSuccess_04		false		
+100	MuskX	GameStart	Ui	Yui	Surprise	Dialogue_MuskX_GameStart_01		false		
+101	MuskX	GameStart	Ui	Hero		Dialogue_MuskX_GameStart_02		false		
+102	MuskX	GameStart	Ui	Yui		Dialogue_MuskX_GameStart_03		false		
+103	MuskX	GameStart	Ui	Hero		Dialogue_MuskX_GameStart_04		false		
+104	MuskX	GameStart	Ui	Yui	Angry1	Dialogue_MuskX_GameStart_05		false		
+105	MuskX	StageSuccess	Ui	Diego		Dialogue_MuskX_StageSuccess_01		false		
+106	MuskX	StageSuccess	Ui	Diego		Dialogue_MuskX_StageSuccess_02		false		
+107	MuskX	StageSuccess	Ui	Hero		Dialogue_MuskX_StageSuccess_03		false		
+108	MuskX	StageSuccess	Ui	Diego	Embarrass2	Dialogue_MuskX_StageSuccess_04		false		
+109	MuskX	StageSuccess	Ui	Diego		Dialogue_MuskX_StageSuccess_05		false		
+110	MuskX	StageSuccess	Ui	Hero		Dialogue_MuskX_StageSuccess_06		false		
+111	MuskX	StageSuccess	Ui	Diego		Dialogue_MuskX_StageSuccess_07		false		
+112	MuskX	StageSuccess	Ui	Diego		Dialogue_MuskX_StageSuccess_08		false		
+113	Brock	GameStart	Ui	Ulrich		Dialogue_Brock_GameStart_01		false		
+114	Brock	GameStart	Ui	Ulrich		Dialogue_Brock_GameStart_02		false		
+115	Brock	GameStart	Ui	Ulrich		Dialogue_Brock_GameStart_03		false		
+116	Brock	GameStart	Ui	Hero		Dialogue_Brock_GameStart_04		false		
+117	Brock	StageSuccess	Ui	Ulrich		Dialogue_Brock_StageSuccess_01		false		
+118	Brock	StageSuccess	Ui	Hero		Dialogue_Brock_StageSuccess_02		false		
+119	Brock	StageSuccess	Ui	Ulrich		Dialogue_Brock_StageSuccess_03		false		
+120	Brock	StageSuccess	Ui	Ulrich		Dialogue_Brock_StageSuccess_04		false		
+121	Brock	StageSuccess	Ui	Ulrich		Dialogue_Brock_StageSuccess_05		false		
+122	Octopolar	GameStart	Ui	Yui		Dialogue_Octopolar_GameStart_01		false		
+123	Octopolar	GameStart	Ui	Hero		Dialogue_Octopolar_GameStart_02		false		
+124	Octopolar	GameStart	Ui	Yui		Dialogue_Octopolar_GameStart_03		false		
+125	Octopolar	GameStart	Ui	Hero		Dialogue_Octopolar_GameStart_04		false		
+126	Octopolar	GameStart	Ui	Yui	Angry1	Dialogue_Octopolar_GameStart_05		false		
+127	Octopolar	StageSuccess	Ui	Hero		Dialogue_Octopolar_StageSuccess_01		false		
+128	Octopolar	StageSuccess	Ui	Hero		Dialogue_Octopolar_StageSuccess_02		false		
+129	Octopolar	StageSuccess	Ui	Yui	Worry	Dialogue_Octopolar_StageSuccess_03		false		
+130	Octopolar	StageSuccess	Ui	Yui	Worry	Dialogue_Octopolar_StageSuccess_04		false		
+131	Octopolar	StageSuccess	Ui	Hero		Dialogue_Octopolar_StageSuccess_05		false		
+132	Octopolar	StageSuccess	Ui	Hero		Dialogue_Octopolar_StageSuccess_06		false		
+133	Octopolar	StageSuccess	Ui	Yui	Worry	Dialogue_Octopolar_StageSuccess_07		false		
+134	Arma	GameStart	Ui	Yui		Dialogue_Arma_GameStart_01		false		
+135	Arma	GameStart	Ui	Hero		Dialogue_Arma_GameStart_02		false		
+136	Arma	GameStart	Ui	Yui	Worry	Dialogue_Arma_GameStart_03		false		
+137	Arma	GameStart	Ui	Hero		Dialogue_Arma_GameStart_04		false		
+138	Arma	StageSuccess	Ui	Yui		Dialogue_Arma_StageSuccess_01		false		
+139	Arma	StageSuccess	Ui	Yui		Dialogue_Arma_StageSuccess_02		false		
+140	Arma	StageSuccess	Ui	Yui		Dialogue_Arma_StageSuccess_03		false		
+141	Arma	StageSuccess	Ui	Yui		Dialogue_Arma_StageSuccess_04		false		
+142	Arma	StageSuccess	Ui	Hero		Dialogue_Arma_StageSuccess_05		false		
+143	Toadie	GameStart	Ui	Yui	Surprise	Dialogue_Toadie_GameStart_01		false		
+144	Toadie	GameStart	Ui	Hero		Dialogue_Toadie_GameStart_02		false		
+145	Toadie	GameStart	Ui	Yui		Dialogue_Toadie_GameStart_03		false		
+146	Toadie	GameStart	Ui	Hero		Dialogue_Toadie_GameStart_04		false		
+147	Toadie	GameStart	Ui	Yui		Dialogue_Toadie_GameStart_05		false		
+148	Toadie	GameStart	Ui	Yui		Dialogue_Toadie_GameStart_06		false		
+149	Toadie	GameStart	Ui	Yui	Angry1	Dialogue_Toadie_GameStart_07		false		
+150	Toadie	StageSuccess	Ui	Yui		Dialogue_Toadie_StageSuccess_01		false		
+151	Toadie	StageSuccess	Ui	Yui		Dialogue_Toadie_StageSuccess_02		false		
+152	Toadie	StageSuccess	Ui	Hero		Dialogue_Toadie_StageSuccess_03		false		
+153	Toadie	StageSuccess	Ui	Yui	Angry1	Dialogue_Toadie_StageSuccess_04		false		
+154	Paluda	GameStart	Ui	Yui	Surprise	Dialogue_Paluda_GameStart_01		false		
+155	Paluda	GameStart	Ui	Hero		Dialogue_Paluda_GameStart_02		false		
+156	Paluda	GameStart	Ui	Yui	Angry1	Dialogue_Paluda_GameStart_03		false		
+157	Paluda	GameStart	Ui	Hero		Dialogue_Paluda_GameStart_04		false		
+158	Paluda	GameStart	Ui	Yui	Angry1	Dialogue_Paluda_GameStart_05		false		
+159	Paluda	StageSuccess	Ui	Yui		Dialogue_Paluda_StageSuccess_01		false		
+160	Paluda	StageSuccess	Ui	Yui		Dialogue_Paluda_StageSuccess_02		false		
+161	Paluda	StageSuccess	Ui	Hero		Dialogue_Paluda_StageSuccess_03		false		
+162	Purupu	GameStart	Ui	Yui	Love	Dialogue_Purupu_GameStart_01		false		
+163	Purupu	GameStart	Ui	Yui		Dialogue_Purupu_GameStart_02		false		
+164	Purupu	GameStart	Ui	Hero		Dialogue_Purupu_GameStart_03		false		
+165	Purupu	GameStart	Ui	Yui		Dialogue_Purupu_GameStart_04		false		
+166	Purupu	GameStart	Ui	Hero		Dialogue_Purupu_GameStart_05		false		
+167	Purupu	GameStart	Ui	Yui	Surprise	Dialogue_Purupu_GameStart_06		false		
+168	Purupu	GameStart	Ui	Hero		Dialogue_Purupu_GameStart_07		false		
+169	Purupu	StageSuccess	Ui	Hero		Dialogue_Purupu_StageSuccess_01		false		
+170	Purupu	StageSuccess	Ui	Yui	Angry1	Dialogue_Purupu_StageSuccess_02		false		
+171	Purupu	StageSuccess	Ui	Yui		Dialogue_Purupu_StageSuccess_03		false		
+172	Purupu	StageSuccess	Ui	Hero		Dialogue_Purupu_StageSuccess_04		false		
+173	Purupu	StageSuccess	Ui	Yui	Angry1	Dialogue_Purupu_StageSuccess_05		false		
+174	Angero	GameStart	Ui	Hero		Dialogue_Angero_GameStart_01		false		
+175	Angero	GameStart	Ui	Yui		Dialogue_Angero_GameStart_02		false		
+176	Angero	GameStart	Ui	Hero		Dialogue_Angero_GameStart_03		false		
+177	Angero	GameStart	Ui	Yui		Dialogue_Angero_GameStart_04		false		
+178	Angero	GameStart	Ui	Yui	Surprise	Dialogue_Angero_GameStart_05		false		
+179	Angero	StageSuccess	Ui	Pascal		Dialogue_Angero_StageSuccess_01		false		
+180	Angero	StageSuccess	Ui	Hero		Dialogue_Angero_StageSuccess_02		false		
+181	Angero	StageSuccess	Ui	Pascal		Dialogue_Angero_StageSuccess_03		false		
+182	Angero	StageSuccess	Ui	Hero		Dialogue_Angero_StageSuccess_04		false		
+183	Angero	StageSuccess	Ui	Pascal		Dialogue_Angero_StageSuccess_05		false		
+184	Angero	StageSuccess	Ui	Hero		Dialogue_Angero_StageSuccess_06		false		
+185	Angero	StageSuccess	Ui	Pascal		Dialogue_Angero_StageSuccess_07		false		
+186	Angero	StageSuccess	Ui	Yui		Dialogue_Angero_StageSuccess_08		false		
+187	Angero	StageSuccess	Ui	Hero		Dialogue_Angero_StageSuccess_09		false		
+188	Angero	StageSuccess	Ui	Yui		Dialogue_Angero_StageSuccess_10		false		
+189	Angero	StageSuccess	Ui	Hero		Dialogue_Angero_StageSuccess_11		false		
+190	Blactop	GameStart	Ui	Yui		Dialogue_Blactop_GameStart_01		false		
+191	Blactop	GameStart	Ui	Hero		Dialogue_Blactop_GameStart_02		false		
+192	Blactop	GameStart	Ui	Yui		Dialogue_Blactop_GameStart_03		false		
+193	Blactop	GameStart	Ui	Hero		Dialogue_Blactop_GameStart_04		false		
+194	Blactop	EnemyDie	Ui	Yui		Dialogue_Blactop_StageSuccess_01		false		
+195	Blactop	EnemyDie	Ui	Hero		Dialogue_Blactop_StageSuccess_02		false		
+196	Blactop	EnemyDie	Ui	Yui		Dialogue_Blactop_StageSuccess_03		false		
+197	Blactop	EnemyDie	Ui	Hero		Dialogue_Blactop_StageSuccess_04		false		
+198	Blactop	EventScene				Dialogue_Blactop_EventScene_01	hans_lindemann_voice_12	false		
+199	Blactop	EventScene				Dialogue_Blactop_EventScene_02	hans_lindemann_voice_11	false		
+200	Blactop	EventScene				Dialogue_Blactop_EventScene_03	eugen_voice_02	false		
+201	Blactop	EventScene				Dialogue_Blactop_EventScene_04	hans_lindemann_voice_13	false		
+202	Blactop	EventScene				Dialogue_Blactop_EventScene_05	eugen_voice_01	false		
+203	Blactop	EventScene				Dialogue_Blactop_EventScene_06	eugen_voice_04	false		
+204	Blactop	EventScene				Dialogue_Blactop_EventScene_07	rocco_voice_02	false		
+205	Blactop	EventScene				Dialogue_Blactop_EventScene_08	helga_voice_02	false		
+206	Blactop	EventScene				Dialogue_Blactop_EventScene_09	hans_lindemann_voice_10	false		
+207	Blactop	EventScene				Dialogue_Blactop_EventScene_10	rocco_voice_02	false		
+208	Pascal	GameStart	Object	Enemy		Dialogue_Pascal_GameStart_01	pascal_voice_02	false		
+209	Pascal	GameStart	Object	Player		Dialogue_Pascal_GameStart_02		false		
+210	Pascal	GameStart	Object	Enemy		Dialogue_Pascal_GameStart_03	pascal_voice_03	false		
+211	Pascal	GameStart	Object	Enemy		Dialogue_Pascal_GameStart_04	pascal_voice	false		
+212	Pascal	GameStart	Object	Enemy		Dialogue_Pascal_GameStart_05	pascal_voice_03	false		
+213	Pascal	GameStart	Object	Player		Dialogue_Pascal_GameStart_06		false		
+214	Pascal	GameStart	Ui	Yui		Dialogue_Pascal_GameStart_07		false		
+215	Pascal	GameStart	Ui	Yui		Dialogue_Pascal_GameStart_08		false		
+216	Pascal	GameStart	Ui	Hero		Dialogue_Pascal_GameStart_09		false		
+217	Pascal	EnemyDie	Object	Enemy		Dialogue_Pascal_EnemyDie_01	pascal_voice_06	false		
+218	Pascal	EnemyDie	Object	Player		Dialogue_Pascal_EnemyDie_02		false		
+219	Pascal	EnemyDie	Object	Enemy		Dialogue_Pascal_EnemyDie_03	pascal_voice_05	false		
+220	Pascal	EnemyDie	Object	Player		Dialogue_Pascal_EnemyDie_04		false		
+221	Pascal	EnemyDie	Object	Enemy		Dialogue_Pascal_EnemyDie_05	pascal_voice_08	false		
+222	Pascal	EnemyDie	Object	Player		Dialogue_Pascal_EnemyDie_06		false		
+223	Pascal	StageSuccess	Ui	Yui		Dialogue_Pascal_StageSuccess_01		false		
+224	Pascal	StageSuccess	Ui	Hero		Dialogue_Pascal_StageSuccess_02		false		
+225	Pascal	StageSuccess	Ui	Yui	Embarrass2	Dialogue_Pascal_StageSuccess_03		false		
+226	Pascal	StageSuccess	Ui	Hero		Dialogue_Pascal_StageSuccess_04		false		
+227	Pascal	StageSuccess	Ui	Yui		Dialogue_Pascal_StageSuccess_05		false		
+228	Pascal	StageSuccess	Ui	Hero		Dialogue_Pascal_StageSuccess_06		false		
+229	PascalSub	GameStart	Ui	Yui	Surprise	Dialogue_PascalSub_GameStart_01		false	Loop	
+230	PascalSub	GameStart	Ui	Hero		Dialogue_PascalSub_GameStart_02		false		
+231	PascalSub	GameStart	Ui	Yui	Surprise	Dialogue_PascalSub_GameStart_03		false	Loop	
+232	PascalSub	GameStart	Ui	Hero		Dialogue_PascalSub_GameStart_04		false		
+233	PascalSub	StageSuccess	Ui	Hero		Dialogue_PascalSub_StageSuccess_01		false		
+234	PascalSub	StageSuccess	Ui	Yui		Dialogue_PascalSub_StageSuccess_02		false		
+235	PascalSub	StageSuccess	Ui	Hero		Dialogue_PascalSub_StageSuccess_03		false		
+236	PascalSub	StageSuccess	Ui	Yui	Embarrass2	Dialogue_PascalSub_StageSuccess_04		false		
+237	PascalSub	StageSuccess	Ui	Hero		Dialogue_PascalSub_StageSuccess_05		false		
+238	PascalSub	StageSuccess	Ui	Yui	Embarrass2	Dialogue_PascalSub_StageSuccess_06		false		
+239	PascalSub	StageSuccess	Ui	Hero		Dialogue_PascalSub_StageSuccess_07		false		
+240	PascalSub	StageSuccess	Ui	Yui		Dialogue_PascalSub_StageSuccess_08		false		
+241	Buffy	GameStart	Ui	Yui		Dialogue_Buffy_GameStart_01		false		
+242	Buffy	GameStart	Ui	Yui	Surprise	Dialogue_Buffy_GameStart_02		false		
+243	Buffy	GameStart	Ui	Hero		Dialogue_Buffy_GameStart_03		false		
+244	Buffy	GameStart	Ui	Yui		Dialogue_Buffy_GameStart_04		false		
+245	Buffy	GameStart	Ui	Yui		Dialogue_Buffy_GameStart_05		false		
+246	Buffy	GameStart	Ui	Hero		Dialogue_Buffy_GameStart_06		false		
+247	Buffy	GameStart	Ui	Yui		Dialogue_Buffy_GameStart_07		false		
+248	Buffy	StageSuccessFirst	Ui	Yui		Dialogue_Buffy_StageSuccessFirst_01		false		
+249	Buffy	StageSuccessFirst	Ui	Hero		Dialogue_Buffy_StageSuccessFirst_02		false		
+250	Buffy	StageSuccessFirst	Ui	Yui		Dialogue_Buffy_StageSuccessFirst_03		false		
+251	Buffy	StageSuccessFirst	Ui	Yui		Dialogue_Buffy_StageSuccessFirst_04		false		
+252	Buffy	StageSuccessFirst	Ui	Hero		Dialogue_Buffy_StageSuccessFirst_05		false		
+253	Buffy	StageSuccess	Ui	Yui		Dialogue_Buffy_StageSuccess_01		false		
+254	Buffy	StageSuccess	Ui	Hero		Dialogue_Buffy_StageSuccess_02		false		
+255	Buffy	StageSuccess	Ui	Yui	Angry1	Dialogue_Buffy_StageSuccess_03		false		
+256	Ulrich	GameStart	Object	Player		Dialogue_Ulrich_GameStart_01		false		
+257	Ulrich	GameStart2	Object	Enemy		Dialogue_Ulrich_GameStart2_01	ulrich_voice_01	true		
+258	Ulrich	GameStart2	Object	Player		Dialogue_Ulrich_GameStart2_02		true		
+259	Ulrich	GameStart2	Object	Enemy		Dialogue_Ulrich_GameStart2_03	ulrich_voice_02	true		
+260	Ulrich	GameStart2	Object	Player		Dialogue_Ulrich_GameStart2_04		true		
+261	Ulrich	GameStart2	Object	Enemy		Dialogue_Ulrich_GameStart2_05	ulrich_voice_03	true		
+262	Ulrich	GameStart2	Object	Enemy		Dialogue_Ulrich_GameStart2_06	ulrich_voice_04	true		
+263	Ulrich	GameStart2	Object	Enemy		Dialogue_Ulrich_GameStart2_07	ulrich_voice_05	true		
+264	Ulrich	StageSuccess	Object	Enemy		Dialogue_Ulrich_StageSuccess_01		true		
+265	Ulrich	StageSuccess	Object	Enemy		Dialogue_Ulrich_StageSuccess_02	pascal_voice_03	true		
+266	Ulrich	StageSuccess	Object	Player		Dialogue_Ulrich_StageSuccess_03		true		
+267	Ulrich	StageSuccess	Object	Enemy		Dialogue_Ulrich_StageSuccess_04	pascal_voice_02	true		
+268	Ulrich	StageSuccess	Object	Enemy		Dialogue_Ulrich_StageSuccess_05	pascal_voice_06	true		
+269	Ulrich	StageSuccess	Object	Enemy		Dialogue_Ulrich_StageSuccess_06	pascal_voice	true		
+270	Ulrich	StageSuccess	Ui	Yui	Love	Dialogue_Ulrich_StageSuccess_07		false		
+271	Ulrich	StageSuccess	Ui	Hero		Dialogue_Ulrich_StageSuccess_08		false		
+272	Ulrich	StageSuccess	Ui	Yui		Dialogue_Ulrich_StageSuccess_09		false		
+273	Ulrich	StageSuccess	Ui	Hero		Dialogue_Ulrich_StageSuccess_10		false		
+274	Ulrich	StageSuccess	Object	Enemy		Dialogue_Ulrich_StageSuccess_11	pascal_voice_02	false		
+275	Ulrich	StageSuccess	Object	Enemy		Dialogue_Ulrich_StageSuccess_12	pascal_voice_07	false		
+276	UlrichSub	GameStart	Ui	Yui		Dialogue_UlrichSub_GameStart_01		false		
+277	UlrichSub	GameStart	Ui	Hero		Dialogue_UlrichSub_GameStart_02		false		
+278	UlrichSub	GameStart	Ui	Yui		Dialogue_UlrichSub_GameStart_03		false		
+279	UlrichSub	GameStart	Ui	Yui		Dialogue_UlrichSub_GameStart_04		false		
+280	UlrichSub	StageSuccess	Ui	Hero		Dialogue_UlrichSub_StageSuccess_01		false		
+281	UlrichSub	StageSuccess	Ui	Yui		Dialogue_UlrichSub_StageSuccess_02		false		
+282	UlrichSub	StageSuccess	Ui	Yui		Dialogue_UlrichSub_StageSuccess_03		false		
+283	UlrichSub	StageSuccess	Ui	Yui	Worry	Dialogue_UlrichSub_StageSuccess_04		false		
+284	AlfonzoSub	GameStart	Ui	Hero		Dialogue_AlfonzoSub_GameStart_01		false		
+285	AlfonzoSub	GameStart	Ui	Yui		Dialogue_AlfonzoSub_GameStart_02		false		
+286	AlfonzoSub	GameStart	Ui	Yui		Dialogue_AlfonzoSub_GameStart_03		false		
+287	AlfonzoSub	GameStart	Ui	Hero		Dialogue_AlfonzoSub_GameStart_04		false		
+288	AlfonzoSub	GameStart	Ui	Yui		Dialogue_AlfonzoSub_GameStart_05		false		
+289	AlfonzoSub	GameStart	Object	Enemy		Dialogue_AlfonzoSub_GameStart_06	soldiers_voice_02	true		
+290	AlfonzoSub	StageSuccess	Ui	Yui		Dialogue_AlfonzoSub_StageSuccess_01		false		
+291	AlfonzoSub	StageSuccess	Ui	Yui		Dialogue_AlfonzoSub_StageSuccess_02		false		
+292	AlfonzoSub	StageSuccess	Ui	Hero		Dialogue_AlfonzoSub_StageSuccess_03		false		
+293	Alfonzo	GameStart	Object	Enemy		Dialogue_Alfonzo_GameStart_01	alfonzo_voice_01	false		
+294	Alfonzo	GameStart	Object	Player		Dialogue_Alfonzo_GameStart_02		false		
+295	Alfonzo	GameStart	Object	Enemy		Dialogue_Alfonzo_GameStart_03	alfonzo_voice_02	false		
+296	Alfonzo	GameStart	Ui	Yui		Dialogue_Alfonzo_GameStart_04		false		
+297	Alfonzo	GameStart	Ui	Hero		Dialogue_Alfonzo_GameStart_05		false		
+298	Alfonzo	GameStart	Ui	Hero		Dialogue_Alfonzo_GameStart_06		false		
+299	Alfonzo	EnemyDie	Object	Enemy		Dialogue_Alfonzo_EnemyDie_01	alfonzo_voice_03	true		
+300	Alfonzo	EnemyDie	Object	Enemy		Dialogue_Alfonzo_EnemyDie_02	alfonzo_voice_04	true		
+301	Alfonzo	EnemyDie	Object	Enemy		Dialogue_Alfonzo_EnemyDie_03	alfonzo_voice_06	true		
+302	Alfonzo	EventScene				Dialogue_Alfonzo_EventScene_01	ulrich_voice_04	false		
+303	Alfonzo	EventScene				Dialogue_Alfonzo_EventScene_02	ulrich_voice_03	false		
+304	Alfonzo	EventScene				Dialogue_Alfonzo_EventScene_03	ulrich_voice_01	false		
+305	Alfonzo	StageSuccess	Ui	Yui		Dialogue_Alfonzo_StageSuccess_01		false		
+306	Alfonzo	StageSuccess	Ui	Yui		Dialogue_Alfonzo_StageSuccess_02		false		
+307	Alfonzo	StageSuccess	Ui	Hero		Dialogue_Alfonzo_StageSuccess_03		false		
+308	KM78	GameStart	Ui	Ulrich		Dialogue_KM78_GameStart_01		false		
+309	KM78	GameStart	Ui	Hero		Dialogue_KM78_GameStart_02		false		
+310	KM78	GameStart	Ui	Hero		Dialogue_KM78_GameStart_03		false		
+311	KM78	GameStart	Ui	Ulrich		Dialogue_KM78_GameStart_04		false		
+312	KM78	GameStart2	Ui	Ulrich		Dialogue_KM78_GameStart2_01		false		
+313	KM78	GameStart2	Ui	Ulrich		Dialogue_KM78_GameStart2_02		false		
+314	KM78	GameStart2	Ui	Ulrich		Dialogue_KM78_GameStart2_03		false		
+315	KM78	StageSuccess	Ui	Ulrich		Dialogue_KM78_StageSuccess_01		false		
+316	KM78	StageSuccess	Ui	Ulrich		Dialogue_KM78_StageSuccess_02		false		
+317	KM78	StageSuccess	Ui	Yui		Dialogue_KM78_StageSuccess_03		false		
+318	KM78	StageSuccess	Ui	Hero		Dialogue_KM78_StageSuccess_04		false		
+319	KM78	StageSuccess	Ui	Yui		Dialogue_KM78_StageSuccess_05		false		
+320	KM78	StageSuccess	Ui	Hero		Dialogue_KM78_StageSuccess_06		false		
+321	KM78	StageSuccess	Ui	Yui	Worry	Dialogue_KM78_StageSuccess_07		false		
+322	AlleyGatorSub	GameStart	Ui	Yui		Dialogue_AlleyGatorSub_GameStart_01		false		
+323	AlleyGatorSub	GameStart	Ui	Yui		Dialogue_AlleyGatorSub_GameStart_02		false		
+324	AlleyGatorSub	GameStart	Ui	Yui		Dialogue_AlleyGatorSub_GameStart_03		false		
+325	AlleyGatorSub	GameStart	Ui	Yui		Dialogue_AlleyGatorSub_GameStart_04		false		
+326	AlleyGatorSub	GameStart	Ui	Hero		Dialogue_AlleyGatorSub_GameStart_05		false		
+327	AlleyGatorSub	GameStart	Ui	Yui	Embarrass2	Dialogue_AlleyGatorSub_GameStart_06		false		
+328	AlleyGatorSub	StageSuccess	Ui	Yui		Dialogue_AlleyGatorSub_StageSuccess_1		false		
+329	AlleyGatorSub	StageSuccess	Ui	Hero		Dialogue_AlleyGatorSub_StageSuccess_2		false		
+330	AlleyGatorSub	StageSuccess	Ui	Yui		Dialogue_AlleyGatorSub_StageSuccess_3		false		
+331	AlleyGator	GameStart	Ui	Yui	Surprise	Dialogue_AlleyGator_GameStart_01		false		
+332	AlleyGator	GameStart	Ui	Hero		Dialogue_AlleyGator_GameStart_02		false		
+333	AlleyGator	GameStart	Ui	Yui	Worry	Dialogue_AlleyGator_GameStart_03		false		
+334	AlleyGator	GameStart	Ui	Hero		Dialogue_AlleyGator_GameStart_04		false		
+335	AlleyGator	GameStart	Ui	Yui		Dialogue_AlleyGator_GameStart_05		false		
+336	AlleyGator	GameStart	Ui	Hero		Dialogue_AlleyGator_GameStart_06		false		
+337	AlleyGator	GameStart	Ui	Yui	Embarrass2	Dialogue_AlleyGator_GameStart_07		false		
+338	AlleyGator	StageSuccess	Ui	Yui		Dialogue_AlleyGator_StageSuccess_1		false		
+339	AlleyGator	StageSuccess	Ui	Hero		Dialogue_AlleyGator_StageSuccess_2		false		
+340	AlleyGator	StageSuccess	Ui	Yui	Embarrass1	Dialogue_AlleyGator_StageSuccess_3		false		
+341	BiggyPoSub	GameStart	Ui	Cobra		Dialogue_BiggyPoSub_GameStart_01		false		
+342	BiggyPoSub	GameStart	Ui	Hero		Dialogue_BiggyPoSub_GameStart_02		false		
+343	BiggyPoSub	GameStart	Ui	Hero		Dialogue_BiggyPoSub_GameStart_03		false		
+344	BiggyPoSub	GameStart	Ui	Cobra		Dialogue_BiggyPoSub_GameStart_04		false		
+345	BiggyPoSub	GameStart	Ui	Cobra	Embarrass2	Dialogue_BiggyPoSub_GameStart_05		false		
+346	BiggyPoSub	GameStart	Ui	Cobra		Dialogue_BiggyPoSub_GameStart_06		false		
+347	BiggyPoSub	GameStart	Ui	Cobra		Dialogue_BiggyPoSub_GameStart_07		false		
+348	BiggyPoSub	GameStart	Ui	Hero		Dialogue_BiggyPoSub_GameStart_08		false		
+349	BiggyPoSub	StageSuccess	Ui	Cobra		Dialogue_BiggyPoSub_StageSuccess_1		false		
+350	BiggyPoSub	StageSuccess	Ui	Cobra		Dialogue_BiggyPoSub_StageSuccess_2		false		
+351	BiggyPoSub	StageSuccess	Ui	Hero		Dialogue_BiggyPoSub_StageSuccess_3		false		
+352	BiggyPoSub	StageSuccess	Ui	Cobra	Embarrass1	Dialogue_BiggyPoSub_StageSuccess_4		false		
+353	BiggyPoSub	StageSuccess	Ui	Hero		Dialogue_BiggyPoSub_StageSuccess_5		false		
+354	BiggyPo	GameStart	Ui	Cobra	Angry1	Dialogue_BiggyPo_GameStart_01		false		
+355	BiggyPo	GameStart	Ui	Hero		Dialogue_BiggyPo_GameStart_02		false		
+356	BiggyPo	GameStart	Ui	Cobra		Dialogue_BiggyPo_GameStart_03		false		
+357	BiggyPo	GameStart	Ui	Hero		Dialogue_BiggyPo_GameStart_04		false		
+358	BiggyPo	StageSuccess	Ui	Cobra		Dialogue_BiggyPo_StageSuccess_1		false		
+359	BiggyPo	StageSuccess	Ui	Cobra		Dialogue_BiggyPo_StageSuccess_2		false		
+360	BiggyPo	StageSuccess	Ui	Cobra	Laugh	Dialogue_BiggyPo_StageSuccess_3		false		
+361	BiggyPo	StageSuccess	Ui	Hero		Dialogue_BiggyPo_StageSuccess_4		false		
+362	Albarn	GameStart	Ui	Yui		Dialogue_Albarn_GameStart_01		false		
+363	Albarn	GameStart	Ui	Hero		Dialogue_Albarn_GameStart_02		false		
+364	Albarn	GameStart	Ui	Yui		Dialogue_Albarn_GameStart_03		false		
+365	Albarn	GameStart	Ui	Hero		Dialogue_Albarn_GameStart_04		false		
+366	Albarn	GameStart	Ui	Yui		Dialogue_Albarn_GameStart_05		false		
+367	Albarn	StageSuccess	Ui	Diego		Dialogue_Albarn_StageSuccess1_1		false		
+368	Albarn	StageSuccess	Ui	Hero		Dialogue_Albarn_StageSuccess1_2		false		
+369	Albarn	StageSuccess	Ui	Diego		Dialogue_Albarn_StageSuccess1_3		false		
+370	Albarn	StageSuccess	Ui	Diego		Dialogue_Albarn_StageSuccess1_4		false		
+371	Albarn	StageSuccess	CameraShake				stage_quake	false		
+372	Albarn	StageSuccess	Ui	Diego	Worry	Dialogue_Albarn_StageSuccess2_1		false		
+373	Albarn	StageSuccess	Ui	Hero		Dialogue_Albarn_StageSuccess2_2		false		
+374	Albarn	StageSuccess	Ui	Diego	Embarrass1	Dialogue_Albarn_StageSuccess2_3		false		
+375	Waltz2	GameStart	Ui	Yui		Dialogue_Waltz2_GameStart_01		false		
+376	Waltz2	GameStart	Ui	Hero		Dialogue_Waltz2_GameStart_02		false		
+377	Waltz2	GameStart	Ui	Yui		Dialogue_Waltz2_GameStart_03		false		
+378	Waltz2	GameStart	Ui	Hero		Dialogue_Waltz2_GameStart_04		false		
+379	Waltz2	StageSuccess	Ui	Hero		Dialogue_Waltz2_StageSuccess_1		false		
+380	Waltz2	StageSuccess	Ui	Yui		Dialogue_Waltz2_StageSuccess_2		false		
+381	Waltz2	StageSuccess	Ui	Yui		Dialogue_Waltz2_StageSuccess_3		false		
+382	Waltz2	StageSuccess	Ui	Yui		Dialogue_Waltz2_StageSuccess_4		false		
+383	Waltz2	StageSuccess	Ui	Yui		Dialogue_Waltz2_StageSuccess_5		false		
+384	Waltz2	StageSuccess	Ui	Yui	Angry2	Dialogue_Waltz2_StageSuccess_6		false		
+385	Otto2	GameStart	Ui	Yui		Dialogue_Otto2_GameStart_01		false		
+386	Otto2	GameStart	Ui	Yui		Dialogue_Otto2_GameStart_02		false		
+387	Otto2	GameStart	Ui	Hero		Dialogue_Otto2_GameStart_03		false		
+388	Otto2	GameStart	Ui	Yui		Dialogue_Otto2_GameStart_04		false		
+389	Otto2	StageSuccess	Ui	Yui	Surprise	Dialogue_Otto2_StageSuccess_1		false		
+390	Otto2	StageSuccess	Ui	Hero		Dialogue_Otto2_StageSuccess_2		false		
+391	Otto2	StageSuccess	Ui	Diego		Dialogue_Otto2_StageSuccess_3		false		
+392	Otto2	StageSuccess	Ui	Hero		Dialogue_Otto2_StageSuccess_4		false		
+393	Otto2	StageSuccess	Ui	Diego		Dialogue_Otto2_StageSuccess_5		false		
+394	Otto2	StageSuccess	Ui	Diego		Dialogue_Otto2_StageSuccess_6		false		
+395	Otto2	StageSuccess	Ui	Diego		Dialogue_Otto2_StageSuccess_7		false		
+396	Otto2	StageSuccess	Ui	Hero		Dialogue_Otto2_StageSuccess_8		false		
+397	Otto2	StageSuccess	Ui	Diego		Dialogue_Otto2_StageSuccess_9		false		
+398	Otto2	StageSuccess	Ui	Diego		Dialogue_Otto2_StageSuccess_10		false		
+399	Otto2	StageSuccess	Ui	Hero		Dialogue_Otto2_StageSuccess_11		false		
+400	Otto2	StageSuccess	Ui	Diego		Dialogue_Otto2_StageSuccess_12		false		
+401	Otto2	StageSuccess	Ui	Diego		Dialogue_Otto2_StageSuccess_13		false		
+402	Otto2	StageSuccess	Ui	Diego		Dialogue_Otto2_StageSuccess_14		false		
+403	Rocco	GameStart	Object	Enemy		Dialogue_Rocco_GameStart_01	rocco_voice_01	false		
+404	Rocco	GameStart	Ui	Yui	Surprise	Dialogue_Rocco_GameStart_02		false		
+405	Rocco	GameStart	Ui	Hero		Dialogue_Rocco_GameStart_03		false		
+406	Rocco	GameStart	Object	Enemy		Dialogue_Rocco_GameStart_04	rocco_voice_02	false		
+407	Rocco	GameStart	Object	Enemy		Dialogue_Rocco_GameStart_05	rocco_voice_03	false		
+408	Rocco	GameStart	Ui	Yui		Dialogue_Rocco_GameStart_06		false		
+409	Rocco	EventScene				Dialogue_Rocco_EventScene_01	rocco_voice_04	false		
+410	Rocco	EventScene				Dialogue_Rocco_EventScene_02	rocco_voice_05	false		
+411	Rocco	EventScene				Dialogue_Rocco_EventScene_03	eugen_voice_01	false		
+412	Rocco	EventScene				Dialogue_Rocco_EventScene_04	helga_voice_01	false		
+413	Rocco	EventScene				Dialogue_Rocco_EventScene_05		false		
+414	Rocco	EventScene	Ui	Yui	Surprise	Dialogue_Rocco_EventScene_06		false		
+415	Rocco	EventScene	Ui	Yui	Surprise	Dialogue_Rocco_EventScene_07		false		
+416	Rocco	EventScene	Ui	Hero		Dialogue_Rocco_EventScene_08		false		
+417	Rocco	EventScene				Dialogue_Rocco_EventScene_09	eugen_voice_02	false		
+418	Rocco	EventScene				Dialogue_Rocco_EventScene_10	eugen_voice_04	false		
+419	Rocco	EventScene				Dialogue_Rocco_EventScene_11	helga_voice_03	false		
+420	Rocco	EventScene				Dialogue_Rocco_EventScene_12	helga_voice_06	false		
+421	Rocco	EventScene				Dialogue_Rocco_EventScene_13	helga_voice_02	false		
+422	Rocco	StageSuccess	Ui	Yui	Worry	Dialogue_Rocco_StageSuccess_01		false		
+423	Rocco	StageSuccess	Ui	Hero		Dialogue_Rocco_StageSuccess_02		false		
+424	Rocco	StageSuccess	Ui	Yui		Dialogue_Rocco_StageSuccess_03		false		
+425	Rocco	StageSuccess	Ui	Yui		Dialogue_Rocco_StageSuccess_04		false		
+426	Helga	GameStart	Object	Enemy		Dialogue_Helga_GameStart_01	helga_voice_01	false		
+427	Helga	GameStart	Object	Player		Dialogue_Helga_GameStart_02		false		
+428	Helga	GameStart	Object	Enemy		Dialogue_Helga_GameStart_03	helga_voice_02	false		
+429	Helga	GameStart	Object	Enemy		Dialogue_Helga_GameStart_04	helga_voice_03	false		
+430	Helga	GameStart	Object	Enemy		Dialogue_Helga_GameStart_05	helga_voice_04	false		
+431	Helga	GameStart	Object	Player		Dialogue_Helga_GameStart_06		false		
+432	Helga	GameStart	Object	Player		Dialogue_Helga_GameStart_07		false		
+433	Helga	EventScene				Dialogue_Helga_EventScene_01	hans_lindemann_voice_06	false		
+434	Helga	EventScene				Dialogue_Helga_EventScene_02	hans_lindemann_voice_07	false		
+435	Helga	EventScene				Dialogue_Helga_EventScene_03	ui_character_text_l	false		
+436	Helga	EventScene				Dialogue_Helga_EventScene_04	hans_lindemann_voice_08	false		
+437	Helga	EventScene				Dialogue_Helga_EventScene_05	hans_lindemann_voice_09	false		
+438	Helga	EventScene				Dialogue_Helga_EventScene_06	ui_character_text_s	false		
+439	Helga	EventScene				Dialogue_Helga_EventScene_07	hans_lindemann_voice_10	false		
+440	Helga	EventScene				Dialogue_Helga_EventScene_08	hans_lindemann_voice_11	false		
+441	Helga	EventScene				Dialogue_Helga_EventScene_09	hans_lindemann_voice_12	false		
+442	Helga	EventScene				Dialogue_Helga_EventScene_10	hans_lindemann_voice_13	false		
+443	Helga	EventScene				Dialogue_Helga_EventScene_11	hans_lindemann_voice_09	false		
+444	Helga	EventScene				Dialogue_Helga_EventScene_12	hans_lindemann_voice_14	false		
+445	Helga	EventScene				Dialogue_Helga_EventScene_13	ui_character_text_l	false		
+446	Helga	EventScene				Dialogue_Helga_EventScene_14	hans_lindemann_voice_08	false		
+447	Helga	EventScene				Dialogue_Helga_EventScene_15	hans_lindemann_voice_06	false		
+448	Helga	EventScene				Dialogue_Helga_EventScene_16	ui_character_text_s	false		
+449	Helga	EventScene				Dialogue_Helga_EventScene_17	hans_lindemann_voice_09	false		
+450	Helga	EventScene				Dialogue_Helga_EventScene_18	hans_lindemann_voice_07	false		
+451	Helga	StageSuccess	Ui	Yui		Dialogue_Helga_StageSuccess_01		false		
+452	Helga	StageSuccess	Ui	Hero		Dialogue_Helga_StageSuccess_02		false		
+453	Helga	StageSuccess	Ui	Yui		Dialogue_Helga_StageSuccess_03		false		
+454	Helga	StageSuccess	Ui	Hero		Dialogue_Helga_StageSuccess_04		false		
+455	Blow3	GameStart	Ui	Hero		Dialogue_Blow3_GameStart_01		false		
+456	Blow3	GameStart	Ui	Yui		Dialogue_Blow3_GameStart_02		false		
+457	Blow3	GameStart	Ui	Hero		Dialogue_Blow3_GameStart_03		false		
+458	Blow3	GameStart	Ui	Yui	Worry	Dialogue_Blow3_GameStart_04		false		
+459	Blow3	GameStart	Ui	Yui		Dialogue_Blow3_GameStart_05		false		
+460	Blow3	StageSuccess	Ui	Diego	Worry	Dialogue_Blow3_StageSuccess_01		false		
+461	Blow3	StageSuccess	Ui	Hero		Dialogue_Blow3_StageSuccess_02		false		
+462	Blow3	StageSuccess	Ui	Diego	Worry	Dialogue_Blow3_StageSuccess_03		false		
+463	Blow3	StageSuccess	Ui	Hero		Dialogue_Blow3_StageSuccess_04		false		
+464	Blow3	StageSuccess	Ui	Diego	Embarrass1	Dialogue_Blow3_StageSuccess_05		false		
+465	Blow3	StageSuccess	Ui	Diego		Dialogue_Blow3_StageSuccess_06		false		
+466	MrToadie	GameStart	Ui	Yui	Surprise	Dialogue_MrToadie_GameStart_01		false		
+467	MrToadie	GameStart	Ui	Hero		Dialogue_MrToadie_GameStart_02		false		
+468	MrToadie	GameStart	Ui	Yui	Worry	Dialogue_MrToadie_GameStart_03		false		
+469	MrToadie	StageSuccess	Ui	Yui		Dialogue_MrToadie_StageSuccess_01		false		
+470	MrToadie	StageSuccess	Ui	Yui		Dialogue_MrToadie_StageSuccess_02		false		
+471	MrToadie	StageSuccess	Ui	Yui		Dialogue_MrToadie_StageSuccess_03		false		
+472	MrToadie	StageSuccess	Ui	Hero		Dialogue_MrToadie_StageSuccess_04		false		
+473	MrToadie	StageSuccess	Ui	Yui		Dialogue_MrToadie_StageSuccess_05		false		
+474	MrToadie	StageSuccess	Ui	Yui		Dialogue_MrToadie_StageSuccess_06		false		
+475	MrToadie	StageSuccess	Ui	Hero		Dialogue_MrToadie_StageSuccess_07		false		
+476	MrToadie	StageSuccess	Ui	Yui		Dialogue_MrToadie_StageSuccess_08		false		
+477	Eugen	GameStart	Ui	Yui		Dialogue_Eugen_GameStart_01		false		
+478	Eugen	GameStart	Ui	Hero		Dialogue_Eugen_GameStart_02		false		
+479	Eugen	GameStart	Ui	Yui		Dialogue_Eugen_GameStart_03		false		
+480	Eugen	GameStart	Ui	Yui		Dialogue_Eugen_GameStart_04		false		
+481	Eugen	GameStart	Object	Enemy		Dialogue_Eugen_GameStart_05	eugen_voice_01	false		
+482	Eugen	GameStart	Object	Player		Dialogue_Eugen_GameStart_06		false		
+483	Eugen	GameStart	Object	Enemy		Dialogue_Eugen_GameStart_07	eugen_voice_02	false		
+484	Eugen	GameStart	Object	Enemy		Dialogue_Eugen_GameStart_08	eugen_voice_03	false		
+485	Eugen	GameStart	Object	Enemy		Dialogue_Eugen_GameStart_09	eugen_voice_04	false		
+486	Eugen	EventScene				Dialogue_Eugen_EventScene_01	eugen_voice_05	false		
+487	Eugen	EventScene				Dialogue_Eugen_EventScene_02	eugen_voice_06	false		
+488	Eugen	EventScene				Dialogue_Eugen_EventScene_03	eugen_voice_07	false		
+489	Eugen	EventScene				Dialogue_Eugen_EventScene_04	eugen_voice_08	false		
+490	Eugen	StageSuccess	Ui	Yui	Surprise	Dialogue_Eugen_StageSuccess_01		false		
+491	Eugen	StageSuccess	Ui	Hero		Dialogue_Eugen_StageSuccess_02		false		
+492	Eugen	StageSuccess	Ui	Yui	Surprise	Dialogue_Eugen_StageSuccess_03		false		
+493	Eugen	StageSuccess	Ui	Hero		Dialogue_Eugen_StageSuccess_04		false		
+494	Eugen	StageSuccess	Ui	Yui	Surprise	Dialogue_Eugen_StageSuccess_05		false		
+495	Eugen	StageSuccess	Ui	Yui	Surprise	Dialogue_Eugen_StageSuccess_06		false		
+496	Eugen	StageSuccess	Ui	Hero		Dialogue_Eugen_StageSuccess_07		false		
+497	Zellyma	GameStart	Ui	Yui		Dialogue_Zellyma_GameStart_01		false		
+498	Zellyma	GameStart	Ui	Hero		Dialogue_Zellyma_GameStart_02		false		
+499	Zellyma	GameStart	Ui	Yui		Dialogue_Zellyma_GameStart_03		false		
+500	Zellyma	GameStart	Ui	Yui	Surprise	Dialogue_Zellyma_GameStart_04		false		
+501	Zellyma	GameStart	Ui	Hero		Dialogue_Zellyma_GameStart_05		false		
+502	Zellyma	GameStart	Ui	Yui	Surprise	Dialogue_Zellyma_GameStart_06		false		
+503	Zellyma	StageSuccess	Ui	Cobra	Embarrass1	Dialogue_Zellyma_StageSuccess_01		false		
+504	Zellyma	StageSuccess	Ui	Hero		Dialogue_Zellyma_StageSuccess_02		false		
+505	Zellyma	StageSuccess	Ui	Cobra	Embarrass1	Dialogue_Zellyma_StageSuccess_03		false		
+506	Zellyma	StageSuccess	Ui	Hero		Dialogue_Zellyma_StageSuccess_04		false		
+507	Zellyma	StageSuccess	Ui	Cobra	Embarrass1	Dialogue_Zellyma_StageSuccess_05		false		
+508	Zellyma	StageSuccess	Ui	Hero		Dialogue_Zellyma_StageSuccess_06		false		
+509	Zellyma	StageSuccess	Ui	Cobra	Laugh	Dialogue_Zellyma_StageSuccess_07		false		
+510	Zellyma	StageSuccess	Ui	Cobra	Laugh	Dialogue_Zellyma_StageSuccess_08		false		
+511	Pascal2Sub	GameStart	Ui	Yui	Worry	Dialogue_Pascal2Sub_GameStart_01		false		
+512	Pascal2Sub	GameStart	Ui	Yui		Dialogue_Pascal2Sub_GameStart_02		false		
+513	Pascal2Sub	StageSuccess	Ui	Yui		Dialogue_Pascal2Sub_StageSuccess_01		false		
+514	Pascal2Sub	StageSuccess	Ui	Yui		Dialogue_Pascal2Sub_StageSuccess_02		false		
+515	Pascal2Sub	StageSuccess	Ui	Yui		Dialogue_Pascal2Sub_StageSuccess_03		false		
+516	Pascal2	GameStart	Object	Enemy		Dialogue_Pascal2_GameStart_01	pascal_voice_02	false		
+517	Pascal2	GameStart	Object	Enemy		Dialogue_Pascal2_GameStart_02	pascal_voice_03	false		
+518	Pascal2	GameStart	Object	Player		Dialogue_Pascal2_GameStart_03		false		
+519	Pascal2	GameStart	Object	Enemy		Dialogue_Pascal2_GameStart_04	pascal_voice_04	false		
+520	Pascal2	GameStart	Object	Player		Dialogue_Pascal2_GameStart_05		false		
+521	Pascal2	GameStart	Object	Enemy		Dialogue_Pascal2_GameStart_06	pascal_voice_05	false		
+522	Pascal2	GameStart	Object	Enemy		Dialogue_Pascal2_GameStart_07	pascal_voice	false		
+523	Pascal2	GameStart	Object	Enemy		Dialogue_Pascal2_GameStart_08	pascal_voice_07	false		
+524	Pascal2	GameStart	Object	Player		Dialogue_Pascal2_GameStart_09		false		
+525	Pascal2	GameStart	Object	Enemy		Dialogue_Pascal2_GameStart_10	pascal_voice_02	false		
+526	Pascal2	StageSuccess	Object	Enemy		Dialogue_Pascal2_StageSuccess_01	pascal_voice_08	true		
+527	Pascal2	StageSuccess	Object	Enemy		Dialogue_Pascal2_StageSuccess_02	pascal_voice_07	false		
+528	Pascal2	StageSuccess	Object	Player		Dialogue_Pascal2_StageSuccess_03		false		
+529	Pascal2	StageSuccess	Object	Enemy		Dialogue_Pascal2_StageSuccess_04	pascal_voice_05	false		
+530	Pascal2	StageSuccess	DialogeFunction					false		
+531	Pascal2	StageSuccess	Ui	Yui	Surprise	Dialogue_Pascal2_StageSuccess_05		false		
+532	Pascal2	StageSuccess	Ui	Yui	Surprise	Dialogue_Pascal2_StageSuccess_06		false		
+533	Pascal2	StageSuccess	Ui	Hero		Dialogue_Pascal2_StageSuccess_07		false		
+534	Ulrich2Sub	GameStart	Object	Player		Dialogue_Ulrich2Sub_GameStart_1		false		
+535	Ulrich2Sub	GameStart	Object	Enemy		Dialogue_Ulrich2Sub_GameStart_2	pascal_voice_03	false		
+536	Ulrich2Sub	GameStart	Ui	Yui		Dialogue_Ulrich2Sub_GameStart_3		false		
+537	Ulrich2Sub	GameStart	Ui	Yui		Dialogue_Ulrich2Sub_GameStart_4		false		
+538	Ulrich2Sub	GameStart	Ui	Yui		Dialogue_Ulrich2Sub_GameStart_5		false		
+539	Ulrich2Sub	GameStart	Ui	Hero		Dialogue_Ulrich2Sub_GameStart_6		false		
+540	Ulrich2Sub	GameStart	Ui	Yui	Angry1	Dialogue_Ulrich2Sub_GameStart_7		false		
+541	Ulrich2	GameStart	Object	Player		Dialogue_Ulrich2_GameStart_01		false		
+542	Ulrich2	GameStart	Object	Enemy		Dialogue_Ulrich2_GameStart_02	pascal_voice_06	true		
+543	Ulrich2	GameStart	Object	Enemy		Dialogue_Ulrich2_GameStart_03	pascal_voice_07	true		
+544	Ulrich2	GameStart	Object	Enemy		Dialogue_Ulrich2_GameStart_04	pascal_voice_02	true		
+545	Ulrich2	GameStart	DialogeFunction					false		
+546	Ulrich2	GameStart	Object	Player		Dialogue_Ulrich2_GameStart_05	ui_character_text_s	true		
+547	Ulrich2	GameStart	Object	Enemy		Dialogue_Ulrich2_GameStart_06	ulrich_voice_05	true		
+548	Ulrich2	GameStart	Object	Enemy		Dialogue_Ulrich2_GameStart_07	ulrich_voice_03	true		
+549	Ulrich2	GameStart	Object	Enemy		Dialogue_Ulrich2_GameStart_08	ulrich_voice_02	true		
+550	Ulrich2	GameStart	Ui	Yui		Dialogue_Ulrich2_GameStart_09		false		
+551	Ulrich2	GameStart	Ui	Hero		Dialogue_Ulrich2_GameStart_10		false		
+552	Ulrich2	GameStart	Ui	Yui		Dialogue_Ulrich2_GameStart_11		false		
+553	Ulrich2	StageSuccess	Object	Enemy		Dialogue_Ulrich2_StageSuccess_01	pascal_voice_05	true		
+554	Ulrich2	StageSuccess	Object	Enemy		Dialogue_Ulrich2_StageSuccess_02	pascal_voice_08	true		
+555	Ulrich2	StageSuccess	Object	Enemy		Dialogue_Ulrich2_StageSuccess_03	pascal_voice_07	true		
+556	Ulrich2	StageSuccess	Object	Player		Dialogue_Ulrich2_StageSuccess_04	ui_character_text_s	true		
+557	Ulrich2	StageSuccess	Object	Enemy		Dialogue_Ulrich2_StageSuccess_05	pascal_voice_06	true		
+558	Ulrich2	StageSuccess	Object	Enemy		Dialogue_Ulrich2_StageSuccess_06	pascal_voice_08	true		
+559	Ulrich2	StageSuccess	Object	Enemy		Dialogue_Ulrich2_StageSuccess_07	pascal_voice_07	true		
+560	Ulrich2	StageSuccess	Object	Player		Dialogue_Ulrich2_StageSuccess_08	ui_character_text_l	true		
+561	Ulrich2	StageSuccess	Object	Enemy		Dialogue_Ulrich2_StageSuccess_09	pascal_voice_05	true		
+562	Ulrich2	StageSuccess	Object	Enemy		Dialogue_Ulrich2_StageSuccess_10	pascal_voice_06	true		
+563	Ulrich2	StageSuccess	Object	Enemy		Dialogue_Ulrich2_StageSuccess_11	pascal_voice	true		
+564	Ulrich2	StageSuccess	Object	Enemy		Dialogue_Ulrich2_StageSuccess_12	pascal_voice_04	true		
+565	Ulrich2	StageSuccess	Object	Player		Dialogue_Ulrich2_StageSuccess_13	ui_character_text_l	true		
+566	Ulrich2	StageSuccess	Object	Enemy		Dialogue_Ulrich2_StageSuccess_14	pascal_voice_03	true		
+567	Ulrich2	EventScene	Ui	Yui		Dialogue_Ulrich2_EventScene_01		false		
+568	Ulrich2	EventScene	Ui	Hero		Dialogue_Ulrich2_EventScene_02		false		
+569	Ulrich2	EventScene	Ui	Yui		Dialogue_Ulrich2_EventScene_03		false		
+570	Chimera	GameStart	Ui	Hero		Dialogue_Chimera_GameStart_01		false		
+571	Chimera	GameStart	Ui	Yui	Surprise	Dialogue_Chimera_GameStart_02		false		
+572	Chimera	GameStart	Ui	Yui	Worry	Dialogue_Chimera_GameStart_03		false		
+573	Chimera	GameStart	Ui	Hero		Dialogue_Chimera_GameStart_04		false		
+574	Chimera	GameStart	Ui	Yui	Surprise	Dialogue_Chimera_GameStart_05		false		
+575	Chimera	StageSuccess	Ui	Pascal		Dialogue_Chimera_StageSuccess_01		false		
+576	Chimera	StageSuccess	Ui	Pascal		Dialogue_Chimera_StageSuccess_02		false		
+577	Chimera	StageSuccess	Ui	Pascal		Dialogue_Chimera_StageSuccess_03		false		
+578	Chimera	StageSuccess	Ui	Hero		Dialogue_Chimera_StageSuccess_04		false		
+579	Chimera	StageSuccess	Ui	Pascal		Dialogue_Chimera_StageSuccess_05		false		
+580	Chimera	StageSuccess	Ui	Pascal		Dialogue_Chimera_StageSuccess_06		false		
+581	Chimera	StageSuccess	Ui	Hero		Dialogue_Chimera_StageSuccess_07		false		
+582	Chimera	StageSuccess	Ui	Yui		Dialogue_Chimera_StageSuccess_08		false		
+583	Chimera	StageSuccess	Ui	Hero		Dialogue_Chimera_StageSuccess_09		false		
+584	Chimera	StageSuccess	Ui	Yui		Dialogue_Chimera_StageSuccess_10		false		
+585	Chimera	StageSuccess	Ui	Yui		Dialogue_Chimera_StageSuccess_11		false		
+586	Chimera	StageSuccess	Ui	Hero		Dialogue_Chimera_StageSuccess_12		false		
+587	Hans	GameStart	Object	Player		Dialogue_Hans_GameStart_1		false		
+588	Hans	GameStart	Object	Enemy		Dialogue_Hans_GameStart_2	hans_lindemann_voice_06	false		
+589	Hans	GameStart	Object	Player		Dialogue_Hans_GameStart_3		false		
+590	Hans	GameStart	Object	Enemy		Dialogue_Hans_GameStart_4	hans_lindemann_voice_10	false		
+591	Hans	GameStart	Object	Enemy		Dialogue_Hans_GameStart_5	hans_lindemann_voice_08	false		
+592	Hans	GameStart	Object	Enemy		Dialogue_Hans_GameStart_6	hans_lindemann_voice_07	false		
+593	Hans	GameStart	DialogeFunction					false		
+594	Hans	GameStart	Object	Player		Dialogue_Hans_GameStart_7		false		
+595	Hans	GameStart	Object	Enemy		Dialogue_Hans_GameStart_8	hans_lindemann_voice_15	false		
+596	Hans	GameStart	Object	Player		Dialogue_Hans_GameStart_9		false		
+597	Hans	GameStart	Object	Enemy		Dialogue_Hans_GameStart_10	hans_lindemann_voice_16	false		
+598	Hans	GameStart	Object	Enemy		Dialogue_Hans_GameStart_11	hans_lindemann_voice_17	false		
+599	Hans	GameStart	Object	Enemy		Dialogue_Hans_GameStart_12	hans_lindemann_voice_15	false		
+600	Hans	GameStart	Object	Enemy		Dialogue_Hans_GameStart_13	hans_lindemann_voice_16	false		
+601	Hans	GameStart	Object	Enemy		Dialogue_Hans_GameStart_14	hans_lindemann_voice_18	false		
+602	Hans	GameStart	Object	Player		Dialogue_Hans_GameStart_15		false		
+603	Hans	GameStart	Object	Enemy		Dialogue_Hans_GameStart_16	hans_lindemann_voice_17	false		
+604	Hans	GameStart	Object	Enemy		Dialogue_Hans_GameStart_17	hans_lindemann_voice_18	false		
+605	Hans	GameStart	Object	Enemy		Dialogue_Hans_GameStart_18	hans_lindemann_voice_15	false		
+606	Hans	GameStart	Object	Enemy		Dialogue_Hans_GameStart_19	hans_lindemann_voice_16	false		
+607	Hans	GameStart	Object	Player		Dialogue_Hans_GameStart_20		false		
+608	Hans	GameStart	Object	Enemy		Dialogue_Hans_GameStart_21	hans_lindemann_voice_17	false		
+609	Hans	GameStart	Object	Enemy		Dialogue_Hans_GameStart_22	hans_lindemann_voice_19	false		
+610	Hans	StageSuccess	Ui	Yui		Dialogue_Hans_StageSuccess_1		false		
+611	Hans	StageSuccess	Ui	Hero		Dialogue_Hans_StageSuccess_2		false		
+612	Hans	StageSuccess	Ui	Yui		Dialogue_Hans_StageSuccess_3		false		
+613	Hans	StageSuccess	Ui	Yui		Dialogue_Hans_StageSuccess_4		false		
+614	Hans	StageSuccess	Ui	Yui		Dialogue_Hans_StageSuccess_5		false		
+615	Hans	StageSuccess	Ui	Yui		Dialogue_Hans_StageSuccess_6		false		
+616	Hans	StageSuccess	Ui	Yui		Dialogue_Hans_StageSuccess_7		false		
+617	Hans	StageSuccess	Ui	Yui		Dialogue_Hans_StageSuccess_8		false		
+618	Hans	StageSuccess	Ui	Pascal		Dialogue_Hans_StageSuccess_9		false		
+619	Hans	StageSuccess	Ui	Pascal		Dialogue_Hans_StageSuccess_10		false		
+620	Hans	StageSuccess	Ui	Hero		Dialogue_Hans_StageSuccess_11		false		
+621	Hans2	GameStart	Object	Enemy		Dialogue_Hans2_GameStart_1	claus_voice_01	true		
+622	Hans2	GameStart	Object	Enemy		Dialogue_Hans2_GameStart_2	claus_voice_02	true		
+623	Hans2	GameStart	Object	Player		Dialogue_Hans2_GameStart_3		true		
+624	Hans2	GameStart	Object	Enemy		Dialogue_Hans2_GameStart_4	claus_voice_03	true		
+625	Hans2	GameStart	Object	Enemy		Dialogue_Hans2_GameStart_5	claus_voice_04	true		
+626	Hans2	GameStart	Object	Enemy		Dialogue_Hans2_GameStart_6	claus_voice_01	true		
+627	Hans2	EnemyDie	Object	Enemy		Dialogue_Hans2_EnemyDie_01	claus_voice_03	true		
+628	Hans2	EnemyDie	Object	Enemy		Dialogue_Hans2_EnemyDie_02	claus_voice_04	true		
+629	Hans2	StageSuccess	Object	Enemy		Dialogue_Hans2_StageSuccess_1	claus_hit	true		
+630	Hans2	StageSuccess	Object	Enemy		Dialogue_Hans2_StageSuccess_2	claus_voice_05	true		
+631	Hans2	StageSuccess	Object	Enemy		Dialogue_Hans2_StageSuccess_3	claus_explosion_ready	true		
+632	Hans2	StageSuccess	DialogeFunction					false		
+633	Hans2	StageSuccess	CameraShake					false		
+634	Hans2	StageSuccess	Ui	Yui	Surprise	Dialogue_Hans2_StageSuccess_4		false		
+635	Hans2	StageSuccess	Ui	Hero		Dialogue_Hans2_StageSuccess_5		false		
+636	Hans2	StageSuccess	Ui	Yui	Surprise	Dialogue_Hans2_StageSuccess_6		false		
+637	Hans2	StageSuccess	Ui	Hero		Dialogue_Hans2_StageSuccess_7		false		
+638	ElectricSoldiers_V2	GameStart	Ui	RetiredLeo		Dialogue_ElectricSoldiers_V2_GameStart_1		false		
+639	ElectricSoldiers_V2	GameStart	Ui	RetiredLeo		Dialogue_ElectricSoldiers_V2_GameStart_2		false		
+640	ElectricSoldiers_V2	GameStart	Ui	Hero		Dialogue_ElectricSoldiers_V2_GameStart_3		false		
+641	ElectricSoldiers_V2	StageSuccess	Ui	Hero		Dialogue_ElectricSoldiers_V2_StageSuccess_1		false		
+642	ElectricSoldiers_V2	StageSuccess	Ui	Hero		Dialogue_ElectricSoldiers_V2_StageSuccess_2		false		
+643	RifleSoldiers_V2	GameStart	Ui	Hero		Dialogue_RifleSoldiers_V2_GameStart_1		false		
+644	RifleSoldiers_V2	GameStart	Ui	Hero		Dialogue_RifleSoldiers_V2_GameStart_2		false		
+645	RifleSoldiers_V2	StageSuccess	Ui	Hero		Dialogue_RifleSoldiers_V2_StageSuccess_1		false		
+646	RifleSoldiers_V2	StageSuccess	Ui	Hero		Dialogue_RifleSoldiers_V2_StageSuccess_2		false		
+647	Otto_V2	GameStart	Ui	Hero		Dialogue_Otto_V2_GameStart_1		false		
+648	Otto_V2	GameStart	Ui	Hero		Dialogue_Otto_V2_GameStart_2		false		
+649	Otto_V2	StageSuccess	Ui	Hero		Dialogue_Otto_V2_StageSuccess_1		false		
+650	Otto_V2	StageSuccess	Ui	Hero		Dialogue_Otto_V2_StageSuccess_2		false		
+651	Buffy_V2	GameStart	Ui	Hero		Dialogue_Buffy_V2_GameStart_1		false		
+652	Buffy_V2	GameStart	Ui	Hero		Dialogue_Buffy_V2_GameStart_2		false		
+653	Buffy_V2	StageSuccess	Ui	Hero		Dialogue_Buffy_V2_StageSuccess_1		false		
+654	Buffy_V2	StageSuccess	Ui	Hero		Dialogue_Buffy_V2_StageSuccess_2		false		
+655	Buffy_V2	StageSuccess	Ui	Hero		Dialogue_Buffy_V2_StageSuccess_3		false		
+656	Alfonzo_V2	GameStart	Object	Enemy		Dialogue_Alfonzo_V2_GameStart_1		false		
+657	Alfonzo_V2	GameStart	Ui	Hero		Dialogue_Alfonzo_V2_GameStart_2		false		
+658	Alfonzo_V2	StageSuccessFirst	Ui	Hero		Dialogue_Alfonzo_V2_StageSuccess_1		false		
+659	Alfonzo_V2	StageSuccessFirst	Ui	RetiredLeo		Dialogue_Alfonzo_V2_StageSuccess_2		false		
+660	Alfonzo_V2	StageSuccessFirst	Ui	Hero		Dialogue_Alfonzo_V2_StageSuccess_3		false		
+661	Alfonzo_V2	StageSuccessFirst	Ui	RetiredLeo		Dialogue_Alfonzo_V2_StageSuccess_4		false		
+662	Alfonzo_V2	StageSuccessFirst	Ui	RetiredLeo		Dialogue_Alfonzo_V2_StageSuccess_5		false		
+663	Alfonzo_V2	StageSuccessFirst	Ui	Hero		Dialogue_Alfonzo_V2_StageSuccess_6		false		
+664	Alfonzo_V2	StageSuccessFirst	Ui	RetiredLeo		Dialogue_Alfonzo_V2_StageSuccess_7		false		
+665	Alfonzo_V2	StageSuccessFirst	Ui	Hero		Dialogue_Alfonzo_V2_StageSuccess_8		false		
+666	Alfonzo_V2	StageSuccessFirst	Ui	RetiredLeo		Dialogue_Alfonzo_V2_StageSuccess_9		false		
+667	Alfonzo_V2	StageSuccessFirst	Ui	Hero		Dialogue_Alfonzo_V2_StageSuccess_10		false		
+668	Alfonzo_V2	StageSuccessFirst	Ui	Hero		Dialogue_Alfonzo_V2_StageSuccess_11		false		
+669	Alfonzo_V2	StageSuccessFirst	Ui	RetiredLeo		Dialogue_Alfonzo_V2_StageSuccess_12		false		
+670	Alfonzo_V2	StageSuccessFirst	Ui	Hero		Dialogue_Alfonzo_V2_StageSuccess_13		false		
+671	KM78_V2	GameStart	Ui	RetiredLeo		Dialogue_KM78_V2_GameStart_1		false		
+672	KM78_V2	GameStart	Ui	Hero		Dialogue_KM78_V2_GameStart_2		false		
+673	KM78_V2	GameStart	Ui	RetiredLeo		Dialogue_KM78_V2_GameStart_3		false		
+674	KM78_V2	GameStart	Ui	RetiredLeo		Dialogue_KM78_V2_GameStart_4		false		
+675	KM78_V2	GameStart	Ui	Hero		Dialogue_KM78_V2_GameStart_5		false		
+676	KM78_V2	GameStart	Ui	RetiredLeo		Dialogue_KM78_V2_GameStart_6		false		
+677	KM78_V2	GameStart	Ui	Hero		Dialogue_KM78_V2_GameStart_7		false		
+678	KM78_V2	GameStart	Ui	RetiredLeo		Dialogue_KM78_V2_GameStart_8		false		
+679	KM78_V2	GameStart2	Ui	Hero		Dialogue_KM78_V2_GameStart2_1		false		
+680	KM78_V2	GameStart2	Ui	Hero		Dialogue_KM78_V2_GameStart2_2		false		
+681	KM78_V2	StageSuccess	Ui	Hero		Dialogue_KM78_V2_StageSuccess_1		false		
+682	KM78_V2	StageSuccess	Ui	Hero		Dialogue_KM78_V2_StageSuccess_2		false		
+683	MuskX_V2	GameStart	Ui	Hero		Dialogue_MuskX_V2_GameStart_1		false		
+684	MuskX_V2	GameStart	Ui	RetiredLeo		Dialogue_MuskX_V2_GameStart_2		false		
+685	MuskX_V2	GameStart	Ui	Hero		Dialogue_MuskX_V2_GameStart_3		false		
+686	MuskX_V2	GameStart	Ui	RetiredLeo		Dialogue_MuskX_V2_GameStart_4		false		
+687	MuskX_V2	GameStart	Ui	Hero		Dialogue_MuskX_V2_GameStart_5		false		
+688	MuskX_V2	StageSuccess	Ui	Hero		Dialogue_MuskX_V2_StageSuccess_1		false		
+689	MuskX_V2	StageSuccess	Ui	RetiredLeo		Dialogue_MuskX_V2_StageSuccess_2		false		
+690	MuskX_V2	StageSuccess	Ui	Hero		Dialogue_MuskX_V2_StageSuccess_3		false		
+691	Brock_V2	GameStart	Ui	Hero		Dialogue_Brock_V2_GameStart_1		false		
+692	Brock_V2	GameStart	Ui	Hero		Dialogue_Brock_V2_GameStart_2		false		
+693	Brock_V2	StageSuccess	Ui	Hero		Dialogue_Brock_V2_StageSuccess_1		false		
+694	Brock_V2	StageSuccess	Ui	Hero		Dialogue_Brock_V2_StageSuccess_2		false		
+695	Octopolar_V2	GameStart	Ui	Hero		Dialogue_Octopolar_V2_GameStart_1		false		
+696	Octopolar_V2	GameStart	Ui	RetiredLeo		Dialogue_Octopolar_V2_GameStart_2		false		
+697	Octopolar_V2	GameStart	Ui	Hero		Dialogue_Octopolar_V2_GameStart_3		false		
+698	Octopolar_V2	StageSuccess	Ui	Yui		Dialogue_Octopolar_V2_StageSuccess_1		false		
+699	Octopolar_V2	StageSuccess	Ui	Hero		Dialogue_Octopolar_V2_StageSuccess_2		false		
+700	Octopolar_V2	StageSuccess	Ui	Yui		Dialogue_Octopolar_V2_StageSuccess_3		false		
+701	Octopolar_V2	StageSuccess	Ui	Hero		Dialogue_Octopolar_V2_StageSuccess_4		false		
+702	Arma_V2	GameStart	Ui	Hero		Dialogue_Arma_V2_GameStart_1		false		
+703	Arma_V2	GameStart	Ui	RetiredLeo		Dialogue_Arma_V2_GameStart_2		false		
+704	Arma_V2	GameStart	Ui	Hero		Dialogue_Arma_V2_GameStart_3		false		
+705	Arma_V2	StageSuccess	Ui	RetiredLeo		Dialogue_Arma_V2_StageSuccess_1		false		
+706	Arma_V2	StageSuccess	Ui	RetiredLeo		Dialogue_Arma_V2_StageSuccess_2		false		
+707	Arma_V2	StageSuccess	Ui	Hero		Dialogue_Arma_V2_StageSuccess_3		false		
+708	Arma_V2	StageSuccess	Ui	Hero		Dialogue_Arma_V2_StageSuccess_4		false		
+709	Arma_V2	StageSuccess	Ui	RetiredLeo		Dialogue_Arma_V2_StageSuccess_5		false		
+710	Arma_V2	StageSuccess	Ui	Hero		Dialogue_Arma_V2_StageSuccess_6		false		
+711	Ulrich_V2	GameStart	Object	Enemy		Dialogue_Ulrich_V2_GameStart_1		false		
+712	Ulrich_V2	GameStart	Ui	Hero		Dialogue_Ulrich_V2_GameStart_2		false		
+713	Ulrich_V2	GameStart	Ui	RetiredLeo		Dialogue_Ulrich_V2_GameStart_3		false		
+714	Ulrich_V2	GameStart	Ui	Hero		Dialogue_Ulrich_V2_GameStart_4		false		
+715	Ulrich_V2	StageSuccessFirst	Ui	RetiredLeo		Dialogue_Ulrich_V2_StageSuccess_1		false		
+716	Ulrich_V2	StageSuccessFirst	Ui	Hero		Dialogue_Ulrich_V2_StageSuccess_2		false		
+717	Ulrich_V2	StageSuccessFirst	Ui	Hero		Dialogue_Ulrich_V2_StageSuccess_3		false		
+718	Ulrich_V2	StageSuccessFirst	Ui	RetiredLeo		Dialogue_Ulrich_V2_StageSuccess_4		false		
+719	Ulrich_V2	StageSuccessFirst	Ui	Hero		Dialogue_Ulrich_V2_StageSuccess_5		false		
+720	AlleyGator_V2	GameStart	Ui	RetiredLeo		Dialogue_AlleyGator_V2_GameStart_1		false		
+721	AlleyGator_V2	GameStart	Ui	RetiredLeo		Dialogue_AlleyGator_V2_GameStart_2		false		
+722	AlleyGator_V2	GameStart	Ui	Hero		Dialogue_AlleyGator_V2_GameStart_3		false		
+723	AlleyGator_V2	StageSuccess	Ui	Hero		Dialogue_AlleyGator_V2_StageSuccess_1		false		
+724	AlleyGator_V2	StageSuccess	Ui	Hero		Dialogue_AlleyGator_V2_StageSuccess_2		false		
+725	AlleyGator_V2	StageSuccess	Ui	RetiredLeo		Dialogue_AlleyGator_V2_StageSuccess_3		false		
+726	AlleyGator_V2	StageSuccess	Ui	Hero		Dialogue_AlleyGator_V2_StageSuccess_4		false		
+727	Toadie_V2	GameStart	Ui	Hero		Dialogue_Toadie_V2_GameStart_1		false		
+728	Toadie_V2	GameStart	Ui	Hero		Dialogue_Toadie_V2_GameStart_2		false		
+729	Toadie_V2	StageSuccess	Ui	Hero		Dialogue_Toadie_V2_StageSuccess_1		false		
+730	Toadie_V2	StageSuccess	Ui	Hero		Dialogue_Toadie_V2_StageSuccess_2		false		
+731	Purupu_V2	GameStart	Ui	Hero		Dialogue_Purupu_V2_GameStart_1		false		
+732	Purupu_V2	GameStart	Ui	Hero		Dialogue_Purupu_V2_GameStart_2		false		
+733	Purupu_V2	GameStart	Ui	Hero		Dialogue_Purupu_V2_GameStart_3		false		
+734	Purupu_V2	StageSuccess	Ui	Hero		Dialogue_Purupu_V2_StageSuccess_1		false		
+735	Angero_V2	GameStart	Ui	Hero		Dialogue_Angero_V2_GameStart_1		false		
+736	Angero_V2	GameStart	Ui	RetiredLeo		Dialogue_Angero_V2_GameStart_2		false		
+737	Angero_V2	GameStart	Ui	Hero		Dialogue_Angero_V2_GameStart_3		false		
+738	Angero_V2	StageSuccess	Ui	Hero		Dialogue_Angero_V2_StageSuccess_1		false		
+739	Angero_V2	StageSuccess	Ui	Hero		Dialogue_Angero_V2_StageSuccess_2		false		
+740	Angero_V2	StageSuccess	Ui	RetiredLeo		Dialogue_Angero_V2_StageSuccess_3		false		
+741	Angero_V2	StageSuccess	Ui	Hero		Dialogue_Angero_V2_StageSuccess_4		false		
+742	Angero_V2	StageSuccess	Ui	RetiredLeo		Dialogue_Angero_V2_StageSuccess_5		false		
+743	Paluda_V2	GameStart	Ui	Hero		Dialogue_Paluda_V2_GameStart_1		false		
+744	Paluda_V2	GameStart	Ui	Hero		Dialogue_Paluda_V2_GameStart_2		false		
+745	Paluda_V2	StageSuccess	Ui	Hero		Dialogue_Paluda_V2_StageSuccess_1		false		
+746	Paluda_V2	StageSuccess	Ui	Hero		Dialogue_Paluda_V2_StageSuccess_2		false		
+747	Pascal_V2	GameStart	Object	Enemy		Dialogue_Pascal_V2_GameStart_1		false		
+748	Pascal_V2	GameStart	Ui	Hero		Dialogue_Pascal_V2_GameStart_2		false		
+749	Pascal_V2	StageSuccessFirst	Ui	Cobra		Dialogue_Pascal_V2_StageSuccess_1		false		
+750	Pascal_V2	StageSuccessFirst	Ui	Hero		Dialogue_Pascal_V2_StageSuccess_2		false		
+751	Pascal_V2	StageSuccessFirst	Ui	Cobra		Dialogue_Pascal_V2_StageSuccess_3		false		
+752	Pascal_V2	StageSuccessFirst	Ui	Hero		Dialogue_Pascal_V2_StageSuccess_4		false		
+753	Pascal_V2	StageSuccessFirst	Ui	Cobra		Dialogue_Pascal_V2_StageSuccess_5		false		
+754	Pascal_V2	StageSuccessFirst	Ui	Cobra		Dialogue_Pascal_V2_StageSuccess_6		false		
+755	Pascal_V2	StageSuccessFirst	Ui	Hero		Dialogue_Pascal_V2_StageSuccess_7		false		
+756	BiggyPo_V2	GameStart	Ui	RetiredLeo		Dialogue_BIggyPoSub_V2_GameStart_1		false		
+757	BiggyPo_V2	GameStart	Ui	RetiredLeo		Dialogue_BIggyPoSub_V2_GameStart_2		false		
+758	BiggyPo_V2	GameStart	Ui	Hero		Dialogue_BIggyPoSub_V2_GameStart_3		false		
+759	BiggyPo_V2	GameStart	Ui	RetiredLeo		Dialogue_BIggyPoSub_V2_GameStart_4		false		
+760	BiggyPo_V2	GameStart	Ui	RetiredLeo		Dialogue_BIggyPoSub_V2_GameStart_5		false		
+761	BiggyPo_V2	GameStart	Ui	Hero		Dialogue_BIggyPoSub_V2_GameStart_6		false		
+762	BiggyPo_V2	StageSuccess	Ui	Hero		Dialogue_BiggyPo_V2_StageSuccess_1		false		
+763	BiggyPo_V2	StageSuccess	Ui	RetiredLeo		Dialogue_BiggyPo_V2_StageSuccess_2		false		
+764	BiggyPo_V2	StageSuccess	Ui	Hero		Dialogue_BiggyPo_V2_StageSuccess_3		false		
+765	BiggyPo_V2	StageSuccess	Ui	RetiredLeo		Dialogue_BiggyPo_V2_StageSuccess_4		false		
+766	Albarn_V2	GameStart	Ui	Hero		Dialogue_Albarn_V2_GameStart_1		false		
+767	Albarn_V2	GameStart	Ui	Hero		Dialogue_Albarn_V2_GameStart_2		false		
+768	Albarn_V2	StageSuccess	Ui	Hero		Dialogue_Albarn_V2_StageSuccess_1		false		
+769	Albarn_V2	StageSuccess	Ui	Hero		Dialogue_Albarn_V2_StageSuccess_2		false		
+770	Blactop_V2	GameStart	Ui	Hero		Dialogue_Blactop_V2_GameStart_1		false		
+771	Blactop_V2	GameStart	Ui	Hero		Dialogue_Blactop_V2_GameStart_2		false		
+772	Blactop_V2	StageSuccess	Ui	Hero		Dialogue_Blactop_V2_StageSuccess_1		false		
+773	Blactop_V2	StageSuccess	Ui	Hero		Dialogue_Blactop_V2_StageSuccess_2		false		
+774	Rocco_V2	GameStart	Ui	RetiredLeo		Dialogue_Rocco_V2_GameStart_1		false		
+775	Rocco_V2	GameStart	Ui	RetiredLeo		Dialogue_Rocco_V2_GameStart_2		false		
+776	Rocco_V2	GameStart	Ui	Hero		Dialogue_Rocco_V2_GameStart_3		false		
+777	Rocco_V2	GameStart	Ui	RetiredLeo		Dialogue_Rocco_V2_GameStart_4		false		
+778	Rocco_V2	GameStart	Ui	Hero		Dialogue_Rocco_V2_GameStart_5		false		
+779	Rocco_V2	StageSuccessFirst	Ui	Hero		Dialogue_Rocco_V2_StageSuccess_1		false		
+780	Rocco_V2	StageSuccessFirst	Ui	RetiredLeo		Dialogue_Rocco_V2_StageSuccess_2		false		
+781	Rocco_V2	StageSuccessFirst	Ui	Hero		Dialogue_Rocco_V2_StageSuccess_3		false		
+782	Rocco_V2	StageSuccessFirst	Ui	RetiredLeo		Dialogue_Rocco_V2_StageSuccess_4		false		
+783	Rocco_V2	StageSuccessFirst	Ui	Hero		Dialogue_Rocco_V2_StageSuccess_5		false		
+784	Rocco_V2	StageSuccessFirst	Ui	RetiredLeo		Dialogue_Rocco_V2_StageSuccess_6		false		
+785	Waltz2_V2	GameStart	Ui	RetiredLeo		Dialogue_Waltz2_V2_GameStart_1		false		
+786	Waltz2_V2	GameStart	Ui	RetiredLeo		Dialogue_Waltz2_V2_GameStart_2		false		
+787	Waltz2_V2	GameStart	Ui	Hero		Dialogue_Waltz2_V2_GameStart_3		false		
+788	Waltz2_V2	GameStart	Ui	Hero		Dialogue_Waltz2_V2_GameStart_4		false		
+789	Waltz2_V2	StageSuccess	Ui	Hero		Dialogue_Waltz2_V2_StageSuccess_1		false		
+790	Waltz2_V2	StageSuccess	Ui	Hero		Dialogue_Waltz2_V2_StageSuccess_2		false		
+791	Zellyma_V2	GameStart	Ui	Hero		Dialogue_Zellyma_V2_GameStart_1		false		
+792	Zellyma_V2	GameStart	Ui	Hero		Dialogue_Zellyma_V2_GameStart_2		false		
+793	Zellyma_V2	GameStart	Ui	Hero		Dialogue_Zellyma_V2_GameStart_3		false		
+794	Zellyma_V2	StageSuccess	Ui	RetiredLeo		Dialogue_Zellyma_V2_StageSuccess_1		false		
+795	Zellyma_V2	StageSuccess	Ui	Hero		Dialogue_Zellyma_V2_StageSuccess_2		false		
+796	Zellyma_V2	StageSuccess	Ui	RetiredLeo		Dialogue_Zellyma_V2_StageSuccess_3		false		
+797	Zellyma_V2	StageSuccess	Ui	Hero		Dialogue_Zellyma_V2_StageSuccess_4		false		
+798	Otto2_V2	GameStart	Ui	Hero		Dialogue_Otto2_V2_GameStart_1		false		
+799	Otto2_V2	GameStart	Ui	Hero		Dialogue_Otto2_V2_GameStart_2		false		
+800	Otto2_V2	GameStart	Ui	Hero		Dialogue_Otto2_V2_GameStart_3		false		
+801	Otto2_V2	StageSuccess	Ui	RetiredLeo		Dialogue_Otto2_V2_StageSuccess_1		false		
+802	Otto2_V2	StageSuccess	Ui	Hero		Dialogue_Otto2_V2_StageSuccess_2		false		
+803	Otto2_V2	StageSuccess	Ui	RetiredLeo		Dialogue_Otto2_V2_StageSuccess_3		false		
+804	Otto2_V2	StageSuccess	Ui	Hero		Dialogue_Otto2_V2_StageSuccess_4		false		
+805	Helga_V2	GameStart	Ui	Hero		Dialogue_Helga_V2_GameStart_1		false		
+806	Helga_V2	GameStart	Ui	RetiredLeo		Dialogue_Helga_V2_GameStart_2		false		
+807	Helga_V2	GameStart	Ui	Hero		Dialogue_Helga_V2_GameStart_3		false		
+808	Helga_V2	GameStart	Ui	RetiredLeo		Dialogue_Helga_V2_GameStart_4		false		
+809	Helga_V2	StageSuccessFirst	Ui	RetiredLeo		Dialogue_Helga_V2_StageSuccess_1		false		
+810	Helga_V2	StageSuccessFirst	Ui	Hero		Dialogue_Helga_V2_StageSuccess_2		false		
+811	Helga_V2	StageSuccessFirst	Ui	RetiredLeo		Dialogue_Helga_V2_StageSuccess_3		false		
+812	Helga_V2	StageSuccessFirst	Ui	Hero		Dialogue_Helga_V2_StageSuccess_4		false		
+813	Helga_V2	StageSuccessFirst	Ui	RetiredLeo		Dialogue_Helga_V2_StageSuccess_5		false		
+814	Blow3_V2	GameStart	Ui	RetiredLeo		Dialogue_Blow3_V2_GameStart_1		false		
+815	Blow3_V2	GameStart	Ui	Hero		Dialogue_Blow3_V2_GameStart_2		false		
+816	Blow3_V2	GameStart	Ui	RetiredLeo		Dialogue_Blow3_V2_GameStart_3		false		
+817	Blow3_V2	GameStart	Ui	RetiredLeo		Dialogue_Blow3_V2_GameStart_4		false		
+818	Blow3_V2	GameStart	Ui	Hero		Dialogue_Blow3_V2_GameStart_5		false		
+819	Blow3_V2	GameStart	Ui	RetiredLeo		Dialogue_Blow3_V2_GameStart_6		false		
+820	Blow3_V2	GameStart	Ui	Hero		Dialogue_Blow3_V2_GameStart_7		false		
+821	Blow3_V2	GameStart	Ui	RetiredLeo		Dialogue_Blow3_V2_GameStart_8		false		
+822	Blow3_V2	GameStart	Ui	Hero		Dialogue_Blow3_V2_GameStart_9		false		
+823	Blow3_V2	StageSuccess	Ui	Hero		Dialogue_Blow3_V2_StageSuccess_1		false		
+824	Blow3_V2	StageSuccess	Ui	Hero		Dialogue_Blow3_V2_StageSuccess_2		false		
+825	MrToadie_V2	GameStart	Ui	Hero		Dialogue_MrToadie_V2_GameStart_1		false		
+826	MrToadie_V2	GameStart	Ui	Hero		Dialogue_MrToadie_V2_GameStart_2		false		
+827	MrToadie_V2	StageSuccess	Ui	Hero		Dialogue_MrToadie_V2_StageSuccess_1		false		
+828	MrToadie_V2	StageSuccess	Ui	Hero		Dialogue_MrToadie_V2_StageSuccess_2		false		
+829	Eugen_V2	GameStart	Ui	RetiredLeo		Dialogue_Eugen_V2_GameStart_1		false		
+830	Eugen_V2	GameStart	Ui	Hero		Dialogue_Eugen_V2_GameStart_2		false		
+831	Eugen_V2	GameStart	Ui	RetiredLeo		Dialogue_Eugen_V2_GameStart_3		false		
+832	Eugen_V2	GameStart	Ui	Hero		Dialogue_Eugen_V2_GameStart_4		false		
+833	Eugen_V2	GameStart	Ui	RetiredLeo		Dialogue_Eugen_V2_GameStart_5		false		
+834	Eugen_V2	StageSuccess	Ui	Hero		Dialogue_Eugen_V2_StageSuccess_1		false		
+835	Eugen_V2	StageSuccess	Ui	Hero		Dialogue_Eugen_V2_StageSuccess_2		false		
+836	Eugen_V2	StageSuccess	Ui	RetiredLeo		Dialogue_Eugen_V2_StageSuccess_3		false		
+837	Eugen_V2	StageSuccess	Ui	Hero		Dialogue_Eugen_V2_StageSuccess_4		false		
+838	Eugen_V2	StageSuccess	Ui	RetiredLeo		Dialogue_Eugen_V2_StageSuccess_5		false		
+839	Eugen_V2	StageSuccess	Ui	Hero		Dialogue_Eugen_V2_StageSuccess_6		false		
+840	Eugen_V2	StageSuccess	Ui	RetiredLeo		Dialogue_Eugen_V2_StageSuccess_7		false		
+841	Pascal2_V2	GameStart	Object	Enemy		Dialogue_Pascal2_V2_GameStart_1		false		
+842	Pascal2_V2	GameStart	Ui	Hero		Dialogue_Pascal2_V2_GameStart_2		false		
+843	Pascal2_V2	GameStart	Ui	RetiredLeo		Dialogue_Pascal2_V2_GameStart_3		false		
+844	Pascal2_V2	GameStart	Ui	Hero		Dialogue_Pascal2_V2_GameStart_4		false		
+845	Pascal2_V2	StageSuccess	Ui	Yui		Dialogue_Pascal2_V2_StageSuccess_1		false		
+846	Pascal2_V2	StageSuccess	Ui	Hero		Dialogue_Pascal2_V2_StageSuccess_2		false		
+847	Pascal2_V2	StageSuccess	Ui	Yui		Dialogue_Pascal2_V2_StageSuccess_3		false		
+848	Pascal2_V2	StageSuccess	Ui	Hero		Dialogue_Pascal2_V2_StageSuccess_4		false		
+849	Pascal2_V2	StageSuccess	Ui	Yui		Dialogue_Pascal2_V2_StageSuccess_5		false		
+850	Pascal2_V2	StageSuccess	Ui	Hero		Dialogue_Pascal2_V2_StageSuccess_6		false		
+851	Pascal2_V2	StageSuccess	Ui	Hero		Dialogue_Pascal2_V2_StageSuccess_7		false		
+852	Pascal2_V2	StageSuccess	Ui	Yui		Dialogue_Pascal2_V2_StageSuccess_8		false		
+853	Pascal2_V2	StageSuccess	Ui	Hero		Dialogue_Pascal2_V2_StageSuccess_9		false		
+854	Pascal2_V2	StageSuccess	Ui	Yui	Surprise	Dialogue_Pascal2_V2_StageSuccess_10		false		
+855	Pascal2_V2	StageSuccess	Ui	Hero		Dialogue_Pascal2_V2_StageSuccess_11		false		
+856	Pascal2_V2	StageSuccess	Ui	Yui	Worry	Dialogue_Pascal2_V2_StageSuccess_12		false		
+857	Sachika_V2	GameStart	Ui	Hero		Dialogue_Sachika_V2_GameStart_1		false		
+858	Sachika_V2	GameStart	Ui	RetiredLeo		Dialogue_Sachika_V2_GameStart_2		false		
+859	Sachika_V2	GameStart	Ui	Hero		Dialogue_Sachika_V2_GameStart_3		false		
+860	Sachika_V2	GameStart	Ui	RetiredLeo		Dialogue_Sachika_V2_GameStart_4		false		
+861	Sachika_V2	GameStart	Ui	Hero		Dialogue_Sachika_V2_GameStart_5		false		
+862	Sachika_V2	GameStart2	Ui	Sachika		Dialogue_Sachika_V2_GameStart2_1	sachika_radio_01	false		
+863	Sachika_V2	GameStart2	Ui	Hero		Dialogue_Sachika_V2_GameStart2_2		false		
+864	Sachika_V2	GameStart2	Ui	Hero		Dialogue_Sachika_V2_GameStart2_3		false		
+865	Sachika_V2	GameStart2	Ui	Hero		Dialogue_Sachika_V2_GameStart2_4		false		
+866	Sachika_V2	GameStart2	Ui	Sachika		Dialogue_Sachika_V2_GameStart2_5	sachika_radio_02	false		
+867	Sachika_V2	GameStart2	Ui	Hero		Dialogue_Sachika_V2_GameStart2_6		false		
+868	Sachika_V2	EnemyDie	Ui	Sachika	Love	Dialogue_Sachika_V2_StageSuccess_1		false		
+869	Sachika_V2	EnemyDie	Ui	Hero		Dialogue_Sachika_V2_StageSuccess_2		false		
+870	Sachika_V2	EnemyDie	Ui	Sachika	Love	Dialogue_Sachika_V2_StageSuccess_3		false		
+871	Sachika_V2	EnemyDie	Ui	Sachika	Love	Dialogue_Sachika_V2_StageSuccess_4		false		
+872	Sachika_V2	EnemyDie	Ui	Hero		Dialogue_Sachika_V2_StageSuccess_5		false		
+873	Sachika_V2	EnemyDie	Ui	Sachika	Love	Dialogue_Sachika_V2_StageSuccess_6		false		
+874	Sachika_V2	EnemyDie	Ui	Sachika	Love	Dialogue_Sachika_V2_StageSuccess_7		false		
+875	Ulrich2_V2	GameStart	Ui	Hero		Dialogue_Ulrich2_V2_GameStart_1		false		
+876	Ulrich2_V2	GameStart	Ui	RetiredLeo		Dialogue_Ulrich2_V2_GameStart_2		false		
+877	Ulrich2_V2	StageSuccess	Ui	RetiredLeo		Dialogue_Ulrich2_V2_StageSuccess_1		false		
+878	Ulrich2_V2	StageSuccess	Ui	Hero		Dialogue_Ulrich2_V2_StageSuccess_2		false		
+879	Ulrich2_V2	StageSuccess	Ui	RetiredLeo		Dialogue_Ulrich2_V2_StageSuccess_3		false		
+880	Chimera_V2	GameStart	Ui	RetiredLeo		Dialogue_Chimera_V2_GameStart_1		false		
+881	Chimera_V2	GameStart	Ui	RetiredLeo		Dialogue_Chimera_V2_GameStart_2		false		
+882	Chimera_V2	GameStart	Ui	RetiredLeo		Dialogue_Chimera_V2_GameStart_3		false		
+883	Chimera_V2	GameStart	Ui	RetiredLeo		Dialogue_Chimera_V2_GameStart_4		false		
+884	Chimera_V2	GameStart	Ui	RetiredLeo		Dialogue_Chimera_V2_GameStart_5		false		
+885	Chimera_V2	GameStart	Ui	RetiredLeo		Dialogue_Chimera_V2_GameStart_6		false		
+886	Chimera_V2	GameStart	Ui	Hero		Dialogue_Chimera_V2_GameStart_7		false		
+887	Chimera_V2	StageSuccess	Ui	Hero		Dialogue_Chimera_V2_StageSuccess_1		false		
+888	Chimera_V2	StageSuccess	Ui	RetiredLeo		Dialogue_Chimera_V2_StageSuccess_2		false		
+889	Chimera_V2	StageSuccess	Ui	Hero		Dialogue_Chimera_V2_StageSuccess_3		false		
+890	Chimera_V2	StageSuccess	Ui	RetiredLeo		Dialogue_Chimera_V2_StageSuccess_4		false		
+891	Chimera_V2	StageSuccess	Ui	Hero		Dialogue_Chimera_V2_StageSuccess_5		false		
+892	Chimera_V2	StageSuccess	Ui	RetiredLeo		Dialogue_Chimera_V2_StageSuccess_6		false		
+893	Chimera_V2	StageSuccess	Ui	Hero		Dialogue_Chimera_V2_StageSuccess_7		false		
+894	Chimera_V2	StageSuccess	Ui	RetiredLeo		Dialogue_Chimera_V2_StageSuccess_8		false		
+895	Rotoers_L1	GameStart	Ui	Ophelia		Dialogue_Rotoers_L1_GameStart_1		false		Normal
+896	Rotoers_L1	GameStart	Ui	Hero		Dialogue_Rotoers_L1_GameStart_2		false		Normal
+897	Rotoers_L1	GameStart	Ui	Ophelia		Dialogue_Rotoers_L1_GameStart_3		false		Normal
+898	Rotoers_L1	GameStart	Ui	Ophelia		Dialogue_Rotoers_L1_GameStart_4		false		Normal
+899	Rotoers_L1	GameStart	Ui	Hero		Dialogue_Rotoers_L1_GameStart_5		false		Normal
+900	Rotoers_L1	GameStart	Ui	Ophelia		Dialogue_Rotoers_L1_GameStart_6		false		Normal
+901	Rotoers_L1	GameStart	Ui	Hero		Dialogue_Rotoers_L1_GameStart_7		false		Normal
+902	Rotoers_L1	GameStart	Ui	Ophelia		Dialogue_Rotoers_L1_GameStart_8		false		Normal
+903	Rotoers_L1	GameStart	Ui	Ophelia		Dialogue_Rotoers_L1_GameStart_9		false		Normal
+904	Rotoers_L1	GameStart	Ui	Hero		Dialogue_Rotoers_L1_GameStart_10		false		Normal
+905	Rotoers_L1	GameStart	Ui	Ophelia		Dialogue_Rotoers_L1_GameStart_11		false		Normal
+906	Rotoers_L1	GameStart	Ui	Hero		Dialogue_Rotoers_L1_GameStart_12		false		Normal
+907	Rotoers_L1	GameStart	Ui	Ophelia		Dialogue_Rotoers_L1_GameStart_13		false		Normal
+908	Rotoers_L1	GameStart	Ui	Hero		Dialogue_Rotoers_L1_GameStart_14		false		Normal
+909	Rotoers_L1	StageSuccess	Ui	Ophelia		Dialogue_Rotoers_L1_StageSuccess_1		false		Normal
+910	Rotoers_L1	StageSuccess	Ui	Hero		Dialogue_Rotoers_L1_StageSuccess_2		false		Normal
+911	Rotoers_L1	StageSuccess	Ui	Ophelia		Dialogue_Rotoers_L1_StageSuccess_3		false		Normal
+912	Rotoers_L1	StageSuccess	Ui	Hero		Dialogue_Rotoers_L1_StageSuccess_4		false		Normal
+913	Rotoers_L1	StageSuccess	Ui	Ophelia		Dialogue_Rotoers_L1_StageSuccess_5		false		Normal
+914	Rotoers_L1	StageSuccess	Ui	Hero		Dialogue_Rotoers_L1_StageSuccess_6		false		Normal
+915	Rotoers_L1	StageSuccess	Ui	Ophelia		Dialogue_Rotoers_L1_StageSuccess_7		false		Normal
+916	Rotoers_L1	GameStart	Ui	Ophelia		Dialogue_Rotoers_L1_GameStartEvil_1		false		Hard
+917	Rotoers_L1	GameStart	Ui	Hero		Dialogue_Rotoers_L1_GameStartEvil_2		false		Hard
+918	Rotoers_L1	GameStart	Ui	Ophelia		Dialogue_Rotoers_L1_GameStartEvil_3		false		Hard
+919	Rotoers_L1	GameStart	Ui	Ophelia		Dialogue_Rotoers_L1_GameStartEvil_4		false		Hard
+920	Rotoers_L1	GameStart	Ui	Hero		Dialogue_Rotoers_L1_GameStartEvil_5		false		Hard
+921	Rotoers_L1	GameStart	Ui	Ophelia		Dialogue_Rotoers_L1_GameStartEvil_6		false		Hard
+922	Rotoers_L1	GameStart	Ui	Hero		Dialogue_Rotoers_L1_GameStartEvil_7		false		Hard
+923	Rotoers_L1	GameStart	Ui	Ophelia		Dialogue_Rotoers_L1_GameStartEvil_8		false		Hard
+924	Rotoers_L1	GameStart	Ui	Ophelia		Dialogue_Rotoers_L1_GameStartEvil_9		false		Hard
+925	Rotoers_L1	GameStart	Ui	Hero		Dialogue_Rotoers_L1_GameStartEvil_10		false		Hard
+926	Rotoers_L1	GameStart	Ui	Ophelia		Dialogue_Rotoers_L1_GameStartEvil_11		false		Hard
+927	Rotoers_L1	GameStart	Ui	Hero		Dialogue_Rotoers_L1_GameStartEvil_12		false		Hard
+928	Rotoers_L1	GameStart	Ui	Ophelia		Dialogue_Rotoers_L1_GameStartEvil_13		false		Hard
+929	Rotoers_L1	GameStart	Ui	Hero		Dialogue_Rotoers_L1_GameStartEvil_14		false		Hard
+930	Rotoers_L1	StageSuccess	Ui	Ophelia		Dialogue_Rotoers_L1_StageSuccessEvil_1		false		Hard
+931	Rotoers_L1	StageSuccess	Ui	Hero		Dialogue_Rotoers_L1_StageSuccessEvil_2		false		Hard
+932	Rotoers_L1	StageSuccess	Ui	Ophelia		Dialogue_Rotoers_L1_StageSuccessEvil_3		false		Hard
+933	Rotoers_L1	StageSuccess	Ui	Hero		Dialogue_Rotoers_L1_StageSuccessEvil_4		false		Hard
+934	Rotoers_L1	StageSuccess	Ui	Ophelia		Dialogue_Rotoers_L1_StageSuccessEvil_5		false		Hard
+935	Rotoers_L1	StageSuccess	Ui	Hero		Dialogue_Rotoers_L1_StageSuccessEvil_6		false		Hard
+936	Rotoers_L1	StageSuccess	Ui	Ophelia		Dialogue_Rotoers_L1_StageSuccessEvil_7		false		Hard
+937	Rotoers_L2	GameStart	Ui	Ophelia		Dialogue_Rotoers_L2_GameStart_1		false		Normal
+938	Rotoers_L2	GameStart	Ui	Hero		Dialogue_Rotoers_L2_GameStart_2		false		Normal
+939	Rotoers_L2	GameStart	Ui	Ophelia		Dialogue_Rotoers_L2_GameStart_3		false		Normal
+940	Rotoers_L2	GameStart	Ui	Hero		Dialogue_Rotoers_L2_GameStart_4		false		Normal
+941	Rotoers_L2	GameStart	Ui	Ophelia		Dialogue_Rotoers_L2_GameStart_5		false		Normal
+942	Rotoers_L2	StageSuccess	Ui	Ophelia		Dialogue_Rotoers_L2_StageSuccess_1		false		Normal
+943	Rotoers_L2	StageSuccess	Ui	Hero		Dialogue_Rotoers_L2_StageSuccess_2		false		Normal
+944	Rotoers_L2	StageSuccess	Ui	Ophelia		Dialogue_Rotoers_L2_StageSuccess_3		false		Normal
+945	Rotoers_L2	StageSuccess	Ui	Ophelia		Dialogue_Rotoers_L2_StageSuccess_4		false		Normal
+946	Rotoers_L2	StageSuccess	Ui	Hero		Dialogue_Rotoers_L2_StageSuccess_5		false		Normal
+947	Rotoers_L2	StageSuccess	Ui	Ophelia		Dialogue_Rotoers_L2_StageSuccess_6		false		Normal
+948	Rotoers_L2	GameStart	Ui	Ophelia		Dialogue_Rotoers_L2_GameStartEvil_1		false		Hard
+949	Rotoers_L2	GameStart	Ui	Hero		Dialogue_Rotoers_L2_GameStartEvil_2		false		Hard
+950	Rotoers_L2	GameStart	Ui	Ophelia		Dialogue_Rotoers_L2_GameStartEvil_3		false		Hard
+951	Rotoers_L2	GameStart	Ui	Hero		Dialogue_Rotoers_L2_GameStartEvil_4		false		Hard
+952	Rotoers_L2	GameStart	Ui	Ophelia		Dialogue_Rotoers_L2_GameStartEvil_5		false		Hard
+953	Rotoers_L2	StageSuccess	Ui	Ophelia		Dialogue_Rotoers_L2_StageSuccessEvil_1		false		Hard
+954	Rotoers_L2	StageSuccess	Ui	Hero		Dialogue_Rotoers_L2_StageSuccessEvil_2		false		Hard
+955	Rotoers_L2	StageSuccess	Ui	Ophelia		Dialogue_Rotoers_L2_StageSuccessEvil_3		false		Hard
+956	Rotoers_L2	StageSuccess	Ui	Ophelia		Dialogue_Rotoers_L2_StageSuccessEvil_4		false		Hard
+957	Rotoers_L2	StageSuccess	Ui	Hero		Dialogue_Rotoers_L2_StageSuccessEvil_5		false		Hard
+958	Rotoers_L2	StageSuccess	Ui	Ophelia		Dialogue_Rotoers_L2_StageSuccessEvil_6		false		Hard
+959	Rotoers_L3	GameStart	Object	Enemy		Dialogue_Rotoers_L3_GameStart_1		true		Normal
+960	Rotoers_L3	GameStart	Object	Player		Dialogue_Rotoers_L3_GameStart_2		true		Normal
+961	Rotoers_L3	GameStart	Object	Enemy		Dialogue_Rotoers_L3_GameStart_3		true		Normal
+962	Rotoers_L3	GameStart	Ui	Ophelia		Dialogue_Rotoers_L3_GameStart_4		false		Normal
+963	Rotoers_L3	GameStart	Ui	Hero		Dialogue_Rotoers_L3_GameStart_5		false		Normal
+964	Rotoers_L3	StageSuccess	Ui	Ophelia		Dialogue_Rotoers_L3_StageSuccess_1		false		Normal
+965	Rotoers_L3	StageSuccess	Ui	Ophelia		Dialogue_Rotoers_L3_StageSuccess_2		false		Normal
+966	Rotoers_L3	StageSuccess	Ui	Hero		Dialogue_Rotoers_L3_StageSuccess_3		false		Normal
+967	Rotoers_L3	StageSuccess	Ui	Ophelia		Dialogue_Rotoers_L3_StageSuccess_4		false		Normal
+968	Rotoers_L3	StageSuccess	Ui	Ophelia		Dialogue_Rotoers_L3_StageSuccess_5		false		Normal
+969	Rotoers_L3	StageSuccess	Ui	Hero		Dialogue_Rotoers_L3_StageSuccess_6		false		Normal
+970	Rotoers_L3	StageSuccess	Ui	Ophelia		Dialogue_Rotoers_L3_StageSuccess_7		false		Normal
+971	Rotoers_L3	StageSuccess	Ui	Hero		Dialogue_Rotoers_L3_StageSuccess_8		false		Normal
+972	Rotoers_L3	StageSuccess	Ui	Ophelia		Dialogue_Rotoers_L3_StageSuccess_9		false		Normal
+973	Rotoers_L3	GameStart	Object	Enemy		Dialogue_Rotoers_L3_GameStartEvil_1		true		Hard
+974	Rotoers_L3	GameStart	Object	Player		Dialogue_Rotoers_L3_GameStartEvil_2		true		Hard
+975	Rotoers_L3	GameStart	Object	Enemy		Dialogue_Rotoers_L3_GameStartEvil_3		true		Hard
+976	Rotoers_L3	GameStart	Ui	Ophelia		Dialogue_Rotoers_L3_GameStartEvil_4		false		Hard
+977	Rotoers_L3	GameStart	Ui	Hero		Dialogue_Rotoers_L3_GameStartEvil_5		false		Hard
+978	Rotoers_L3	StageSuccess	Ui	Ophelia		Dialogue_Rotoers_L3_StageSuccessEvil_1		false		Hard
+979	Rotoers_L3	StageSuccess	Ui	Ophelia		Dialogue_Rotoers_L3_StageSuccessEvil_2		false		Hard
+980	Rotoers_L3	StageSuccess	Ui	Hero		Dialogue_Rotoers_L3_StageSuccessEvil_3		false		Hard
+981	Rotoers_L3	StageSuccess	Ui	Ophelia		Dialogue_Rotoers_L3_StageSuccessEvil_4		false		Hard
+982	Rotoers_L3	StageSuccess	Ui	Ophelia		Dialogue_Rotoers_L3_StageSuccessEvil_5		false		Hard
+983	Rotoers_L3	StageSuccess	Ui	Hero		Dialogue_Rotoers_L3_StageSuccessEvil_6		false		Hard
+984	Rotoers_L3	StageSuccess	Ui	Ophelia		Dialogue_Rotoers_L3_StageSuccessEvil_7		false		Hard
+985	Rotoers_L3	StageSuccess	Ui	Hero		Dialogue_Rotoers_L3_StageSuccessEvil_8		false		Hard
+986	Smiley_L1	GameStart	Ui	Hero		Dialogue_Smiley_L1_GameStart_1		false		Normal
+987	Smiley_L1	GameStart	Ui	Yui		Dialogue_Smiley_L1_GameStart_2		false		Normal
+988	Smiley_L1	GameStart	Ui	Hero		Dialogue_Smiley_L1_GameStart_3		false		Normal
+989	Smiley_L1	GameStart	Ui	Yui		Dialogue_Smiley_L1_GameStart_4		false		Normal
+990	Smiley_L1	GameStart	Ui	Hero		Dialogue_Smiley_L1_GameStart_5		false		Normal
+991	Smiley_L1	StageSuccess	Ui	Hero		Dialogue_Smiley_L1_StageSuccess_1		false		Normal
+992	Smiley_L1	StageSuccess	Ui	Yui		Dialogue_Smiley_L1_StageSuccess_2		false		Normal
+993	Smiley_L1	StageSuccess	Ui	Hero		Dialogue_Smiley_L1_StageSuccess_3		false		Normal
+994	Smiley_L2	GameStart	Ui	Yui	Surprise	Dialogue_Smiley_L2_GameStart_1		false		Normal
+995	Smiley_L2	GameStart	Ui	Yui		Dialogue_Smiley_L2_GameStart_2		false		Normal
+996	Smiley_L2	GameStart	Ui	Hero		Dialogue_Smiley_L2_GameStart_3		false		Normal
+997	Smiley_L2	StageSuccess	Ui	Yui	Surprise	Dialogue_Smiley_L2_StageSuccess_1		false		Normal
+998	Smiley_L2	StageSuccess	Ui	Hero		Dialogue_Smiley_L2_StageSuccess_2		false		Normal
+999	Smiley_L2	StageSuccess	Ui	Yui		Dialogue_Smiley_L2_StageSuccess_3		false		Normal
+1000	Smiley_L3	GameStart	Ui	Yui		Dialogue_Smiley_L3_GameStart_1		false		Normal
+1001	Smiley_L3	GameStart	Ui	Hero		Dialogue_Smiley_L3_GameStart_2		false		Normal
+1002	Smiley_L3	GameStart	Ui	Yui	Worry	Dialogue_Smiley_L3_GameStart_3		false		Normal
+1003	Smiley_L3	StageSuccess	Ui	Yui		Dialogue_Smiley_L3_StageSuccess_1		false		Normal
+1004	Smiley_L3	StageSuccess	Ui	Yui		Dialogue_Smiley_L3_StageSuccess_2		false		Normal
+1005	Smiley_L3	StageSuccess	Ui	Hero		Dialogue_Smiley_L3_StageSuccess_3		false		Normal
+1006	Smiley_L3	StageSuccess	Ui	Yui		Dialogue_Smiley_L3_StageSuccess_4		false		Normal
+1007	Smiley_L3	StageSuccess	Ui	Hero		Dialogue_Smiley_L3_StageSuccess_5		false		Normal
+1008	Smiley_L3	StageSuccess	Ui	Yui		Dialogue_Smiley_L3_StageSuccess_6		false		Normal
+1009	Smiley_L3	StageSuccess	Ui	Hero		Dialogue_Smiley_L3_StageSuccess_7		false		Normal
+1010	Smiley_L3	StageSuccess	Ui	Yui	Angry1	Dialogue_Smiley_L3_StageSuccess_8		false		Normal
+1011	Smiley_L1	GameStart	Ui	Hero		Dialogue_Smiley_L1_GameStartEvil_1		false		Hard
+1012	Smiley_L1	GameStart	Ui	Yui		Dialogue_Smiley_L1_GameStartEvil_2		false		Hard
+1013	Smiley_L1	GameStart	Ui	Hero		Dialogue_Smiley_L1_GameStartEvil_3		false		Hard
+1014	Smiley_L1	GameStart	Ui	Yui		Dialogue_Smiley_L1_GameStartEvil_4		false		Hard
+1015	Smiley_L1	GameStart	Ui	Hero		Dialogue_Smiley_L1_GameStartEvil_5		false		Hard
+1016	Smiley_L1	StageSuccess	Ui	Hero		Dialogue_Smiley_L1_StageSuccessEvil_1		false		Hard
+1017	Smiley_L1	StageSuccess	Ui	Yui		Dialogue_Smiley_L1_StageSuccessEvil_2		false		Hard
+1018	Smiley_L1	StageSuccess	Ui	Hero		Dialogue_Smiley_L1_StageSuccessEvil_3		false		Hard
+1019	Smiley_L2	GameStart	Ui	Yui	Surprise	Dialogue_Smiley_L2_GameStartEvil_1		false		Hard
+1020	Smiley_L2	GameStart	Ui	Yui		Dialogue_Smiley_L2_GameStartEvil_2		false		Hard
+1021	Smiley_L2	GameStart	Ui	Hero		Dialogue_Smiley_L2_GameStartEvil_3		false		Hard
+1022	Smiley_L2	StageSuccess	Ui	Yui	Surprise	Dialogue_Smiley_L2_StageSuccessEvil_1		false		Hard
+1023	Smiley_L2	StageSuccess	Ui	Hero		Dialogue_Smiley_L2_StageSuccessEvil_2		false		Hard
+1024	Smiley_L2	StageSuccess	Ui	Yui		Dialogue_Smiley_L2_StageSuccessEvil_3		false		Hard
+1025	Smiley_L3	GameStart	Ui	Yui		Dialogue_Smiley_L3_GameStartEvil_1		false		Hard
+1026	Smiley_L3	GameStart	Ui	Hero		Dialogue_Smiley_L3_GameStartEvil_2		false		Hard
+1027	Smiley_L3	GameStart	Ui	Yui	Worry	Dialogue_Smiley_L3_GameStartEvil_3		false		Hard
+1028	Smiley_L3	StageSuccess	Ui	Yui		Dialogue_Smiley_L3_StageSuccessEvil_1		false		Hard
+1029	Smiley_L3	StageSuccess	Ui	Yui		Dialogue_Smiley_L3_StageSuccessEvil_2		false		Hard
+1030	Smiley_L3	StageSuccess	Ui	Hero		Dialogue_Smiley_L3_StageSuccessEvil_3		false		Hard
+1031	Smiley_L3	StageSuccess	Ui	Yui		Dialogue_Smiley_L3_StageSuccessEvil_4		false		Hard
+1032	Smiley_L3	StageSuccess	Ui	Hero		Dialogue_Smiley_L3_StageSuccessEvil_5		false		Hard
+1033	Smiley_L3	StageSuccess	Ui	Yui		Dialogue_Smiley_L3_StageSuccessEvil_6		false		Hard
+1034	Smiley_L3	StageSuccess	Ui	Hero		Dialogue_Smiley_L3_StageSuccessEvil_7		false		Hard
+1035	Smiley_L3	StageSuccess	Ui	Yui	Angry1	Dialogue_Smiley_L3_StageSuccessEvil_8		false		Hard

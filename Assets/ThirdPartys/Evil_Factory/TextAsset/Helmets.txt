@@ -1,0 +1,73 @@
+Basic	HelmetName_Basic									
+ElectricSoldiers	HelmetName_ElectricSoldiers	GoldRateUp	HelmetEff_GoldRateUp	1.02						
+RifleSoldiers	HelmetName_RifleSoldiers	RefillSecondaryWeapon	HelmetEff_RefillSecondaryWeapon	0.03						
+Otto	HelmetName_Otto	ReviveRate	HelmetEff_ReviveRate	0.03						
+Buffy	HelmetName_Buffy	ItemRateUp	HelmetEff_ItemRateUp	1.03						
+Alfonzo	HelmetName_Alfonzo	SecondaryWeaponDamageUp	HelmetEff_SecondaryWeaponDamageUp	1.05						
+KM78	HelmetName_KM78	BulletTimeRate	HelmetEff_BulletTimeRate	1.2						
+MuskX	HelmetName_MuskX	PrimaryWeaponDamageUp	HelmetEff_PrimaryWeaponDamageUp	1.05						
+Brock	HelmetName_Brock	ExpRateUp	HelmetEff_ExpRateUp	1.05						
+Octopolar	HelmetName_Octopolar	RefillSecondaryWeapon	HelmetEff_RefillSecondaryWeapon	0.03	ReviveRate	HelmetEff_ReviveRate	0.03			
+Arma	HelmetName_Arma	EvadeRate	HelmetEff_EvadeRate	0.03						
+Ulrich	HelmetName_Ulrich	RetryFuelFreeRate	HelmetEff_RetryFuelFreeRate	0.3						
+AlleyGator	HelmetName_AlleyGator	ExpRateUp	HelmetEff_ExpRateUp	1.03	ItemMagnetScale	HelmetEff_ItemMagnetScale	1.5			
+Toadie	HelmetName_Toadie	ReviveRate	HelmetEff_ReviveRate	0.04	SecondaryWeaponInstallSpeedUp	HelmetEff_SecondaryWeaponInstallSpeed	0.2			
+Purupu	HelmetName_Purupu	RefillSecondaryWeapon	HelmetEff_RefillSecondaryWeapon	0.05						
+Angero	HelmetName_Angero	PrimaryWeaponDamageUp	HelmetEff_PrimaryWeaponDamageUp	1.05	SecondaryWeaponDamageUp	HelmetEff_SecondaryWeaponDamageUp	1.03			
+Paluda	HelmetName_Paluda	ItemRateUp	HelmetEff_ItemRateUp	1.05						
+Pascal	HelmetName_Pascal	GoldRateUp	HelmetEff_GoldRateUp	1.03	RefillSecondaryWeapon	HelmetEff_RefillSecondaryWeapon	0.03			
+BiggyPo	HelmetName_BiggyPo	ExpRateUp	HelmetEff_ExpRateUp	1.04	SecondaryWeaponDamageUp	HelmetEff_SecondaryWeaponDamageUp	1.05			
+Albarn	HelmetName_Albarn	ItemRateUp	HelmetEff_ItemRateUp	1.03	EvadeRate	HelmetEff_EvadeRate	0.03			
+Blactop	HelmetName_Blactop	RetryFuelFreeRate	HelmetEff_RetryFuelFreeRate	0.2	BulletTimeRate	HelmetEff_BulletTimeRate	1.2			
+Rocco	HelmetName_ROCCO	ReviveRate	HelmetEff_ReviveRate	0.04	GoldRateUp	HelmetEff_GoldRateUp	1.03			
+Waltz2	HelmetName_Waltz2	PrimaryWeaponDamageUp	HelmetEff_PrimaryWeaponDamageUp	1.05	ItemMagnetScale	HelmetEff_ItemMagnetScale	2			
+Zellyma	HelmetName_Zellyma	ExpRateUp	HelmetEff_ExpRateUp	1.05	BulletTimeRate	HelmetEff_BulletTimeRate	1.3			
+Otto2	HelmetName_Otto2	SecondaryWeaponInstallSpeedUp	HelmetEff_SecondaryWeaponInstallSpeed	0.3						
+Helga	HelmetName_HELGA	EvadeRate	HelmetEff_EvadeRate	0.05						
+Blow3	HelmetName_BLOW3	PrimaryWeaponDamageUp	HelmetEff_PrimaryWeaponDamageUp	1.08						
+MrToadie	HelmetName_MrToadie	GoldRateUp	HelmetEff_GoldRateUp	1.05	SecondaryWeaponInstallSpeedUp	HelmetEff_SecondaryWeaponInstallSpeed	0.2			
+Eugen	HelmetName_Eugen	RefillSecondaryWeapon	HelmetEff_RefillSecondaryWeapon	0.05	EvadeRate	HelmetEff_EvadeRate	0.03			
+Pascal2	HelmetName_Pascal2	ReviveRate	HelmetEff_ReviveRate	0.07	BulletTimeRate	HelmetEff_BulletTimeRate	1.3			
+Ulrich2	HelmetName_Ulrich2	SecondaryWeaponDamageUp	HelmetEff_SecondaryWeaponDamageUp	1.05	RetryFuelFreeRate	HelmetEff_RetryFuelFreeRate	0.3			
+Chimera	HelmetName_Chimera	ItemRateUp	HelmetEff_ItemRateUp	1.07	PrimaryWeaponDamageUp	HelmetEff_PrimaryWeaponDamageUp	1.07			
+Hans	HelmetName_Hans	EvadeRate	HelmetEff_EvadeRate	0.07	RefillSecondaryWeapon	HelmetEff_RefillSecondaryWeapon	0.07			
+Hans2	HelmetName_Hans2	Screen_Grayscale	HelmetEff_Screen_GrayScale	0	ReviveRate	HelmetEff_ReviveRate	0.1			
+ElectricSoldiers_V2	HelmetName_ElectricSoldiers_V2	SpecialWeaponDamageUp30p	HelmetEffSpecialWeaponDamageUp30	AutoGrenadeLauncher						
+RifleSoldiers_V2	HelmetName_RifleSoldiers_V2	SpecialWeaponDamageUp20p	HelmetEffSpecialWeaponDamageUp20	MoleMine						
+Otto_V2	HelmetName_Otto2_V2	SpecialWeaponDamageUp20p	HelmetEffSpecialWeaponDamageUp20	C4						
+Buffy_V2	HelmetName_Buffy_V2	SpecialWeaponDamageUp20p	HelmetEffSpecialWeaponDamageUp20	Claymore						
+Alfonzo_V2	HelmetName_Alfonzo_V2	SpecialWeaponDamageUp20p	HelmetEffSpecialWeaponDamageUp20	Molotov	MoveSpeedRate	HelmetEff_MoveSpeedRate	1.2			
+KM78_V2	HelmetName_KM78_V2	SpecialWeaponDamageUp20p	HelmetEffSpecialWeaponDamageUp20	FlameSentryGun	SpecialWeaponDamageUp10p	HelmetEffSpecialWeaponDamageUp10	ChickenBomb			
+MuskX_V2	HelmetName_MuskX_V2	SpecialWeaponDamageUp20p	HelmetEffSpecialWeaponDamageUp20	AutoGrenadeLauncher	SpecialWeaponDamageUp10p	HelmetEffSpecialWeaponDamageUp10	Molotov			
+Brock_V2	HelmetName_Brock_V2	SpecialWeaponDamageUp20p	HelmetEffSpecialWeaponDamageUp20	Chainsaw	SpecialWeaponDamageUp10p	HelmetEffSpecialWeaponDamageUp10	PoisonBomb			
+Octopolar_V2	HelmetName_Octopolar_V2	SpecialWeaponDamageUp20p	HelmetEffSpecialWeaponDamageUp20	MachineGun	SpecialWeaponDamageUp10p	HelmetEffSpecialWeaponDamageUp10	TurntableBomb			
+Arma_V2	HelmetName_Arma_V2	EvadeRate	HelmetEff_EvadeRate	0.2						
+Ulrich_V2	HelmetName_Ulrich_V2	SpecialWeaponDamageUp20p	HelmetEffSpecialWeaponDamageUp20	MoleMine	SpecialWeaponDamageUp20p	HelmetEffSpecialWeaponDamageUp20	ChickenBomb	EvadeRate	HelmetEff_EvadeRate	0.07
+AlleyGator_V2	HelmetName_AlleyGator_V2	SpecialWeaponDamageUp40p	HelmetEffSpecialWeaponDamageUp40	Bazooka						
+Toadie_V2	HelmetName_Toadie_V2	SpecialWeaponDamageUp30p	HelmetEffSpecialWeaponDamageUp30	PoisonBomb						
+Purupu_V2	HelmetName_Purupu_V2	SpecialWeaponDamageUp20p	HelmetEffSpecialWeaponDamageUp20	MiniMine	SpecialWeaponDamageUp10p	HelmetEffSpecialWeaponDamageUp10	Drone			
+Angero_V2	HelmetName_Angero_V2	SpecialWeaponDamageUp20p	HelmetEffSpecialWeaponDamageUp20	Molotov	SpecialWeaponDamageUp10p	HelmetEffSpecialWeaponDamageUp10	FlameSentryGun			
+Paluda_V2	HelmetName_Paluda_V2	SpecialWeaponDamageUp20p	HelmetEffSpecialWeaponDamageUp20	TurntableBomb	SpecialWeaponDamageUp10p	HelmetEffSpecialWeaponDamageUp10	PitchingMachine			
+Pascal_V2	HelmetName_Pascal_V2	SpecialWeaponDamageUp50p	HelmetEffSpecialWeaponDamageUp50	RocketLauncher	ReviveRate	HelmetEff_ReviveRate	0.05			
+BiggyPo_V2	HelmetName_BiggyPo_V2	SpecialWeaponDamageUp20p	HelmetEffSpecialWeaponDamageUp20	ChickenBomb	SpecialWeaponDamageUp20p	HelmetEffSpecialWeaponDamageUp20	Bazooka			
+Albarn_V2	HelmetName_Albarn_V2	SpecialWeaponDamageUp20p	HelmetEffSpecialWeaponDamageUp20	MoleMine	SpecialWeaponDamageUp20p	HelmetEffSpecialWeaponDamageUp20	Drone			
+Blactop_V2	HelmetName_Blactop_V2	SpecialWeaponDamageUp20p	HelmetEffSpecialWeaponDamageUp20	MiniMine	SpecialWeaponDamageUp20p	HelmetEffSpecialWeaponDamageUp20	PitchingMachine			
+Rocco_V2	HelmetName_ROCCO_V2	SpecialWeaponDamageUp30p	HelmetEffSpecialWeaponDamageUp30	PoisonBomb	SpecialWeaponDamageUp10p	HelmetEffSpecialWeaponDamageUp10	MachineGun	MoveSpeedRate	HelmetEff_MoveSpeedRate	1.15
+Waltz2_V2	HelmetName_Waltz2_V2	SpecialWeaponDamageUp20p	HelmetEffSpecialWeaponDamageUp20	Claymore	SpecialWeaponDamageUp30p	HelmetEffSpecialWeaponDamageUp30	RocketLauncher			
+Zellyma_V2	HelmetName_Zellyma_V2	SpecialWeaponDamageUp20p	HelmetEffSpecialWeaponDamageUp20	C4	SpecialWeaponDamageUp30p	HelmetEffSpecialWeaponDamageUp30	Bazooka			
+Otto2_V2	HelmetName_Otto_V2	SpecialWeaponDamageUp20p	HelmetEffSpecialWeaponDamageUp20	PoisonBomb	SpecialWeaponDamageUp30p	HelmetEffSpecialWeaponDamageUp30	Chainsaw			
+Helga_V2	HelmetName_HELGA_V2	SpecialWeaponDamageUp20p	HelmetEffSpecialWeaponDamageUp20	Dynamite	SpecialWeaponDamageUp20p	HelmetEffSpecialWeaponDamageUp20	MachineGun	EvadeRate	HelmetEff_EvadeRate	0.12
+Blow3_V2	HelmetName_BLOW3_V2	SpecialWeaponDamageUp20p	HelmetEffSpecialWeaponDamageUp20	Molotov	SpecialWeaponDamageUp20p	HelmetEffSpecialWeaponDamageUp20	C4	SpecialWeaponDamageUp40p	HelmetEffSpecialWeaponDamageUp40	Chainsaw
+MrToadie_V2	HelmetName_MrToadie_V2	SpecialWeaponDamageUp20p	HelmetEffSpecialWeaponDamageUp20	PoisonBomb	SpecialWeaponDamageUp20p	HelmetEffSpecialWeaponDamageUp20	TurntableBomb	SpecialWeaponDamageUp40p	HelmetEffSpecialWeaponDamageUp40	MachineGun
+Eugen_V2	HelmetName_Eugen_V2	SpecialWeaponDamageUp20p	HelmetEffSpecialWeaponDamageUp20	Dynamite	SpecialWeaponDamageUp30p	HelmetEffSpecialWeaponDamageUp30	FlameThrower	EvadeRate	HelmetEff_EvadeRate	0.1
+Pascal2_V2	HelmetName_Pascal2_V2	SpecialWeaponDamageUp20p	HelmetEffSpecialWeaponDamageUp20	FlaskBomb	SpecialWeaponDamageUp30p	HelmetEffSpecialWeaponDamageUp30	RocketLauncher	ReviveRate	HelmetEff_ReviveRate	0.08
+Ulrich2_V2	HelmetName_Ulrich2_V2	PrimaryWeaponDamageUp	HelmetEff_PrimaryWeaponDamageUp	1.15	SecondaryWeaponDamageUp	HelmetEff_SecondaryWeaponDamageUp	1.2			
+Chimera_V2	HelmetName_Chimera_V2	PrimaryWeaponDamageUp	HelmetEff_PrimaryWeaponDamageUp	1.2	SecondaryWeaponDamageUp	HelmetEff_SecondaryWeaponDamageUp	1.3			
+Sachika_V2	HelmetName_Sachikv_V2	PrimaryWeaponDamageUp	HelmetEff_PrimaryWeaponDamageUp	1.3	SecondaryWeaponDamageUp	HelmetEff_SecondaryWeaponDamageUp	1.5			
+Rotoers	HelmetName_Rotoers	PrimaryWeaponDamageUp	HelmetEff_PrimaryWeaponDamageUp	1.12						
+Rookie	HelmetName_Rookie	ReviveRate	HelmetEff_ReviveRate	0.05						
+WhiteTiger	HelmetName_WhiteTiger	PrimaryWeaponDamageUp	HelmetEff_PrimaryWeaponDamageUp	1.15						
+PaperBag	HelmetName_Paperbag	RefillSecondaryWeapon	HelmetEff_RefillSecondaryWeapon	0.2						
+KillerMask	HelmetName_KillerMask	ReviveRate	HelmetEff_ReviveRate	0.1						
+Smiley	HelmetName_Smiley	RefillSecondaryWeapon	HelmetEff_RefillSecondaryWeapon	0.15						
+Asuka	HelmetName_Asuka	EvadeRate	HelmetEff_EvadeRate	0.15						

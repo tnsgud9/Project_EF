@@ -1,0 +1,8 @@
+1	TurntableBomb	9	12000	0	BiggyPo
+2	PitchingMachine	2	2000	0	Otto
+3	MoleMine	4	2800	0	Otto
+4	Chainsaw	6	5500	0	Otto
+5	Claymore	8	8000	0	Zellyma
+6	Drone	8	8000	0	Zellyma
+7	RabbitBomb	13	30000	0	Pascal_V2
+8	MachineGun	9	10000	0	BiggyPo

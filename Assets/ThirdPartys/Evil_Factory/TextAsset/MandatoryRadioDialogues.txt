@@ -1,0 +1,28 @@
+1	1	Diego		MenuDialogue_ShareFunction_1		AlfonzoSub		Normal
+2	1	Hero		MenuDialogue_ShareFunction_2				
+3	1	Diego		MenuDialogue_ShareFunction_3				
+4	1	Hero		MenuDialogue_ShareFunction_4				
+5	1	Diego		MenuDialogue_ShareFunction_5				
+6	1	Diego		MenuDialogue_ShareFunction_6				
+7	1	Diego		MenuDialogue_ShareFunction_7				
+8	1	Hero		MenuDialogue_ShareFunction_8				
+9	1	Diego		MenuDialogue_ShareFunction_9				
+10	1	Hero		MenuDialogue_ShareFunction_10				
+11	2	Yui		MenuDialogue_BlueCoin_1		Otto		Normal
+12	2	Hero		MenuDialogue_BlueCoin_2				
+13	2	Yui		MenuDialogue_BlueCoin_3				
+14	2	Yui		MenuDialogue_BlueCoin_4				
+15	2	Hero		MenuDialogue_BlueCoin_5				
+16	2	Yui		MenuDialogue_BlueCoin_6				
+17	2	Yui		MenuDialogue_BlueCoin_7				
+18	2	Yui		MenuDialogue_BlueCoin_8				
+19	2	Hero		MenuDialogue_BlueCoin_9				
+20	2	Yui		MenuDialogue_BlueCoin_10				
+21	3	Yui		MenuDialogue_Achievenment1		RifleSoldiers		Normal
+22	3	Hero		MenuDialogue_Achievenment2				
+23	3	Yui		MenuDialogue_Achievenment3				
+24	3	Yui		MenuDialogue_Achievenment4				
+25	3	Hero		MenuDialogue_Achievenment5				
+26	3	Yui	Embarrass1	MenuDialogue_Achievenment6				
+27	3						Achievenment	
+28	3	Popup		MenuDialogue_Achievenment7				

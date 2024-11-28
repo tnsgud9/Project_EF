@@ -1,0 +1,14 @@
+1	2	Normal	ChapterNumShortTextId_1	ChapterNumLongTextId_1	ChapterName_1	CutScene1
+2	3	Normal	ChapterNumShortTextId_2	ChapterNumLongTextId_2	ChapterName_2	CutScene2
+3	4	Normal	ChapterNumShortTextId_3	ChapterNumLongTextId_3	ChapterName_3	CutScene3
+4	5	Normal	ChapterNumShortTextId_4	ChapterNumLongTextId_4	ChapterName_4	CutScene4
+5	6	Normal	ChapterNumShortTextId_5	ChapterNumLongTextId_5	ChapterName_5	CutScene5
+6	7	Normal	ChapterNumShortTextId_6	ChapterNumLongTextId_6	ChapterName_6	CutScene6
+7		Normal	ChapterNumShortTextId_7	ChapterNumLongTextId_7	ChapterName_7	CutScene7
+8	9	Hard	ChapterNumShortTextId_1	ChapterNumLongTextId_1	ChapterName_1	
+9	10	Hard	ChapterNumShortTextId_2	ChapterNumLongTextId_2	ChapterName_2	
+10	11	Hard	ChapterNumShortTextId_3	ChapterNumLongTextId_3	ChapterName_3	
+11	12	Hard	ChapterNumShortTextId_4	ChapterNumLongTextId_4	ChapterName_4	
+12	13	Hard	ChapterNumShortTextId_5	ChapterNumLongTextId_5	ChapterName_5	
+13	14	Hard	ChapterNumShortTextId_6	ChapterNumLongTextId_6	ChapterName_6	
+14	14	Hard	ChapterNumShortTextId_7	ChapterNumLongTextId_7	ChapterName_Evil7	CutScene8

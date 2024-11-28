@@ -1,0 +1,2 @@
+BossRush1	BossRushUI_BossRush1Name	BossRushUI_BossRush1Floors	Popup_BossRush1Locked	3	100	CgkItv7r0rIfEAIQDA	leaderboard_boss_rush1
+BossRush2	BossRushUI_BossRush2Name	BossRushUI_BossRush2Floors	Popup_BossRush2Locked	7	300	CgkItv7r0rIfEAIQDQ	leaderboard_boss_rush2

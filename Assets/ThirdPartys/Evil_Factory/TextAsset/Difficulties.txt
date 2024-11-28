@@ -1,0 +1,2 @@
+Normal	Hard	DifficultyFloorPrefix_Normal	DifficultyName_Normal	Leo	1	Dynamite	FlameThrower
+Hard		DifficultyFloorPrefix_Hard	DifficultyName_Hard	Diego	11	FlaskBomb	FlameThrower

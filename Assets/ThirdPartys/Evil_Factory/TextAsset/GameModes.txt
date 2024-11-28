@@ -1,0 +1,6 @@
+Smiley_L1		01	StageTitleName_Smiley_L1	StageSubtitleName_Smiley_L1	InGameTitleTextId_Smiley_L1	SmokeTrail	Map_Smiley	false	bgm_5	1000		0	0	3	200	2	4	false
+Smiley_L2	Smiley_L1	02	StageTitleName_Smiley_L2	StageSubtitleName_Smiley_L2	InGameTitleTextId_Smiley_L2	SmokeTrail	Map_Smiley	false	bgm_5	1500		0	0	4	400	3	6	false
+Smiley_L3	Smiley_L2	03	StageTitleName_Smiley_L3	StageSubtitleName_Smiley_L3	InGameTitleTextId_Smiley_L3	SmokeTrail	Map_Smiley	false	bgm_5	2000	Smiley	0	0	5	600	4	8	true
+Rotoers_L1		01	StageTitleName_Rotoers_L1	StageSubtitleName_Rotoers_L1	StageSubtitleName_Rotoers_L1	SmokeTrail	Map_Rotoers	true	bgm_dnfm	1000		1	2	2	200	2	5	false
+Rotoers_L2	Rotoers_L1	02	StageTitleName_Rotoers_L2	StageSubtitleName_Rotoers_L2	StageSubtitleName_Rotoers_L2	SmokeTrail	Map_Rotoers	true	bgm_dnfm	1500		1	2	3	400	3	7	false
+Rotoers_L3	Rotoers_L2	03	StageTitleName_Rotoers_L3	StageSubtitleName_Rotoers_L3	StageSubtitleName_Rotoers_L3	SmokeTrail	Map_Rotoers	true	bgm_dnfm	2000	Rotoers	2	2	3	600	4	9	true

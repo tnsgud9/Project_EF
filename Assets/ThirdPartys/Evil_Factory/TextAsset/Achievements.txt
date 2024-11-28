@@ -1,0 +1,100 @@
+UsePrimary1	false	Opened		UsePrimary	0	100	Gold	100	AchievementName_UsePrimary1	AchievementDescription_UsePrimary		
+UsePrimary2	false	PrevConfirmed	UsePrimary1	UsePrimary	0	500	Gold	300	AchievementName_UsePrimary2	AchievementDescription_UsePrimary		
+UsePrimary3	false	PrevConfirmed	UsePrimary2	UsePrimary	0	3000	Gold	500	AchievementName_UsePrimary3	AchievementDescription_UsePrimary		
+Walk1	false	Opened		Walk	0	5000	Gold	100	AchievementName_Walk1	AchievementDescription_Walk		
+Walk2	false	PrevConfirmed	Walk1	Walk	0	30000	Gold	300	AchievementName_Walk2	AchievementDescription_Walk		
+Walk3	false	PrevConfirmed	Walk2	Walk	0	100000	Gold	500	AchievementName_Walk3	AchievementDescription_Walk		
+Retry1	false	Opened		Retry	0	50	PlatinumCoin	1	AchievementName_Retry1	AchievementDescription_Retry		
+Retry2	false	PrevConfirmed	Retry1	Retry	0	300	PlatinumCoin	1	AchievementName_Retry2	AchievementDescription_Retry		
+Retry3	false	PrevConfirmed	Retry2	Retry	0	2000	PlatinumCoin	2	AchievementName_Retry3	AchievementDescription_Retry		
+UseAllSecondary1	false	Opened		UseAllSecondary	0	100	Gold	100	AchievementName_UseAllSecondary1	AchievementDescription_UseAllSecondary		
+UseAllSecondary2	false	PrevConfirmed	UseAllSecondary1	UseAllSecondary	0	500	Gold	300	AchievementName_UseAllSecondary2	AchievementDescription_UseAllSecondary		
+UseAllSecondary3	false	PrevConfirmed	UseAllSecondary2	UseAllSecondary	0	2500	Gold	500	AchievementName_UseAllSecondary3	AchievementDescription_UseAllSecondary		
+HaveWeapon1	false	Opened		HaveWeapon	0	5	Gold	100	AchievementName_HaveWeapon1	AchievementDescription_HaveWeapon		
+HaveWeapon2	false	PrevConfirmed	HaveWeapon1	HaveWeapon	0	10	Gold	300	AchievementName_HaveWeapon2	AchievementDescription_HaveWeapon		
+HaveWeapon3	false	PrevConfirmed	HaveWeapon2	HaveWeapon	0	15	Gold	500	AchievementName_HaveWeapon3	AchievementDescription_HaveWeapon		
+HaveHelmet1	false	Opened		HaveHelmet	0	5	Gold	100	AchievementName_HaveHelmet1	AchievementDescription_HaveHelmet		
+HaveHelmet2	false	PrevConfirmed	HaveHelmet1	HaveHelmet	0	12	Gold	300	AchievementName_HaveHelmet2	AchievementDescription_HaveHelmet		
+HaveHelmet3	false	PrevConfirmed	HaveHelmet2	HaveHelmet	0	25	Gold	500	AchievementName_HaveHelmet3	AchievementDescription_HaveHelmet		
+UseFuel1	false	Opened		UseFuel	0	300	PlatinumCoin	1	AchievementName_UseFuel1	AchievementDescription_UseFuel		
+UseFuel2	false	PrevConfirmed	UseFuel1	UseFuel	0	1000	PlatinumCoin	1	AchievementName_UseFuel2	AchievementDescription_UseFuel		
+UseFuel3	false	PrevConfirmed	UseFuel2	UseFuel	0	3000	PlatinumCoin	2	AchievementName_UseFuel3	AchievementDescription_UseFuel		
+SellItem1	false	Opened		SellItem	0	300	Gold	100	AchievementName_SellItem1	AchievementDescription_SellItem		
+SellItem2	false	PrevConfirmed	SellItem1	SellItem	0	1000	Gold	300	AchievementName_SellItem2	AchievementDescription_SellItem		
+SellItem3	false	PrevConfirmed	SellItem2	SellItem	0	3000	Gold	500	AchievementName_SellItem3	AchievementDescription_SellItem		
+AcadeGame1	false	Opened		AcadeGame	0	30	PlatinumCoin	1	AchievementName_AcadeGame1	AchievementDescription_AcadeGame		
+AcadeGame2	false	PrevConfirmed	AcadeGame1	AcadeGame	0	100	PlatinumCoin	1	AchievementName_AcadeGame2	AchievementDescription_AcadeGame		
+AcadeGame3	false	PrevConfirmed	AcadeGame2	AcadeGame	0	500	PlatinumCoin	2	AchievementName_AcadeGame3	AchievementDescription_AcadeGame		
+Cartridge1	false	Opened		Cartridge	0	30	Gold	100	AchievementName_Cartridge1	AchievementDescription_Cartridge		
+Cartridge2	false	PrevConfirmed	Cartridge1	Cartridge	0	200	Gold	300	AchievementName_Cartridge2	AchievementDescription_Cartridge		
+Cartridge3	false	PrevConfirmed	Cartridge2	Cartridge	0	500	Gold	500	AchievementName_Cartridge3	AchievementDescription_Cartridge		
+ClearChapter1	false	Opened		ClearChapter	1	1	Gold	200	AchievementName_ClearChapter1	AchievementDescription_ClearChapter1		
+ClearChapter2	false	PrevCompleted	ClearChapter1	ClearChapter	2	2	Gold	200	AchievementName_ClearChapter2	AchievementDescription_ClearChapter2		
+ClearChapter3	false	PrevCompleted	ClearChapter2	ClearChapter	3	3	Gold	200	AchievementName_ClearChapter3	AchievementDescription_ClearChapter3		
+ClearChapter4	false	PrevCompleted	ClearChapter3	ClearChapter	4	4	Gold	200	AchievementName_ClearChapter4	AchievementDescription_ClearChapter4		
+ClearChapter5	false	PrevCompleted	ClearChapter4	ClearChapter	5	5	Gold	200	AchievementName_ClearChapter5	AchievementDescription_ClearChapter5		
+ClearChapter6	false	PrevCompleted	ClearChapter5	ClearChapter	6	6	Gold	200	AchievementName_ClearChapter6	AchievementDescription_ClearChapter6		
+ClearChapter7	false	PrevCompleted	ClearChapter6	ClearChapter	7	7	Gold	500	AchievementName_ClearChapter7	AchievementDescription_ClearNormal	CgkItv7r0rIfEAIQAQ	achievement_clear_normal_mode
+ClearChapter8	false	PrevCompleted	ClearChapter7	ClearChapter	8	8	Gold	200	AchievementName_ClearChapter8	AchievementDescription_ClearChapter8		
+ClearChapter9	false	PrevCompleted	ClearChapter8	ClearChapter	9	9	Gold	200	AchievementName_ClearChapter9	AchievementDescription_ClearChapter9		
+ClearChapter10	false	PrevCompleted	ClearChapter9	ClearChapter	10	10	Gold	200	AchievementName_ClearChapter10	AchievementDescription_ClearChapter10		
+ClearChapter11	false	PrevCompleted	ClearChapter10	ClearChapter	11	11	Gold	200	AchievementName_ClearChapter11	AchievementDescription_ClearChapter11		
+ClearChapter12	false	PrevCompleted	ClearChapter11	ClearChapter	12	12	Gold	200	AchievementName_ClearChapter12	AchievementDescription_ClearChapter12		
+ClearChapter13	false	PrevCompleted	ClearChapter12	ClearChapter	13	13	Gold	200	AchievementName_ClearChapter13	AchievementDescription_ClearChapter13		
+ClearChapter14	false	PrevCompleted	ClearChapter13	ClearChapter	14	14	Gold	1000	AchievementName_ClearChapter14	AchievementDescription_ClearEvil	CgkItv7r0rIfEAIQAg	achievement_clear_evil_mode
+GainGold1	false	Opened		GainGold	0	10000	PlatinumCoin	1	AchievementName_GainGold1	AchievementDescription_GainGold		
+GainGold2	false	PrevConfirmed	GainGold1	GainGold	0	50000	PlatinumCoin	1	AchievementName_GainGold2	AchievementDescription_GainGold		
+GainGold3	false	PrevConfirmed	GainGold2	GainGold	0	150000	PlatinumCoin	2	AchievementName_GainGold3	AchievementDescription_GainGold		
+UseGold1	false	Opened		UseGold	0	5000	Gold	200	AchievementName_UseGold1	AchievementDescription_UseGold		
+UseGold2	false	PrevConfirmed	UseGold1	UseGold	0	30000	Gold	400	AchievementName_UseGold2	AchievementDescription_UseGold		
+UseGold3	false	PrevConfirmed	UseGold2	UseGold	0	120000	Gold	600	AchievementName_UseGold3	AchievementDescription_UseGold		
+KillBoss1	false	Opened		KillBoss	0	15	Gold	200	AchievementName_KillBoss1	AchievementDescription_KillBoss		
+KillBoss2	false	PrevConfirmed	KillBoss1	KillBoss	0	25	Gold	400	AchievementName_KillBoss2	AchievementDescription_KillBoss	CgkItv7r0rIfEAIQBQ	achievement_kill_20_bosses
+KillBoss3	false	PrevConfirmed	KillBoss2	KillBoss	0	60	Gold	600	AchievementName_KillBoss3	AchievementDescription_KillBoss		
+KillBoss4	false	PrevConfirmed	KillBoss3	KillBoss	0	200	Gold	800	AchievementName_KillBoss4	AchievementDescription_KillBoss		
+Combo1	false	Opened		Combo	0	100	Gold	100	AchievementName_Combo1	AchievementDescription_Combo		
+Combo2	false	PrevConfirmed	Combo1	Combo	0	1000	Gold	300	AchievementName_Combo2	AchievementDescription_Combo		
+Combo3	false	PrevConfirmed	Combo2	Combo	0	3000	Gold	500	AchievementName_Combo3	AchievementDescription_Combo		
+Revive1	false	Opened		Revive	0	5	PlatinumCoin	1	AchievementName_Revive1	AchievementDescription_Revive		
+Revive2	false	PrevConfirmed	Revive1	Revive	0	20	PlatinumCoin	1	AchievementName_Revive2	AchievementDescription_Revive		
+Revive3	false	PrevConfirmed	Revive2	Revive	0	100	PlatinumCoin	2	AchievementName_Revive3	AchievementDescription_Revive		
+BuyWeapon	false	Opened		BuyWeapon	0	1	Gold	500	AchievementName_BuyWeapon	AchievementDescription_BuyWeapon		
+BulletTime1	false	Opened		BulletTime	0	30	Gold	100	AchievementName_BulletTime1	AchievementDescription_BulletTime		
+BulletTime2	false	PrevConfirmed	BulletTime1	BulletTime	0	300	Gold	300	AchievementName_BulletTime2	AchievementDescription_BulletTime		
+BulletTime3	false	PrevConfirmed	BulletTime2	BulletTime	0	1000	Gold	500	AchievementName_BulletTime3	AchievementDescription_BulletTime		
+Achievement1	false	Opened		Achievement	0	20	Gold	100	AchievementName_Achievement1	AchievementDescription_Achievement		
+Achievement2	false	PrevConfirmed	Achievement1	Achievement	0	50	Gold	300	AchievementName_Achievement2	AchievementDescription_Achievement		
+Achievement3	false	PrevConfirmed	Achievement2	Achievement	0	80	Gold	500	AchievementName_Achievement3	AchievementDescription_Achievement		
+UpgradeWeapon1	false	Opened		UpgradeWeapon	0	3	PlatinumCoin	1	AchievementName_UpgradeWeapon1	AchievementDescription_UpgradeWeapon		
+UpgradeWeapon2	false	PrevConfirmed	UpgradeWeapon1	UpgradeWeapon	0	10	PlatinumCoin	1	AchievementName_UpgradeWeapon2	AchievementDescription_UpgradeWeapon		
+UpgradeWeapon3	false	PrevConfirmed	UpgradeWeapon2	UpgradeWeapon	0	30	PlatinumCoin	2	AchievementName_UpgradeWeapon3	AchievementDescription_UpgradeWeapon		
+MaxUpgradeWeapon1	false	Opened		MaxUpgradeWeapon	0	1	PlatinumCoin	1	AchievementName_MaxUpgrade1	AchievementDescription_MaxUpgrade	CgkItv7r0rIfEAIQAw	achievement_weapon_max_upgrade
+MaxUpgradeWeapon2	false	PrevConfirmed	MaxUpgradeWeapon1	MaxUpgradeWeapon	0	5	PlatinumCoin	2	AchievementName_MaxUpgrade2	AchievementDescription_MaxUpgrade		
+Level1	false	Opened		Level	0	3	Gold	200	AchievementName_LevelReach1	AchievementDescription_LevelReach	CgkItv7r0rIfEAIQBA	achievement_reach_level_3
+Share1	false	Opened		Share	0	1	Gold	200	AchievementName_Share1	AchievementDescription_Share		
+Share2	true	PrevConfirmed	Share1	Share	0	5	Gold	500	AchievementName_Share2	AchievementDescription_Share		
+LastSachikaCoupon	true	Opened		LastSachikaCoupon	0	1	Gold	300	AchievementName_LastSachikaCoupon	AchievementDescription_LastSachikaCoupon		
+Suicide1	true	Opened		Suicide	0	10	Gold	50	AchievementName_Suicide1	AchievementDescription_Suicide		
+Suicide2	true	PrevConfirmed	Suicide1	Suicide	0	50	Gold	200	AchievementName_Suicide2	AchievementDescription_Suicide		
+Suicide3	true	PrevConfirmed	Suicide2	Suicide	0	300	Gold	400	AchievementName_Suicide3	AchievementDescription_Suicide		
+Pullback1	true	Opened		Pullback	0	50	Gold	100	AchievementName_Pullback1	AchievementDescription_Pullback		
+Pullback2	true	PrevConfirmed	Pullback1	Pullback	0	250	Gold	300	AchievementName_Pullback2	AchievementDescription_Pullback		
+Pullback3	true	PrevConfirmed	Pullback2	Pullback	0	500	Gold	500	AchievementName_Pullback3	AchievementDescription_Pullback		
+Radio1	true	Opened		Radio	0	5	Gold	100	AchievementName_Radio1	AchievementDescription_Radio		
+Radio2	true	PrevConfirmed	Radio1	Radio	0	50	Gold	300	AchievementName_Radio2	AchievementDescription_Radio		
+Die1	true	Opened		Die	0	30	Gold	100	AchievementName_Die1	AchievementDescription_Die		
+Die2	true	PrevConfirmed	Die1	Die	0	100	Gold	300	AchievementName_Die2	AchievementDescription_Die		
+Die3	true	PrevConfirmed	Die2	Die	0	1000	Gold	500	AchievementName_Die3	AchievementDescription_Die		
+ChangeWeapon1	true	Opened		ChangeWeapon	0	10	Gold	50	AchievementName_ChangeWeapon1	AchievementDescription_ChangeWeapon		
+ChangeWeapon2	true	PrevConfirmed	ChangeWeapon1	ChangeWeapon	0	100	Gold	200	AchievementName_ChangeWeapon2	AchievementDescription_ChangeWeapon		
+ChangeHelmet1	true	Opened		ChangeHelmet	0	10	Gold	50	AchievementName_ChangeHelmet1	AchievementDescription_ChangeHelmet		
+ChangeHelmet2	true	PrevConfirmed	ChangeHelmet1	ChangeHelmet	0	50	Gold	200	AchievementName_ChangeHelmet2	AchievementDescription_ChangeHelmet		
+ChangeHelmet3	true	PrevConfirmed	ChangeHelmet2	ChangeHelmet	0	200	Gold	300	AchievementName_ChangeHelmet3	AchievementDescription_ChangeHelmet		
+DieQuickly	true	Opened		DieQuickly	3	1	Gold	100	AchievementName_DieQuickly	AchievementDescription_DieQuickly		
+AttackQuickly	true	Opened		AttackQuickly	2	1	Gold	150	AchievementName_AttackQuickly	AchievementDescription_AttackQuickly		
+StayLongTime	true	Opened		StayLongTime	3	1	Gold	100	AchievementName_StayLongTime	AchievementDescription_StayLongTime		
+VisitShop	true	Opened		VisitShop	0	100	Gold	100	AchievementName_VisitShop	AchievementDescription_VisitShop		
+RetryReviveInStage	true	Opened		RetryReviveInStage	5	1	Gold	100	AchievementName_RetryReviveInStage	AchievementDescription_RetryReviveInStage		
+DieInStage	true	Opened		DieInStage	70	1	Gold	300	AchievementName_DieInStage	AchievementDescription_DieInStage		
+IgnoreItem	true	Opened		IgnoreItem	2	1	Gold	100	AchievementName_IgnoreItem	AchievementDescription_IgnoreItem		
+IgnoreRare	true	Opened		IgnoreRare	1	1	Gold	150	AchievementName_IgnoreRare	AchievementDescription_IgnoreRare		

@@ -1,0 +1,195 @@
+1	EnterChapter1	Yui		MenuDialogue_EnterChapter1_1				
+2	EnterChapter1	Hero		MenuDialogue_EnterChapter1_2				
+3	EnterChapter1	Yui		MenuDialogue_EnterChapter1_3				
+4	EnterChapter1	Yui		MenuDialogue_EnterChapter1_4				
+5	EnterChapter1	Hero		MenuDialogue_EnterChapter1_5				
+6	EnterChapter1	Yui		MenuDialogue_EnterChapter1_6				
+7	EnterChapter1	Yui		MenuDialogue_EnterChapter1_7				
+8	EnterChapter1	Hero		MenuDialogue_EnterChapter1_8				
+9	FirstGetHelmet	Yui		MenuDialogue_FirstGetHelmet1				
+10	FirstGetHelmet	Hero		MenuDialogue_FirstGetHelmet2				
+11	FirstGetHelmet	Yui		MenuDialogue_FirstGetHelmet3				
+12	FirstGetHelmet	Hero		MenuDialogue_FirstGetHelmet4				
+13	FirstGetHelmet	Hero		MenuDialogue_FirstGetHelmet5				
+14	FirstGetHelmet	Yui	Worry	MenuDialogue_FirstGetHelmet6				
+15	FirstGetHelmet	Yui		MenuDialogue_FirstGetHelmet7				
+16	FirstGetHelmet	Yui		MenuDialogue_FirstGetHelmet8				
+17	FirstGetHelmet	Hero		MenuDialogue_FirstGetHelmet9				
+18	FirstGetHelmet	Yui	Angry1	MenuDialogue_FirstGetHelmet10				
+19	FirstGetMaterial	Hero		MenuDialogue_FirstGetMaterial1				
+20	FirstGetMaterial	Yui		MenuDialogue_FirstGetMaterial2				
+21	FirstGetMaterial	Hero		MenuDialogue_FirstGetMaterial3				
+22	FirstGetMaterial	Yui		MenuDialogue_FirstGetMaterial4				
+23	FirstGetMaterial	Hero		MenuDialogue_FirstGetMaterial5				
+24	FirstGetMaterial	Yui		MenuDialogue_FirstGetMaterial6				
+25	FirstGetMaterial	Hero		MenuDialogue_FirstGetMaterial7				
+26	FirstGetMaterial	Yui		MenuDialogue_FirstGetMaterial8				
+27	FirstGetMaterial	Hero		MenuDialogue_FirstGetMaterial9				
+28	FirstGetMaterial	Yui		MenuDialogue_FirstGetMaterial10				
+29	FirstGetMaterial	Yui		MenuDialogue_FirstGetMaterial11				
+30	FirstGetMaterial				shop			
+31	FirstGetMaterial	Cobra		MenuDialogue_MaterialMenu1				
+32	FirstGetMaterial	Hero		MenuDialogue_MaterialMenu2				
+33	FirstGetMaterial	Cobra		MenuDialogue_MaterialMenu3				
+34	FirstGetMaterial	Cobra		MenuDialogue_MaterialMenu4				
+35	FirstGetMaterial	Hero		MenuDialogue_MaterialMenu5				
+36	FirstGetMaterial	Cobra	Embarrass1	MenuDialogue_MaterialMenu6				
+37	FirstGetMaterial	Cobra	Embarrass1	MenuDialogue_MaterialMenu7				
+38	FirstGetMaterial	Hero		MenuDialogue_MaterialMenu8				
+39	FirstGetMaterial	Cobra	Embarrass2	MenuDialogue_MaterialMenu9				
+40	FirstGetMaterial	Hero		MenuDialogue_MaterialMenu10				
+41	FirstGetMaterial	Cobra		MenuDialogue_MaterialMenu11				
+42	FirstGetMaterial	Cobra		MenuDialogue_MaterialMenu12				
+43	FirstGetMaterial	Cobra		MenuDialogue_MaterialMenu13				
+44	FirstGetMaterial	Cobra		MenuDialogue_MaterialMenu14				
+45	FirstGetSchematic	Yui		MenuDialogue_FirstGetSchematic1				
+46	FirstGetSchematic	Hero		MenuDialogue_FirstGetSchematic2				
+47	FirstGetSchematic	Yui		MenuDialogue_FirstGetSchematic3				
+48	FirstGetSchematic	Yui		MenuDialogue_FirstGetSchematic4				
+49	FirstGetSchematic	Yui		MenuDialogue_FirstGetSchematic5				
+50	FirstGetSchematic	Hero		MenuDialogue_FirstGetSchematic6				
+51	FirstGetSchematic				items			
+52	FirstGetSchematic				secondaryWeapon			
+53	FirstGetSchematic	Diego		MenuDialogue_WeaponMenu1				
+54	FirstGetSchematic	Hero		MenuDialogue_WeaponMenu2				
+55	FirstGetSchematic	Diego		MenuDialogue_WeaponMenu3				
+56	FirstGetSchematic	Diego		MenuDialogue_WeaponMenu4				
+57	FirstGetSchematic	Hero		MenuDialogue_WeaponMenu5				
+58	FirstGetSchematic	Diego		MenuDialogue_WeaponMenu6				
+59	FirstGetSchematic	Diego		MenuDialogue_WeaponMenu7				
+60	FirstGetSchematic	Hero		MenuDialogue_WeaponMenu8				
+61	FirstGetSchematic	Diego		MenuDialogue_WeaponMenu9				
+62	FirstGetSchematic	Hero		MenuDialogue_WeaponMenu10				
+63	FirstGetSchematic	Hero		MenuDialogue_WeaponMenu11				
+64	FirstGetSchematic				LockedSecondaryWeapon			
+65	FirstGetSchematic				DevelopWeapon			
+66	FirstGetCatridge	Hero		MenuDialogue_FirstGetCatridge1				
+67	FirstGetCatridge	Yui		MenuDialogue_FirstGetCatridge2				
+68	FirstGetCatridge	Hero		MenuDialogue_FirstGetCatridge3				
+69	FirstGetCatridge	Yui		MenuDialogue_FirstGetCatridge4				
+70	FirstGetCatridge	Hero		MenuDialogue_FirstGetCatridge5				
+71	FirstGetCatridge	Yui		MenuDialogue_FirstGetCatridge6				
+72	FirstGetCatridge	Yui		MenuDialogue_FirstGetCatridge7				
+73	FirstGetCatridge	Yui		MenuDialogue_FirstGetCatridge8				
+74	FirstGetCatridge	Hero		MenuDialogue_FirstGetCatridge9				
+75	FirstGetCatridge				Modes			
+76	FirstGetCatridge				ArcadeRoom			
+77	FirstGetCatridge	Popup		MenuDialogue_FirstGetCatridgePopup				
+78	FirstUpgradeWeapon	Diego		MenuDialogue_FirstUpgradeWeapon1				
+79	FirstUpgradeWeapon	Hero		MenuDialogue_FirstUpgradeWeapon2				
+80	FirstUpgradeWeapon	Diego		MenuDialogue_FirstUpgradeWeapon3				
+81	FirstUpgradeWeapon	Diego		MenuDialogue_FirstUpgradeWeapon4				
+82	FirstUpgradeWeapon	Diego		MenuDialogue_FirstUpgradeWeapon5				
+83	FirstUpgradeWeapon	Diego		MenuDialogue_FirstUpgradeWeapon6				
+84	ClearStageRifleSoldiers	Yui		MenuDialogue_ClearStageRifleSoldiers1				
+85	ClearStageRifleSoldiers	Hero		MenuDialogue_ClearStageRifleSoldiers2				
+86	ClearStageRifleSoldiers	Yui	Embarrass2	MenuDialogue_ClearStageRifleSoldiers3				
+87	ClearStageRifleSoldiers	Hero		MenuDialogue_ClearStageRifleSoldiers4				
+88	ClearStageRifleSoldiers	Yui		MenuDialogue_ClearStageRifleSoldiers5				
+89	ClearStageRifleSoldiers	Yui		MenuDialogue_ClearStageRifleSoldiers6				
+90	ClearStageRifleSoldiers	Hero		MenuDialogue_ClearStageRifleSoldiers7				
+91	ClearStageRifleSoldiers	Yui		MenuDialogue_ClearStageRifleSoldiers8				
+92	ClearStageRifleSoldiers	Yui		MenuDialogue_ClearStageRifleSoldiers9				
+93	ClearStageRifleSoldiers				shop			
+94	ClearStageRifleSoldiers				DailyBox			
+95	ClearStageUlrich	Yui		MenuDialogue_ClearStageUlrich1				
+96	ClearStageUlrich	Hero		MenuDialogue_ClearStageUlrich2				
+97	ClearStageUlrich	Yui		MenuDialogue_ClearStageUlrich3				
+98	ClearStageUlrich	Hero		MenuDialogue_ClearStageUlrich4				
+99	ClearStageUlrich				shop			
+100	ClearStageUlrich				BuySchematic			
+101	ClearStageUlrich	Cobra		MenuDialogue_ClearStageUlrich5				
+102	ClearStageUlrich	Hero		MenuDialogue_ClearStageUlrich6				
+103	ClearStageUlrich	Cobra		MenuDialogue_ClearStageUlrich7				
+104	ClearStageUlrich	Hero		MenuDialogue_ClearStageUlrich8				
+105	ClearStageUlrich	Cobra		MenuDialogue_ClearStageUlrich9				
+106	ClearStageUlrich	Hero		MenuDialogue_ClearStageUlrich10				
+107	ClearStageUlrich	Cobra		MenuDialogue_ClearStageUlrich11				
+108	ClearStageUlrich	Hero		MenuDialogue_ClearStageUlrich12				
+109	ClearStageUlrich	Cobra		MenuDialogue_ClearStageUlrich13				
+110	ClearStageUlrich	Hero		MenuDialogue_ClearStageUlrich14				
+111	ClearStageUlrich	Cobra		MenuDialogue_ClearStageUlrich15				
+112	EnterChapter8	Yui		MenuDialogue_EnterChapter8_1				
+113	EnterChapter8	Hero		MenuDialogue_EnterChapter8_2				
+114	EnterChapter8	Yui		MenuDialogue_EnterChapter8_3				
+115	EnterChapter8	Yui		MenuDialogue_EnterChapter8_4				
+116	EnterChapter8	Hero		MenuDialogue_EnterChapter8_5				
+117	EnterChapter8	Yui		MenuDialogue_EnterChapter8_6				
+118	EnterChapter8	Hero		MenuDialogue_EnterChapter8_7				
+119	EnterChapter8	Yui		MenuDialogue_EnterChapter8_8				
+120	EnterChapter8	RetiredLeo		MenuDialogue_EnterChapter8_9				
+121	EnterChapter8	Hero		MenuDialogue_EnterChapter8_10				
+122	EnterChapter8	RetiredLeo		MenuDialogue_EnterChapter8_11				
+123	EnterChapter8	Hero		MenuDialogue_EnterChapter8_12				
+124	EnterChapter8	RetiredLeo		MenuDialogue_EnterChapter8_13				
+125	EnterChapter8	RetiredLeo		MenuDialogue_EnterChapter8_14				
+126	EnterChapter8	Hero		MenuDialogue_EnterChapter8_15				
+127	EnterChapter8	RetiredLeo		MenuDialogue_EnterChapter8_16				
+128	EnterChapter8	Hero		MenuDialogue_EnterChapter8_17				
+129	EnterChapter8	RetiredLeo		MenuDialogue_EnterChapter8_18				
+130	EnterChapter8	Hero		MenuDialogue_EnterChapter8_19				
+131	EnterChapter8	RetiredLeo		MenuDialogue_EnterChapter8_20				
+132	ClearStageElectricSoldiers_V2	RetiredLeo		MenuDialogue_ClearStageElectricSoldiers_V2_1				
+133	ClearStageElectricSoldiers_V2	Hero		MenuDialogue_ClearStageElectricSoldiers_V2_2				
+134	ClearStageElectricSoldiers_V2	RetiredLeo		MenuDialogue_ClearStageElectricSoldiers_V2_3				
+135	ClearStageElectricSoldiers_V2	RetiredLeo		MenuDialogue_ClearStageElectricSoldiers_V2_4				
+136	ClearStageElectricSoldiers_V2	Hero		MenuDialogue_ClearStageElectricSoldiers_V2_5				
+137	ClearStageElectricSoldiers_V2	Hero		MenuDialogue_ClearStageElectricSoldiers_V2_6				
+138	ClearStageElectricSoldiers_V2	RetiredLeo		MenuDialogue_ClearStageElectricSoldiers_V2_7				
+139	ClearStageElectricSoldiers_V2	Hero		MenuDialogue_ClearStageElectricSoldiers_V2_8				
+140	ClearStageElectricSoldiers_V2				Modes			
+141	ClearStageElectricSoldiers_V2				SachikaCoupon			
+142	ClearStageElectricSoldiers_V2	Popup		MenuDialogue_ClearStageElectricSoldiers_V2_9				
+143	SachikaStageOpen	RetiredLeo		MenuDialogue_SachikaAppear_1				
+144	SachikaStageOpen	Hero		MenuDialogue_SachikaAppear_2				
+145	SachikaStageOpen	RetiredLeo		MenuDialogue_SachikaAppear_3				
+146	SachikaStageOpen				Modes			
+147	SachikaStageOpen				SachikaCoupon			
+148	SachikaStageOpen	RetiredLeo		MenuDialogue_SachikaAppear_4				
+149	SachikaStageOpen	Hero		MenuDialogue_SachikaAppear_5				
+150	SachikaStageOpen						SachikaCouponAnimation	
+151	SachikaStageOpen	Hero		MenuDialogue_SachikaAppear_6				
+152	SachikaStageOpen	RetiredLeo		MenuDialogue_SachikaAppear_7				
+153	SachikaStageOpen	Hero		MenuDialogue_SachikaAppear_8				
+154	SachikaStageOpen	RetiredLeo		MenuDialogue_SachikaAppear_9				
+155	SachikaStageOpen	Hero		MenuDialogue_SachikaAppear_10				
+156	ClearStageSachika_V2	Popup		MenuDialogue_ClearStageSachika_V2				
+157	FirstEnterGameMode	Hero		MenuDialogue_FirstEnterGameMode_0				Normal
+158	FirstEnterGameMode	Yui		MenuDialogue_FirstEnterGameMode_1				Normal
+159	FirstEnterGameMode	Hero		MenuDialogue_FirstEnterGameMode_2				Normal
+160	FirstEnterGameMode	Yui	Embarrass1	MenuDialogue_FirstEnterGameMode_3				Normal
+161	FirstEnterGameMode	Yui		MenuDialogue_FirstEnterGameMode_4				Normal
+162	FirstEnterGameMode	Hero		MenuDialogue_FirstEnterGameMode_5				Normal
+163	FirstEnterGameMode	Yui	Embarrass2	MenuDialogue_FirstEnterGameMode_6				Normal
+164	FirstEnterGameMode	Popup		MenuDialogue_FirstEnterGameMode_7				Normal
+165	FirstEnterGameMode	Hero		MenuDialogue_FirstEnterGameModeEvil_0				Hard
+166	FirstEnterGameMode	Yui		MenuDialogue_FirstEnterGameModeEvil_1				Hard
+167	FirstEnterGameMode	Hero		MenuDialogue_FirstEnterGameModeEvil_2				Hard
+168	FirstEnterGameMode	Yui		MenuDialogue_FirstEnterGameModeEvil_3				Hard
+169	FirstEnterGameMode	Yui		MenuDialogue_FirstEnterGameModeEvil_4				Hard
+170	FirstEnterGameMode	Hero		MenuDialogue_FirstEnterGameModeEvil_5				Hard
+171	FirstEnterGameMode	Yui		MenuDialogue_FirstEnterGameModeEvil_6				Hard
+172	FirstEnterGameMode	Popup		MenuDialogue_FirstEnterGameModeEvil_7				Hard
+173	ClearStageBlow3	Cobra		MenuDialogue_UltimatePackage_1				
+174	ClearStageBlow3	Cobra		MenuDialogue_UltimatePackage_2				
+175	ClearStageBlow3	Cobra		MenuDialogue_UltimatePackage_3				
+176	ClearStageBlow3	Hero		MenuDialogue_UltimatePackage_4				
+177	ClearStageBlow3	Cobra		MenuDialogue_UltimatePackage_5				
+178	ClearStageBlow3	Cobra		MenuDialogue_UltimatePackage_6				
+179	ClearStageBlow3	Cobra		MenuDialogue_UltimatePackage_7				
+180	ClearStageBlow3	Hero		MenuDialogue_UltimatePackage_8				
+181	ClearStageBlow3	Cobra		MenuDialogue_UltimatePackage_9				
+182	ClearStageBlow3	Cobra		MenuDialogue_UltimatePackage_10				
+183	ClearStageAngero	Diego		MenuDialogue_DiegosPackage_1				
+184	ClearStageAngero	Hero		MenuDialogue_DiegosPackage_2				
+185	ClearStageAngero	Diego		MenuDialogue_DiegosPackage_3				
+186	ClearStageAngero	Diego		MenuDialogue_DiegosPackage_4				
+187	ClearStageAngero	Hero		MenuDialogue_DiegosPackage_5				
+188	ClearStageAngero	Diego		MenuDialogue_DiegosPackage_6				
+189	ClearStageAngero	Diego		MenuDialogue_DiegosPackage_7				
+190	ClearStageAngero	Diego		MenuDialogue_DiegosPackage_8				
+191	ClearStageAngero	Hero		MenuDialogue_DiegosPackage_9				
+192	ClearStageAngero	Diego		MenuDialogue_DiegosPackage_10				
+193	ClearStageAngero	Diego		MenuDialogue_DiegosPackage_11				
+194	ClearStageAngero	Hero		MenuDialogue_DiegosPackage_12				
+195	ClearStageAngero	Diego		MenuDialogue_DiegosPackage_13				

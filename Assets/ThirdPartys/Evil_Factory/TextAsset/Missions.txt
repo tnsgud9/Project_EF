@@ -1,0 +1,161 @@
+ElectricSoldier_M1	ElectricSoldiers	ClearStage	MissionDesc_StageClear	1	0		
+ElectricSoldier_M2	ElectricSoldiers	PullBackLimit	MissionDesc_PullBackLimit	15	0		
+ElectricSoldier_M3	ElectricSoldiers	MoveMore	MissionDesc_MoveMore	10	0		
+ElectricSoldier_M4	ElectricSoldiers	TimeLimit	MissionDesc_TimeLimit	150	0		
+RifleSoldiers_M1	RifleSoldiers	ClearStage	MissionDesc_StageClear	1	0		
+RifleSoldiers_M2	RifleSoldiers	TimeLimit	MissionDesc_TimeLimit	90	0		
+RifleSoldiers_M3	RifleSoldiers	MoveLimit	MissionDesc_MoveLimit	250	0		
+RifleSoldiers_M4	RifleSoldiers	FinishPrimaryWeapon	MissionDesc_FinishAnyPrimaryWeapon	0	0		
+Otto_M1	Otto	ClearStage	MissionDesc_StageClear	1	0		
+Otto_M2	Otto	FinishSecondaryWeapon	MissionDesc_FinishAnySecondaryWeapon	0	0		
+Otto_M3	Otto	GetItemMore	MissionDesc_GetItemMore	3	0		
+Otto_M4	Otto	PullBackLimit	MissionDesc_PullBackLimit	2	0		
+MuskX_M1	MuskX	ClearStage	MissionDesc_StageClear	1	0		
+MuskX_M2	MuskX	GetSpecialItem	MissionDesc_GetSpecialItem	1	0	CopperInsignia	
+MuskX_M3	MuskX	FinishSecondaryWeapon	MissionDesc_FinishSecondaryWeapon	0	0	AutoGrenadeLauncher	
+MuskX_M4	MuskX	PrimaryWeaponEvadeLimit	MissionDesc_PrimaryWeaponEvadeLimit	3	0		
+Buffy_M1	Buffy	ClearStage	MissionDesc_StageClear	1	0		
+Buffy_M2	Buffy	GetSchematic	MissionDesc_GetSchematic	0	0		
+Buffy_M3	Buffy	GetSpecialItem	MissionDesc_GetSpecialItem	2	0	Bolt	
+Buffy_M4	Buffy	TimeLimit	MissionDesc_TimeLimit	90	0		
+Alfonzo_M1	Alfonzo	ClearStage	MissionDesc_StageClear	1	0		
+Alfonzo_M2	Alfonzo	PullBackLimit	MissionDesc_PullBackLimit	3	0		
+Alfonzo_M3	Alfonzo	PrimaryWeaponEvadeLimit	MissionDesc_PrimaryWeaponEvadeLimit	3	0		
+Alfonzo_M4	Alfonzo	SecondaryWeaponUseMore	MissionDesc_SecondaryWeaponUseMore	2	0		
+Octopolar_M1	Octopolar	ClearStage	MissionDesc_StageClear	1	0		
+Octopolar_M2	Octopolar	Combo	MissionDesc_Combo	4	0		
+Octopolar_M3	Octopolar	PrimaryWeaponEvadeLimit	MissionDesc_PrimaryWeaponEvadeLimit	6	0		
+Octopolar_M4	Octopolar	FinishSecondaryWeapon	MissionDesc_FinishAnySecondaryWeapon	0	0		
+Ulrich_M1	Ulrich	ClearStage	MissionDesc_StageClear	1	0		
+Ulrich_M2	Ulrich	FinishPrimaryWeapon	MissionDesc_FinishAnyPrimaryWeapon	0	0		
+Ulrich_M3	Ulrich	DamageToBossSpecialWeapon	MissionDesc_DamageToBossSpecialWeapon	0	0	FlameSentryGun	
+Ulrich_M4	Ulrich	UseSpecialHelmet	MissionDesc_UseSpecialHelmet	0	0	Octopolar	
+Toadie_M1	Toadie	ClearStage	MissionDesc_StageClear	1	0		
+Toadie_M2	Toadie	KillAssistantEnemyMore	MissionDesc_KillAssistantEnemyMore	16	0		
+Toadie_M3	Toadie	GetSpecialItem	MissionDesc_GetSpecialItem	1	0	CopperInsignia	
+Toadie_M4	Toadie	PullBackMore	MissionDesc_PullBackMore	4	0		
+Purupu_M1	Purupu	ClearStage	MissionDesc_StageClear	1	0		
+Purupu_M2	Purupu	PrimaryWeaponEvadeLimit	MissionDesc_PrimaryWeaponEvadeLimit	4	0		
+Purupu_M3	Purupu	PullBackLimit	MissionDesc_PullBackLimit	5	0		
+Purupu_M4	Purupu	GetSpecialItem	MissionDesc_GetSpecialItem	1	0	Cartridge_IceCreamShop	
+Angero_M1	Angero	ClearStage	MissionDesc_StageClear	1	0		
+Angero_M2	Angero	DamageToBossSpecialWeapon	MissionDesc_DamageToBossSpecialWeapon	0	0	Bazooka	
+Angero_M3	Angero	GetSpecialItem	MissionDesc_GetSpecialItem	3	0	Spring	
+Angero_M4	Angero	TimeLimit	MissionDesc_TimeLimit	150	0		
+Paluda_M1	Paluda	ClearStage	MissionDesc_StageClear	1	0		
+Paluda_M2	Paluda	FinishPrimaryWeapon	MissionDesc_FinishPrimaryWeapon	0	0	C4	
+Paluda_M3	Paluda	PrimaryWeaponEvadeLimit	MissionDesc_PrimaryWeaponEvadeLimit	4	0		
+Paluda_M4	Paluda	GetSpecialItem	MissionDesc_GetSpecialItem	1	0	CopperInsignia	
+Pascal_M1	Pascal	ClearStage	MissionDesc_StageClear	1	0		
+Pascal_M2	Pascal	PrimaryWeaponUseLimit	MissionDesc_PrimaryWeaponUseLimit	25	0		
+Pascal_M3	Pascal	UseSpecialHelmet	MissionDesc_UseSpecialHelmet	0	0	Purupu	
+Pascal_M4	Pascal	FinishSecondaryWeapon	MissionDesc_FinishSecondaryWeapon	0	0	Bazooka	
+Brock_M1	Brock	ClearStage	MissionDesc_StageClear	1	0		
+Brock_M2	Brock	PullBackLimit	MissionDesc_PullBackLimit	3	0		
+Brock_M3	Brock	UseSpecialHelmet	MissionDesc_UseSpecialHelmet	0	0	Alfonzo	
+Brock_M4	Brock	GetSpecialItem	MissionDesc_GetSpecialItem	3	0	Pipe	
+Arma_M1	Arma	ClearStage	MissionDesc_StageClear	1	0		
+Arma_M2	Arma	PrimaryWeaponEvadeLimit	MissionDesc_PrimaryWeaponEvadeLimit	3	0		
+Arma_M3	Arma	DamageToBossSpecialWeapon	MissionDesc_DamageToBossSpecialWeapon	0	0	Molotov	
+Arma_M4	Arma	GetSpecialItem	MissionDesc_GetSpecialItem	1	0	Cartridge_IceCreamShop	
+KM78_M1	KM78	ClearStage	MissionDesc_StageClear	1	0		
+KM78_M2	KM78	FinishSecondaryWeapon	MissionDesc_FinishSecondaryWeapon	0	0	FlameThrower	
+KM78_M3	KM78	UseSpecialHelmet	MissionDesc_UseSpecialHelmet	0	0	Otto	
+KM78_M4	KM78	GetSpecialItem	MissionDesc_GetSpecialItem	1	0	Cartridge_BombBox	
+AlleyGator_M1	AlleyGator	ClearStage	MissionDesc_StageClear	1	0		
+AlleyGator_M2	AlleyGator	GetSpecialItem	MissionDesc_GetSpecialItem	1	0	SilverInsignia	
+AlleyGator_M3	AlleyGator	SecondaryWeaponEvadeLimit	MissionDesc_SecondaryWeaponEvadeLimit	4	0		
+AlleyGator_M4	AlleyGator	PrevStageTimeLimit	MissionDesc_TimeLimitAlleyGatorSub	30	0		
+BiggyPo_M1	BiggyPo	ClearStage	MissionDesc_StageClear	1	0		
+BiggyPo_M2	BiggyPo	SecondaryWeaponUseLimit	MissionDesc_SecondaryWeaponUseLimit	3	0		
+BiggyPo_M3	BiggyPo	Combo	MissionDesc_Combo	80	0		
+BiggyPo_M4	BiggyPo	KillDashJetSkiSoldier	MissionDesc_KillDashJetSkiSoldier	2	0		
+Albarn_M1	Albarn	ClearStage	MissionDesc_StageClear	1	0		
+Albarn_M2	Albarn	DamageToBossSpecialWeapon	MissionDesc_DamageToBossSpecialWeapon	0	0	RocketLauncher	
+Albarn_M3	Albarn	PullBackLimit	MissionDesc_PullBackLimit	2	0		
+Albarn_M4	Albarn	PrimaryWeaponEvadeLimit	MissionDesc_PrimaryWeaponEvadeLimit	2	0		
+Blactop_M1	Blactop	ClearStage	MissionDesc_StageClear	1	0		
+Blactop_M2	Blactop	UseSpecialHelmet	MissionDesc_UseSpecialHelmet	0	0	Paluda	
+Blactop_M3	Blactop	FinishSecondaryWeapon	MissionDesc_FinishAnySecondaryWeapon	0	0		
+Blactop_M4	Blactop	GetSpecialItem	MissionDesc_GetSpecialItem	1	0	SilverInsignia	
+Rocco_M1	Rocco	ClearStage	MissionDesc_StageClear	1	0		
+Rocco_M2	Rocco	PoisonLimit	MissionDesc_PoisonLimit	2	0		
+Rocco_M3	Rocco	GetSpecialItem	MissionDesc_GetSpecialItem	2	0	CopperInsignia	
+Rocco_M4	Rocco	FinishSecondaryWeapon	MissionDesc_FinishAnySecondaryWeapon	0	0		
+Waltz2_M1	Waltz2	ClearStage	MissionDesc_StageClear	1	0		
+Waltz2_M2	Waltz2	PrimaryWeaponEvadeLimit	MissionDesc_PrimaryWeaponEvadeLimit	3	0		
+Waltz2_M3	Waltz2	GetSpecialItem	MissionDesc_GetSpecialItem	1	0	CopperInsignia	
+Waltz2_M4	Waltz2	FinishPrimaryWeapon	MissionDesc_FinishPrimaryWeapon	0	0	ChickenBomb	
+Zellyma_M1	Zellyma	ClearStage	MissionDesc_StageClear	1	0		
+Zellyma_M2	Zellyma	UseSpecialHelmet	MissionDesc_UseSpecialHelmet	0	0	Albarn	
+Zellyma_M3	Zellyma	PullBackLimit	MissionDesc_PullBackLimit	2	0		
+Zellyma_M4	Zellyma	PrimaryWeaponCombo	MissionDesc_PrimaryCombo	2	0		
+Otto2_M1	Otto2	ClearStage	MissionDesc_StageClear	1	0		
+Otto2_M2	Otto2	DamageToBossSpecialWeapon	MissionDesc_DamageToBossSpecialWeapon	0	0	C4	
+Otto2_M3	Otto2	SecondaryWeaponUseLimit	MissionDesc_SecondaryWeaponUseLimit_Zero	1	0		
+Otto2_M4	Otto2	PullBackLimit	MissionDesc_NoPullBack	1	0		
+Helga_M1	Helga	ClearStage	MissionDesc_StageClear	1	0		
+Helga_M2	Helga	SpiderWebLimit	MissionDesc_SpiderWebLimit	1	0		
+Helga_M3	Helga	UseSpecialHelmet	MissionDesc_UseSpecialHelmet	0	0	Rocco	
+Helga_M4	Helga	FinishSecondaryWeapon	MissionDesc_FinishAnySecondaryWeapon	0	0		
+Blow3_M1	Blow3	ClearStage	MissionDesc_StageClear	1	0		
+Blow3_M2	Blow3	PullBackLimit	MissionDesc_NoPullBack	1	0		
+Blow3_M3	Blow3	FinishSecondaryWeapon	MissionDesc_FinishAnySecondaryWeapon	0	0		
+Blow3_M4	Blow3	PrimaryWeaponCombo	MissionDesc_PrimaryCombo	3	0		
+MrToadie_M1	MrToadie	ClearStage	MissionDesc_StageClear	1	0		
+MrToadie_M2	MrToadie	FinishSecondaryWeapon	MissionDesc_FinishSecondaryWeapon	0	0	RocketLauncher	
+MrToadie_M3	MrToadie	Combo	MissionDesc_Combo	6	0		
+MrToadie_M4	MrToadie	GetSpecialItem	MissionDesc_GetSpecialItem	1	0	GoldInsignia	
+Eugen_M1	Eugen	ClearStage	MissionDesc_StageClear	1	0		
+Eugen_M2	Eugen	UseSpecialHelmet	MissionDesc_UseSpecialHelmet	0	0	Helga	
+Eugen_M3	Eugen	GetSpecialItem	MissionDesc_GetSpecialItem	1	0	GoldInsignia	
+Eugen_M4	Eugen	FinishPrimaryWeapon	MissionDesc_FinishPrimaryWeapon	0	0	PoisonBomb	
+Pascal2_M1	Pascal2	ClearStage	MissionDesc_StageClear	1	0		
+Pascal2_M2	Pascal2	PrimaryWeaponEvadeLimit	MissionDesc_PrimaryWeaponEvadeLimit	4	0		
+Pascal2_M3	Pascal2	PrevStageTimeLimit	MissionDesc_TimeLimitPascal2Sub	90	0		
+Pascal2_M4	Pascal2	FinishSecondaryWeapon	MissionDesc_FinishAnySecondaryWeapon	0	0		
+Ulrich2_M1	Ulrich2	ClearStage	MissionDesc_StageClear	1	0		
+Ulrich2_M2	Ulrich2	FinishSecondaryWeapon	MissionDesc_FinishSecondaryWeapon	0	0	Bazooka	
+Ulrich2_M3	Ulrich2	UseSpecialHelmet	MissionDesc_UseSpecialHelmet	0	0	Ulrich	
+Ulrich2_M4	Ulrich2	StopShootingPascalLaser	MissionDesc_StopShootingPascalLaser	1	0		
+Chimera_M1	Chimera	ClearStage	MissionDesc_StageClear	1	0		
+Chimera_M2	Chimera	PrimaryWeaponEvadeLimit	MissionDesc_PrimaryWeaponEvadeLimit	5	0		
+Chimera_M3	Chimera	FinishPrimaryWeapon	MissionDesc_FinishPrimaryWeapon	0	0	ChickenBomb	
+Chimera_M4	Chimera	GetSpecialItem	MissionDesc_GetSpecialItem	1	0	GoldInsignia	
+Hans_M1	Hans	ClearStage	MissionDesc_StageClear	1	0		
+Hans_M2	Hans	UseSpecialHelmet	MissionDesc_UseSpecialHelmet	0	0	Chimera	
+Hans_M3	Hans	FinishSecondaryWeapon	MissionDesc_FinishSecondaryWeapon	0	0	FlameSentryGun	
+Hans_M4	Hans	PullBackLimit	MissionDesc_PullBackLimit	2	0		
+Hans2_M1	Hans2	ClearStage	MissionDesc_StageClear	1	0		
+ElectricSoldier_V2_M1	ElectricSoldiers_V2	TimeLimit	MissionDesc_TimeLimit	40	0		
+RifleSoldiers_V2_M1	RifleSoldiers_V2	TimeLimit	MissionDesc_TimeLimit	50	0		
+Otto_V2_M1	Otto_V2	TimeLimit	MissionDesc_TimeLimit	50	0		
+Buffy_V2_M1	Buffy_V2	TimeLimit	MissionDesc_TimeLimit	50	0		
+Alfonzo_V2_M1	Alfonzo_V2	TimeLimit	MissionDesc_TimeLimit	60	0		
+KM78_V2_M1	KM78_V2	TimeLimit	MissionDesc_TimeLimit	70	0		
+MuskX_V2_M1	MuskX_V2	TimeLimit	MissionDesc_TimeLimit	90	0		
+Brock_V2_M1	Brock_V2	TimeLimit	MissionDesc_TimeLimit	80	0		
+Octopolar_V2_M1	Octopolar_V2	TimeLimit	MissionDesc_TimeLimit	80	0		
+Arma_V2_M1	Arma_V2	TimeLimit	MissionDesc_TimeLimit	120	0		
+Ulrich_V2_M1	Ulrich_V2	TimeLimit	MissionDesc_TimeLimit	90	0		
+AlleyGator_V2_M1	AlleyGator_V2	TimeLimit	MissionDesc_TimeLimit	120	0		
+Toadie_V2_M1	Toadie_V2	TimeLimit	MissionDesc_TimeLimit	120	0		
+Purupu_V2_M1	Purupu_V2	TimeLimit	MissionDesc_TimeLimit	70	0		
+Angero_V2_M1	Angero_V2	TimeLimit	MissionDesc_TimeLimit	150	0		
+Paluda_V2_M1	Paluda_V2	TimeLimit	MissionDesc_TimeLimit	120	0		
+Pascal_V2_M1	Pascal_V2	TimeLimit	MissionDesc_TimeLimit	130	0		
+BiggyPo_V2_M1	BiggyPo_V2	TimeLimit	MissionDesc_TimeLimit	60	0		
+Albarn_V2_M1	Albarn_V2	TimeLimit	MissionDesc_TimeLimit	70	0		
+Blactop_V2_M1	Blactop_V2	TimeLimit	MissionDesc_TimeLimit	120	0		
+Rocco_V2_M1	Rocco_V2	TimeLimit	MissionDesc_TimeLimit	150	0		
+Waltz2_V2_M1	Waltz2_V2	TimeLimit	MissionDesc_TimeLimit	90	0		
+Zellyma_V2_M1	Zellyma_V2	TimeLimit	MissionDesc_TimeLimit	120	0		
+Otto2_V2_M1	Otto2_V2	TimeLimit	MissionDesc_TimeLimit	120	0		
+Helga_V2_M1	Helga_V2	TimeLimit	MissionDesc_TimeLimit	120	0		
+Blow3_V2_M1	Blow3_V2	TimeLimit	MissionDesc_TimeLimit	150	0		
+MrToadie_V2_M1	MrToadie_V2	TimeLimit	MissionDesc_TimeLimit	90	0		
+Eugen_V2_M1	Eugen_V2	TimeLimit	MissionDesc_TimeLimit	100	0		
+Pascal2_V2_M1	Pascal2_V2	TimeLimit	MissionDesc_TimeLimit	200	0		
+Ulrich2_V2_M1	Ulrich2_V2	TimeLimit	MissionDesc_TimeLimit	120	0		
+Chimera_V2_M1	Chimera_V2	TimeLimit	MissionDesc_TimeLimit	100	0		
+Sachika_V2_M1	Sachika_V2	ClearStage	MissionDesc_StageClear	1	0		

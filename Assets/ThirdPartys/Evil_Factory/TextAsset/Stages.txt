@@ -1,0 +1,73 @@
+Waltz				0	StageTitleName_Waltz	StageSubtitleName_Waltz	InGameTitleTextId_Waltz	SnowTrail		Map_Prologue	true	bgm_4	0	0		0	0	0	0	0	0	0			false	false
+ElectricSoldiers			1	1	StageTitleName_ElectricSoldiers	StageSubtitleName_ElectricSoldiers	InGameTitleTextId_ElectricSoldiers	SmokeTrail		Map_10	false	bgm_4	60	15	ElectricSoldiers	0	0	0	100	30	1	0			false	false
+RifleSoldiers		ElectricSoldiers	1	2	StageTitleName_RifleSoldier	StageSubtitleName_RifleSoldier	InGameTitleTextId_RifleSoldiers	SmokeTrail		Map_10	false	bgm_7	100	25	RifleSoldiers	0	0	0	150	45	1	0			false	false
+Otto		RifleSoldiers	1	3	StageTitleName_Otto	StageSubtitleName_Otto	InGameTitleTextId_Otto	SmokeTrail		Map_11	false	bgm_4	150	38	Otto	2	2	2	200	60	1	0			true	true
+Buffy		Otto	1	4	StageTitleName_Buffy	StageSubtitleName_Buffy	InGameTitleTextId_Buffy	SmokeTrail		Map_6	false	bgm_5	200	50	Buffy	3	2	3	250	75	1	0			true	true
+AlfonzoSub	Alfonzo							SmokeTrail		Map_10	false	bgm_6	0	0		0	0	0	0	0	0	0			false	false
+Alfonzo		Buffy	1	5	StageTitleName_Alfonzo	StageSubtitleName_Alfonzo	InGameTitleTextId_Alfonzo	SmokeTrail		Map_12	false	bgm_boss	300	75	Alfonzo	4	3	3	350	105	1	0			true	true
+KM78		Alfonzo	2	6	StageTitleName_KM78	StageSubtitleName_KM78	InGameTitleTextId_KM78	SmokeTrail		Map_Elevator	true	bgm_7	250	63	KM78	3	3	3	300	90	1	0			false	false
+MuskX		KM78	2	7	StageTitleName_MuskX	StageSubtitleName_MuskX	InGameTitleTextId_MuskX	SmokeTrail		Map_0	false	bgm_5	320	80	MuskX	3	4	3	350	105	1	0			true	true
+Brock		MuskX	2	8	StageTitleName_Brock	StageSubtitleName_Brock	InGameTitleTextId_Brock	SmokeTrail		Map_14	false	bgm_8	370	93	Brock	3	4	3	400	120	1	0			true	true
+Octopolar		Brock	2	9	StageTitleName_Octopolar	StageSubtitleName_Octopolar	InGameTitleTextId_Octopolar	SmokeTrail		Map_0	false	bgm_7	420	105	Octopolar	4	3	4	450	135	1	0			true	true
+Arma		Octopolar	2	10	StageTitleName_Arma	StageSubtitleName_Arma	InGameTitleTextId_Arma	SmokeTrail		Map_13	false	bgm_5	470	118	Arma	4	4	3	500	150	1	0			true	true
+UlrichSub	Ulrich							SmokeTrail		Map_7	false	bgm_6	0	0		0	0	0	0	0	0	0			false	false
+Ulrich		Arma	2	11	StageTitleName_Ulrich	StageSubtitleName_Ulrich	InGameTitleTextId_Ulrich	SmokeTrail		Map_8	false	bgm_boss	600	150	Ulrich	4	5	4	600	180	1	0			true	true
+AlleyGatorSub	AlleyGator							SplashTrail		Map_AlleyGatorSub	true		0	0		0	0	0	0	0	0	0	Empty	AutoGrenadeLauncherInfinity	false	false
+AlleyGator		Ulrich	3	12	StageTitleName_AlleyGator	StageSubtitleName_AlleyGator	InGameTitleTextId_AlleyGator	SplashTrail		Map_AlleyGator	true	bgm_5	650	163	AlleyGator	3	3	4	550	165	1	0	Empty	BazookaInfinity	true	true
+Toadie		AlleyGator	3	13	StageTitleName_Toadie	StageSubtitleName_Toadie	InGameTitleTextId_Toadie	SplashTrail		Map_1	false	bgm_4	710	178	Toadie	4	4	4	600	180	1	0			true	true
+Purupu		Toadie	3	14	StageTitleName_Purupu	StageSubtitleName_Purupu	InGameTitleTextId_Purupu	SplashTrail		Map_3	false	bgm_8	770	193	Purupu	4	5	3	650	195	1	0			true	true
+Angero		Purupu	3	15	StageTitleName_Angero	StageSubtitleName_Angero	InGameTitleTextId_Angero	SplashTrail		Map_Angero	false	bgm_6	830	208	Angero	4	5	4	700	210	1	0			true	true
+Paluda		Angero	3	16	StageTitleName_Paluda	StageSubtitleName_Paluda	InGameTitleTextId_Paluda	SplashTrail		Map_2	false	bgm_7	890	223	Paluda	4	5	4	750	225	1	0			true	true
+PascalSub	Pascal							SmokeTrail		Map_5	false	bgm_6	0	0		0	0	0	0	0	0	0			false	false
+Pascal		Paluda	3	17	StageTitleName_Pascal	StageSubtitleName_Pascal	InGameTitleTextId_Pascal	SmokeTrail		Map_5	false	bgm_boss	1200	300	Pascal	5	5	4	850	255	1	0			true	true
+BiggyPoSub	BiggyPo								JetSki	Map_BiggyPo	true	bgm_8	0	0		0	0	0	0	0	0	0	Empty	JetSkiMultiLauncher	false	false
+BiggyPo		Pascal	4	18	StageTitleName_BiggyPo	StageSubtitleName_BiggyPo	InGameTitleTextId_BiggyPo		JetSki	Map_BiggyPo	true	bgm_8	1100	275	BiggyPo	4	5	4	800	240	1	0	Empty	JetSkiMultiLauncher	false	true
+Albarn		BiggyPo	4	19	StageTitleName_Albarn	StageSubtitleName_Albarn	InGameTitleTextId_Albarn	SmokeTrail		Map_17	false	bgm_5	1200	300	Albarn	5	5	4	850	255	1	0			false	true
+Blactop		Albarn	4	20	StageTitleName_Blactop	StageSubtitleName_Blactop	InGameTitleTextId_Blactop	SmokeTrail		Map_16	false	bgm_6	1300	325	Blactop	5	5	5	900	270	1	0			false	true
+Rocco		Blactop	4	21	StageTitleName_Rocco	StageSubtitleName_Rocco	InGameTitleTextId_Rocco	SmokeTrail		Map_4	false	bgm_boss	1500	375	Rocco	5	6	4	1000	300	1	0			false	true
+Waltz2		Rocco	5	22	StageTitleName_Waltz2	StageSubtitleName_Waltz2	InGameTitleTextId_Waltz2	SmokeTrail		Map_15	false	bgm_5	1400	350	Waltz2	5	5	4	950	285	1	0			false	true
+Zellyma		Waltz2	5	23	StageTitleName_Zellyma	StageSubtitleName_Zellyma	InGameTitleTextId_Zellyma			Map_23	false	bgm_6	1500	375	Zellyma	5	4	4	1000	300	1	0			false	true
+Otto2		Zellyma	5	24	StageTitleName_Otto2	StageSubtitleName_Otto2	InGameTitleTextId_Otto2	SmokeTrail		Map_18	false	bgm_8	1600	400	Otto2	5	6	4	1050	315	1	0			false	true
+Helga		Otto2	5	25	StageTitleName_Helga	StageSubtitleName_Helga	InGameTitleTextId_Helga	SmokeTrail		Map_20	false	bgm_boss	1800	450	Helga	5	7	4	1150	345	1	0			false	true
+Blow3		Helga	6	26	StageTitleName_Blow3	StageSubtitleName_Blow3	InGameTitleTextId_Blow3	SmokeTrail		Map_19	false	bgm_7	1800	450	Blow3	6	6	4	1100	330	1	0			false	true
+MrToadie		Blow3	6	27	StageTitleName_MrToadie	StageSubtitleName_MrToadie	InGameTitleTextId_MrToadie	SmokeTrail		Map_9	false	bgm_6	1900	475	MrToadie	5	6	5	1150	345	1	0			false	true
+Eugen		MrToadie	6	28	StageTitleName_Eugen	StageSubtitleName_Eugen	InGameTitleTextId_Eugen	SmokeTrail		Map_21	false	bgm_8	2200	550	Eugen	6	6	5	1250	375	1	0			false	true
+Pascal2Sub	Pascal2							SmokeTrail		Map_Pascal2Sub	false		0	0		0	0	0	0	0	0	0			false	false
+Pascal2		Eugen	6	29	StageTitleName_Pascal2	StageSubtitleName_Pascal2	InGameTitleTextId_Pascal2	SmokeTrail		Map_22	false	bgm_boss	2500	625	Pascal2	6	6	5	1400	420	1	0			false	true
+Ulrich2Sub	Ulrich2								Snowmobile	Map_Ulrich2Sub	true	bgm_8	0	0		0	0	0	0	0	0	0	Empty	Empty	false	false
+Ulrich2		Pascal2	7	30	StageTitleName_Ulrich2	StageSubtitleName_Ulrich2	InGameTitleTextId_Ulrich2	SmokeTrail		Map_Ulrich2	false	bgm_boss	2800	700	Ulrich2	7	7	5	1500	450	1	0			false	true
+Chimera		Ulrich2	7	31	StageTitleName_Chimera	StageSubtitleName_Chimera	InGameTitleTextId_Chimera	SmokeTrail		Map_24	false	bgm_8	3000	750	Chimera	7	7	5	1700	510	1	0			false	true
+Hans		Chimera	7	32	StageTitleName_Hans	StageSubtitleName_Hans	InGameTitleTextId_Hans	SmokeTrail		Map_25	false	bgm_boss	3500	875	Hans	4	4	4	1800	540	1	0			false	true
+Hans2		Hans	7	33	StageTitleName_Hans2	StageSubtitleName_Hans2	InGameTitleTextId_Hans2	SmokeTrail		Map_26	false		1000	75	Hans2	0	0	0	200	60	1	0			false	false
+ElectricSoldiers_V2			8	1	StageTitleName_ElectricSoldiers	StageSubtitleName_ElectricSoldiers_V2	InGameTitleTextId_ElectricSoldiers	SmokeTrail		Map_10	false	bgm_4	90	23	ElectricSoldiers_V2	0	0	2	150	45	1	0			false	false
+RifleSoldiers_V2		ElectricSoldiers_V2	8	2	StageTitleName_RifleSoldier	StageSubtitleName_RifleSoldier_V2	InGameTitleTextId_RifleSoldiers	SmokeTrail		Map_10	false	bgm_7	150	38	RifleSoldiers_V2	0	0	2	225	68	1	0			false	false
+Otto_V2		RifleSoldiers_V2	8	3	StageTitleName_Otto	StageSubtitleName_Otto_V2	InGameTitleTextId_Otto	SmokeTrail		Map_11	false	bgm_4	225	57	Otto_V2	0	0	2	300	90	1	0			false	false
+Buffy_V2		Otto_V2	8	4	StageTitleName_Buffy	StageSubtitleName_Buffy_V2	InGameTitleTextId_Buffy	SmokeTrail		Map_6	false	bgm_5	300	75	Buffy_V2	0	0	2	375	113	1	0			false	false
+Alfonzo_V2		Buffy_V2	8	5	StageTitleName_Alfonzo	StageSubtitleName_Alfonzo_V2	InGameTitleTextId_Alfonzo	SmokeTrail		Map_12	false	bgm_boss	450	113	Alfonzo_V2	0	0	3	525	158	1	1			false	false
+KM78_V2		Alfonzo_V2	9	6	StageTitleName_KM78	StageSubtitleName_KM78_V2	InGameTitleTextId_KM78	SmokeTrail		Map_Elevator	true	bgm_7	375	95	KM78_V2	0	0	2	450	135	1	0			false	false
+MuskX_V2		KM78_V2	9	7	StageTitleName_MuskX	StageSubtitleName_MuskX_V2	InGameTitleTextId_MuskX	SmokeTrail		Map_0	false	bgm_5	480	120	MuskX_V2	0	0	2	525	158	1	0			false	false
+Brock_V2		MuskX_V2	9	8	StageTitleName_Brock	StageSubtitleName_Brock_V2	InGameTitleTextId_Brock	SmokeTrail		Map_14	false	bgm_8	555	140	Brock_V2	0	0	2	600	180	1	0			false	false
+Octopolar_V2		Brock_V2	9	9	StageTitleName_Octopolar	StageSubtitleName_Octopolar_V2	InGameTitleTextId_Octopolar	SmokeTrail		Map_0	false	bgm_7	630	158	Octopolar_V2	0	0	2	675	203	1	0			false	false
+Arma_V2		Octopolar_V2	9	10	StageTitleName_Arma	StageSubtitleName_Arma_V2	InGameTitleTextId_Arma	SmokeTrail		Map_13	false	bgm_5	705	177	Arma_V2	0	0	2	750	225	1	0			false	false
+Ulrich_V2		Arma_V2	9	11	StageTitleName_Ulrich	StageSubtitleName_Ulrich_V2	InGameTitleTextId_Ulrich	SmokeTrail		Map_8	false	bgm_boss	900	225	Ulrich_V2	0	0	3	900	270	1	2			false	false
+AlleyGator_V2		Ulrich_V2	10	12	StageTitleName_AlleyGator	StageSubtitleName_AlleyGator_V2	InGameTitleTextId_AlleyGator	SplashTrail		Map_AlleyGator	true	bgm_5	975	245	AlleyGator_V2	0	0	2	825	248	1	0	Empty	BazookaInfinity	false	false
+Toadie_V2		AlleyGator_V2	10	13	StageTitleName_Toadie	StageSubtitleName_Toadie_V2	InGameTitleTextId_Toadie	SplashTrail		Map_1	false	bgm_4	1065	267	Toadie_V2	0	0	2	900	270	1	0			false	false
+Purupu_V2		Toadie_V2	10	14	StageTitleName_Purupu	StageSubtitleName_Purupu_V2	InGameTitleTextId_Purupu	SplashTrail		Map_3	false	bgm_8	1155	290	Purupu_V2	0	0	2	975	293	1	0			false	false
+Angero_V2		Purupu_V2	10	15	StageTitleName_Angero	StageSubtitleName_Angero_V2	InGameTitleTextId_Angero	SplashTrail		Map_Angero	false	bgm_6	1245	312	Angero_V2	0	0	2	1050	315	1	0			false	false
+Paluda_V2		Angero_V2	10	16	StageTitleName_Paluda	StageSubtitleName_Paluda_V2	InGameTitleTextId_Paluda	SplashTrail		Map_2	false	bgm_7	1335	335	Paluda_V2	0	0	2	1125	338	1	0			false	false
+Pascal_V2		Paluda_V2	10	17	StageTitleName_Pascal	StageSubtitleName_Pascal_V2	InGameTitleTextId_Pascal	SmokeTrail		Map_5	false	bgm_boss	1800	450	Pascal_V2	0	0	3	1275	383	1	3			false	false
+BiggyPo_V2		Pascal_V2	11	18	StageTitleName_BiggyPo	StageSubtitleName_BiggyPo_V2	InGameTitleTextId_BiggyPo		JetSki	Map_BiggyPo	true	bgm_8	1650	413	BiggyPo_V2	0	0	2	1200	360	1	0	Empty	JetSkiMultiLauncher	false	false
+Albarn_V2		BiggyPo_V2	11	19	StageTitleName_Albarn	StageSubtitleName_Albarn_V2	InGameTitleTextId_Albarn	SmokeTrail		Map_17	false	bgm_5	1800	450	Albarn_V2	0	0	2	1275	383	1	0			false	false
+Blactop_V2		Albarn_V2	11	20	StageTitleName_Blactop	StageSubtitleName_Blactop_V2	InGameTitleTextId_Blactop	SmokeTrail		Map_16	false	bgm_6	1950	488	Blactop_V2	0	0	2	1350	405	1	0			false	false
+Rocco_V2		Blactop_V2	11	21	StageTitleName_Rocco	StageSubtitleName_Rocco_V2	InGameTitleTextId_Rocco	SmokeTrail		Map_4	false	bgm_boss	2250	563	Rocco_V2	0	0	3	1500	450	1	4			false	false
+Waltz2_V2		Rocco_V2	12	22	StageTitleName_Waltz2	StageSubtitleName_Waltz2_V2	InGameTitleTextId_Waltz2	SmokeTrail		Map_15	false	bgm_5	2100	525	Waltz2_V2	0	0	2	1425	428	1	0			false	false
+Zellyma_V2		Waltz2_V2	12	23	StageTitleName_Zellyma	StageSubtitleName_Zellyma_V2	InGameTitleTextId_Zellyma			Map_23	false	bgm_6	2250	563	Zellyma_V2	0	0	2	1500	450	1	0			false	false
+Otto2_V2		Zellyma_V2	12	24	StageTitleName_Otto2	StageSubtitleName_Otto2_V2	InGameTitleTextId_Otto2	SmokeTrail		Map_18	false	bgm_8	2400	600	Otto2_V2	0	0	2	1575	478	1	0			false	false
+Helga_V2		Otto2_V2	12	25	StageTitleName_Helga	StageSubtitleName_Helga_V2	InGameTitleTextId_Helga	SmokeTrail		Map_20	false	bgm_boss	2700	675	Helga_V2	0	0	3	1725	518	1	5			false	false
+Blow3_V2		Helga_V2	13	26	StageTitleName_Blow3	StageSubtitleName_Blow3_V2	InGameTitleTextId_Blow3	SmokeTrail		Map_19	false	bgm_7	2700	675	Blow3_V2	0	0	2	1650	495	1	0			false	false
+MrToadie_V2		Blow3_V2	13	27	StageTitleName_MrToadie	StageSubtitleName_MrToadie_V2	InGameTitleTextId_MrToadie	SmokeTrail		Map_9	false	bgm_6	2850	713	MrToadie_V2	0	0	2	1725	518	1	0			false	false
+Eugen_V2		MrToadie_V2	13	28	StageTitleName_Eugen	StageSubtitleName_Eugen_V2	InGameTitleTextId_Eugen	SmokeTrail		Map_21	false	bgm_8	3300	825	Eugen_V2	0	0	2	1875	563	1	0			false	false
+Pascal2_V2		Eugen_V2	13	29	StageTitleName_Pascal2	StageSubtitleName_Pascal2_V2	InGameTitleTextId_Pascal2	SmokeTrail		Map_22	false	bgm_boss	3750	938	Pascal2_V2	0	0	3	2100	630	1	6			false	false
+Ulrich2_V2		Pascal2_V2	14	30	StageTitleName_Ulrich2	StageSubtitleName_Chimera_V2	InGameTitleTextId_Ulrich2	SmokeTrail		Map_Ulrich2	true	bgm_boss	4200	1050	Ulrich2_V2	0	0	2	2250	675	1	0			false	false
+Chimera_V2		Ulrich2_V2	14	31	StageTitleName_Chimera	StageSubtitleName_Hans_V2	InGameTitleTextId_Chimera	SmokeTrail		Map_24	false	bgm_8	4500	1125	Chimera_V2	0	0	2	2550	765	1	7			false	false
+Sachika_V2		Chimera_V2	14	32	StageTitleName_Sachika	StageSubtitleName_Sachika_V2	InGameTitleTextId_Sachika		Spacecraft	Map_Sachika	true		5000	1300	Sachika_V2	0	0	3	3000	900	1	0	Empty	SpacecraftSpecialAttack	false	false
