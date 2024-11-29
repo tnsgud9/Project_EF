@@ -1,18 +1,36 @@
+using System;
 using System.Collections;
-using System.Collections.Generic;
+using Collections;
+using Commons;
 using UnityEngine;
 
-public class PlayerMovement : MonoBehaviour
+namespace Entities.Player
 {
-    // Start is called before the first frame update
-    void Start()
+    public interface IPlayerMovement
     {
-        
+        public void Move(Vector2 direction);
+        public IEnumerator DelayMovement(float time, Action callback = null);
     }
 
-    // Update is called once per frame
-    void Update()
+    public class PlayerMovement : BaseBehaviour , IPlayerMovement
     {
+        public float moveSpeed = Const.DefaultPlayerSpeed; // 이동 속도
+        [InjectComponent] private Rigidbody2D _rb; // Rigidbody2D 컴포넌트
+        private Vector2 _movementInput; // 이동 입력값
         
+        public void Move(Vector2 direction)
+        {
+            // Rigidbody2D를 사용해 물리적으로 이동시킨다.
+            _rb.velocity = direction * moveSpeed; // 이동 방향에 속도 적용
+        }
+
+        public IEnumerator DelayMovement(float time, Action callback = null)
+        {
+            float previousMoveSpeed = moveSpeed;
+            moveSpeed = 0f;
+            yield return new WaitForSeconds(time);
+            moveSpeed = previousMoveSpeed;
+            callback?.Invoke();
+        }
     }
 }

@@ -1,25 +1,35 @@
-﻿using Collections;
-using Collections.DependencyInject;
+﻿using System.Collections;
+using Collections;
 using UnityEngine;
 
 namespace Test
 {
     public class TestPlayer : BaseBehaviour
     {
-        [InjectComponent]
-        private Rigidbody _rigidbody;
-
-        [InjectComponent]
-        private Collider _collider;
-
-        void Start()
+        private void Start()
         {
-            PrintStatus();
+            // 처음에 컴포넌트를 비활성화
+            this.enabled = false;
+
+            // 3초 뒤에 컴포넌트 활성화 (Coroutine 사용)
+            StartCoroutine(EnableAfterDelayCoroutine());
         }
-        public void PrintStatus()
+
+        // 3초 뒤에 enabled를 true로 설정하는 코루틴
+        private IEnumerator EnableAfterDelayCoroutine()
         {
-            Debug.Log(_rigidbody != null ? "Rigidbody 성공적으로 주입됨!" : "Rigidbody 주입 실패!");
-            Debug.Log(_collider != null ? "Collider 성공적으로 주입됨!" : "Collider 주입 실패!");
+            // 3초 동안 대기
+            yield return new WaitForSeconds(3f);
+
+            // 3초 후에 컴포넌트 활성화
+            this.enabled = true;
+            Debug.Log("Component has been re-enabled after 3 seconds.");
+        }
+
+        // Update 메서드로 계속 실행될 작업
+        private void Update()
+        {
+            // 업데이트 메서드에 실행할 코드 추가
         }
     }
 }

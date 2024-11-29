@@ -2,14 +2,13 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Reflection;
-using Collections.DependencyInject;
 using UnityEngine;
 
 namespace Collections
 {
     public class BaseBehaviour : MonoBehaviour
     {
-        protected void OnEnable()
+        protected virtual void OnEnable()
         {
             InjectGetComponent();
         }
@@ -24,7 +23,8 @@ namespace Collections
                 if (component == null)
                 {
                     Debug.LogWarning("GetComponent typeof(" + type.Name + ") in game object '" + gameObject.name + "' is null");
-                    continue;
+                    component = this.gameObject.AddComponent(type);
+                    // continue;
                 }
                 field.SetValue(this, component);
             }

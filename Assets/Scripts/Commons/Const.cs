@@ -1,18 +1,9 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
-public class Const : MonoBehaviour
+namespace Commons
 {
-    // Start is called before the first frame update
-    void Start()
+    public static class Const
     {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
+        public const float DefaultPlayerSpeed = 1.5f;
     }
 }
