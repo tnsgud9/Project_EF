@@ -10,7 +10,7 @@ namespace Entities
         int MaxHealth { get; }
     }
 
-    public class PlayerHealth : MonoBehaviour, IHealth
+    public class Health : MonoBehaviour, IHealth
     {
         [SerializeField] private int currentHealth;
 
@@ -35,7 +35,7 @@ namespace Entities
 
         private void Die()
         {
-            Debug.Log("Player Died");
+            Debug.Log("Died");
             // 사망 처리 로직
         }
     }

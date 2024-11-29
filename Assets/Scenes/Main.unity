@@ -138,6 +138,7 @@ GameObject:
   - component: {fileID: 271172639}
   - component: {fileID: 271172647}
   - component: {fileID: 271172646}
+  - component: {fileID: 271172648}
   m_Layer: 7
   m_Name: Player
   m_TagString: Untagged
@@ -288,6 +289,19 @@ MonoBehaviour:
   bombPrefab: {fileID: 8762745853139515153, guid: 1f4304a2532987e4b9e9df57e32d297e, type: 3}
   maxBombs: 2
   plantDelay: 0.5
+--- !u!114 &271172648
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 271172638}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 11a71d3e683e4885a73ee664f7a1be50, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  currentHealth: 0
 --- !u!1 &435541806
 GameObject:
   m_ObjectHideFlags: 0

@@ -11,15 +11,33 @@ namespace Collections
         protected virtual void OnEnable()
         {
             InjectGetComponent();
+            InjectGetChildrenComponent();
         }
 
-        protected void InjectGetComponent()
+        private void InjectGetComponent()
         {
             var fields = GetFieldsWithAttribute(typeof(InjectComponent));
             foreach (var field in fields)
             {
                 var type = field.FieldType;
                 var component = GetComponent(type);
+                if (component == null)
+                {
+                    Debug.LogWarning("GetComponent typeof(" + type.Name + ") in game object '" + gameObject.name + "' is null");
+                    component = this.gameObject.AddComponent(type);
+                    // continue;
+                }
+                field.SetValue(this, component);
+            }
+        }
+
+        private void InjectGetChildrenComponent()
+        {
+            var fields = GetFieldsWithAttribute(typeof(InjectChildrenComponent));
+            foreach (var field in fields)
+            {
+                var type = field.FieldType;
+                var component = GetComponentInChildren(type);
                 if (component == null)
                 {
                     Debug.LogWarning("GetComponent typeof(" + type.Name + ") in game object '" + gameObject.name + "' is null");

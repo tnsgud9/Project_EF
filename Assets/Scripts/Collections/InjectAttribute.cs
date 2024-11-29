@@ -4,4 +4,8 @@
     class InjectComponent : System.Attribute
     {
     }
+    
+    class InjectChildrenComponent : System.Attribute
+    {
+    }
 }
