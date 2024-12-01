@@ -16,7 +16,7 @@ namespace Collections
 
         private void InjectGetComponent()
         {
-            var fields = GetFieldsWithAttribute(typeof(InjectComponent));
+            var fields = GetFieldsWithAttribute(typeof(Inject));
             foreach (var field in fields)
             {
                 var type = field.FieldType;
@@ -33,7 +33,7 @@ namespace Collections
 
         private void InjectGetChildrenComponent()
         {
-            var fields = GetFieldsWithAttribute(typeof(InjectChildrenComponent));
+            var fields = GetFieldsWithAttribute(typeof(InjectChild));
             foreach (var field in fields)
             {
                 var type = field.FieldType;

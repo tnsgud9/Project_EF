@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using Collections;
+using UnityEngine;
 using UnityEngine.Serialization;
 
 namespace Entities
@@ -15,7 +16,7 @@ namespace Entities
         [SerializeField] private int currentHealth;
 
         public int CurrentHealth => currentHealth;
-        [SerializeField] public int MaxHealth { get; } = 100;
+        public int MaxHealth { get; } = 100;
 
         private void Start()
         {

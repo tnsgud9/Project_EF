@@ -15,9 +15,9 @@ namespace Entities.Player
     public class PlayerMovement : BaseBehaviour , IPlayerMovement
     {
         public float moveSpeed = Const.DefaultPlayerSpeed; // 이동 속도
-        [InjectComponent] private Rigidbody2D _rigid; // Rigidbody2D 컴포넌트
+        [Inject] private Rigidbody2D _rigid; // Rigidbody2D 컴포넌트
         private Vector2 _movementInput; // 이동 입력값
-        [InjectChildrenComponent] private SpriteRenderer _spriteRenderer;
+        [InjectChild] private SpriteRenderer _spriteRenderer;
         
         public void Move(Vector2 direction)
         {

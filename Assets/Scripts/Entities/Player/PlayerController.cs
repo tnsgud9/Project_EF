@@ -6,10 +6,13 @@ namespace Entities.Player
 {
     public class PlayerController : BaseBehaviour
     {
-        [InjectComponent] private IPlayerMovement _playerMovement;
-        [InjectComponent] private IPlayerAttack _playerAttack;
-        [InjectComponent] private PlayerInputHandler _inputHandler;
+        [Inject] private IPlayerMovement _playerMovement;
+        [Inject] private IPlayerAttack _playerAttack;
+        [Inject] private PlayerInputHandler _inputHandler;
+        [Inject] private IHealth _health;
 
+        private StateContext<PlayerController> _stateContext;
+        
         protected override void OnEnable()
         {
             base.OnEnable();
@@ -24,7 +27,12 @@ namespace Entities.Player
             _inputHandler.OnAttackExit += HandleAttackExit;
             
         }
-        
+
+        private void Update()
+        {
+            _stateContext.CurrentState.Update(this);
+        }
+
         private void HandleMoveEnter()
         {
             Debug.Log("Move Started");

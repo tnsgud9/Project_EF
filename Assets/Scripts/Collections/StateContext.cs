@@ -5,7 +5,7 @@ namespace Collections
     public interface IState<TController>
     {
         void Start(TController controller);
-        void Handle(TController controller);
+        void Update(TController controller);
         void End(TController controller);
     }
 
@@ -50,7 +50,7 @@ namespace Collections
             throw new NotImplementedException();
         }
 
-        public void Handle(TController controller)
+        public void Update(TController controller)
         {
             _handleAction.Invoke();
         }

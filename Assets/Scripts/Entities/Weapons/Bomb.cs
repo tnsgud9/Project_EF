@@ -40,7 +40,7 @@ namespace Entities.Weapons
             foreach (var obj in hitObjects)
             {
                 IHealth health = obj.GetComponent<IHealth>();
-                if (health != null)
+                if (health is not null)
                 {
                     health.TakeDamage(damage);
                 }
