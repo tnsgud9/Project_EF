@@ -1,15 +1,21 @@
-﻿using System;
-using System.Collections.Generic;
-using Unity.VisualScripting;
+﻿using System.Collections.Generic;
 using UnityEngine.Events;
 
 namespace Collections
 {
     public interface IEventBus<T>
     {
-        public static void Subscribe(T eventType, UnityAction listener){}
-        public static void Unsubscribe(T type, UnityAction listener){}
-        public static void Publish(T type){}
+        public static void Subscribe(T eventType, UnityAction listener)
+        {
+        }
+
+        public static void Unsubscribe(T type, UnityAction listener)
+        {
+        }
+
+        public static void Publish(T type)
+        {
+        }
     }
 
     public class EventBus<T> : IEventBus<T>
@@ -36,19 +42,13 @@ namespace Collections
         {
             UnityEvent thisEvent;
 
-            if (Events.TryGetValue(type, out thisEvent))
-            {
-                thisEvent.RemoveListener(listener);
-            }
+            if (Events.TryGetValue(type, out thisEvent)) thisEvent.RemoveListener(listener);
         }
 
         public static void Publish(T type)
         {
             UnityEvent thisEvent;
-            if (Events.TryGetValue(type, out thisEvent))
-            {
-                thisEvent.Invoke();
-            }
+            if (Events.TryGetValue(type, out thisEvent)) thisEvent.Invoke();
         }
     }
 }

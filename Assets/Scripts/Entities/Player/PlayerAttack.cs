@@ -1,3 +1,4 @@
+using Collections;
 using Entities.Weapons;
 using UnityEngine;
 using UnityEngine.Pool;
@@ -8,16 +9,17 @@ namespace Entities.Player
     {
         void Attack();
     }
-    public class PlayerAttack : MonoBehaviour, IPlayerAttack
+
+    public class PlayerAttack : BaseBehaviour, IPlayerAttack
     {
-        [Header("Bomb Placement Settings")]
-        public GameObject bombPrefab; // 단일 폭탄 프리팹
+        [Header("Bomb Placement Settings")] public GameObject bombPrefab; // 단일 폭탄 프리팹
+
         public int maxBombs = 2; // 최대 설치 가능 폭탄 수
         public float plantDelay = 0.5f; // 설치 중 움직임 제한 시간
+        private int _activeBombCount; // 현재 설치된 폭탄 개수
 
         private ObjectPool<GameObject> _bombPool;
-        private int _activeBombCount = 0; // 현재 설치된 폭탄 개수
-        private bool _isPlanting = false;
+        private bool _isPlanting;
 
         private void Start()
         {
@@ -35,7 +37,7 @@ namespace Entities.Player
 
         private GameObject CreateBomb()
         {
-            GameObject bomb = Instantiate(bombPrefab);
+            var bomb = Instantiate(bombPrefab);
             return bomb;
         }
 
@@ -58,10 +60,7 @@ namespace Entities.Player
         {
             if (_isPlanting) return;
             // 폭탄 설치 제한 조건
-            if (_activeBombCount >= maxBombs )
-            {
-                return;
-            }
+            if (_activeBombCount >= maxBombs) return;
 
             _isPlanting = true;
 
@@ -74,11 +73,11 @@ namespace Entities.Player
 
         private void DeployBomb()
         {
-            GameObject bombObj = _bombPool.Get();
+            var bombObj = _bombPool.Get();
             bombObj.transform.position = transform.position;
 
             // 폭탄 초기화
-            Bomb bomb = bombObj.GetComponent<Bomb>();
+            var bomb = bombObj.GetComponent<Bomb>();
             bomb.Initialize(this);
 
             _activeBombCount++;
@@ -90,10 +89,10 @@ namespace Entities.Player
             // 폭탄 폭발 후 풀에 반환
             _bombPool.Release(bomb);
             _activeBombCount--;
+        } // ReSharper disable Unity.PerformanceAnalysis
+        public void Attack()
+        {
+            PlantBomb();
         }
-
-        // ReSharper disable Unity.PerformanceAnalysis
-        public void Attack() => PlantBomb();
-        
     }
 }

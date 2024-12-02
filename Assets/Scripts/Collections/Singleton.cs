@@ -4,7 +4,7 @@ namespace Collections
 {
     public class DestoryableSingleton<T> : MonoBehaviour where T : MonoBehaviour
     {
-        private static T _instance = null;
+        private static T _instance;
 
         public static T Instance
         {
@@ -12,7 +12,7 @@ namespace Collections
             {
                 if (_instance == null)
                 {
-                    _instance = (T)FindObjectOfType<T>();
+                    _instance = FindObjectOfType<T>();
 
                     if (_instance == null)
                     {
@@ -32,12 +32,7 @@ namespace Collections
 
     public class Singleton<T> : MonoBehaviour where T : MonoBehaviour
     {
-        private static T _instance = null;
-
-        private void Awake()
-        {
-            DontDestroyOnLoad(this);
-        }
+        private static T _instance;
 
         public static T Instance
         {
@@ -45,7 +40,7 @@ namespace Collections
             {
                 if (_instance == null)
                 {
-                    _instance = (T)FindObjectOfType<T>();
+                    _instance = FindObjectOfType<T>();
                     if (_instance == null)
                     {
                         var go = new GameObject();
@@ -58,6 +53,11 @@ namespace Collections
 
                 return _instance;
             }
+        }
+
+        private void Awake()
+        {
+            DontDestroyOnLoad(this);
         }
     }
 }

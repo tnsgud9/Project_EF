@@ -23,10 +23,12 @@ namespace Collections
                 var component = GetComponent(type);
                 if (component == null)
                 {
-                    Debug.LogWarning("GetComponent typeof(" + type.Name + ") in game object '" + gameObject.name + "' is null");
-                    component = this.gameObject.AddComponent(type);
+                    Debug.LogWarning("GetComponent typeof(" + type.Name + ") in game object '" + gameObject.name +
+                                     "' is null");
+                    component = gameObject.AddComponent(type);
                     // continue;
                 }
+
                 field.SetValue(this, component);
             }
         }
@@ -40,10 +42,12 @@ namespace Collections
                 var component = GetComponentInChildren(type);
                 if (component == null)
                 {
-                    Debug.LogWarning("GetComponent typeof(" + type.Name + ") in game object '" + gameObject.name + "' is null");
-                    component = this.gameObject.AddComponent(type);
+                    Debug.LogWarning("GetComponent typeof(" + type.Name + ") in game object '" + gameObject.name +
+                                     "' is null");
+                    component = gameObject.AddComponent(type);
                     // continue;
                 }
+
                 field.SetValue(this, component);
             }
         }

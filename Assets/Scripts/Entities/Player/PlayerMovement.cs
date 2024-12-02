@@ -12,13 +12,13 @@ namespace Entities.Player
         public IEnumerator DelayMovement(float time, Action callback = null);
     }
 
-    public class PlayerMovement : BaseBehaviour , IPlayerMovement
+    public class PlayerMovement : BaseBehaviour, IPlayerMovement
     {
         public float moveSpeed = Const.DefaultPlayerSpeed; // 이동 속도
-        [Inject] private Rigidbody2D _rigid; // Rigidbody2D 컴포넌트
         private Vector2 _movementInput; // 이동 입력값
+        [Inject] private Rigidbody2D _rigid; // Rigidbody2D 컴포넌트
         [InjectChild] private SpriteRenderer _spriteRenderer;
-        
+
         public void Move(Vector2 direction)
         {
             // Rigidbody2D를 사용해 물리적으로 이동시킨다.
@@ -28,7 +28,7 @@ namespace Entities.Player
 
         public IEnumerator DelayMovement(float time, Action callback = null)
         {
-            float previousMoveSpeed = moveSpeed;
+            var previousMoveSpeed = moveSpeed;
             moveSpeed = 0f;
             yield return new WaitForSeconds(time);
             moveSpeed = previousMoveSpeed;
