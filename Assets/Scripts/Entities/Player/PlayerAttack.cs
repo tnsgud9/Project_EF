@@ -1,3 +1,4 @@
+using Collections;
 using Entities.Weapons;
 using UnityEngine;
 using UnityEngine.Pool;
@@ -8,7 +9,7 @@ namespace Entities.Player
     {
         void Attack();
     }
-    public class PlayerAttack : MonoBehaviour, IPlayerAttack
+    public class PlayerAttack : BaseBehaviour, IPlayerAttack
     {
         [Header("Bomb Placement Settings")]
         public GameObject bombPrefab; // 단일 폭탄 프리팹
@@ -56,12 +57,9 @@ namespace Entities.Player
 
         public void PlantBomb()
         {
-            if (_isPlanting) return;
             // 폭탄 설치 제한 조건
-            if (_activeBombCount >= maxBombs )
-            {
-                return;
-            }
+            if (_isPlanting) return;
+            if (_activeBombCount >= maxBombs ) return;
 
             _isPlanting = true;
 

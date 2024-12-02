@@ -1,9 +1,13 @@
 ﻿using Entities.Player;
 using UnityEngine;
+using UnityEngine.Pool;
 using UnityEngine.Serialization;
 
 namespace Entities.Weapons
 {
+    /// <summary>
+    /// Bomb은 플레이어의 기본 공격 폼이다.
+    /// </summary>
     public abstract class Bomb : MonoBehaviour
     {
         [Header("Bomb Settings")]
@@ -33,20 +37,6 @@ namespace Entities.Weapons
         // 폭발 처리 (자식 클래스에서 오버라이드 가능)
         protected abstract void Explode();
 
-        // 폭발 범위 내 유닛에게 데미지
-        protected void ApplyDamage()
-        {
-            Collider2D[] hitObjects = Physics2D.OverlapCircleAll(transform.position, explosionRadius, damageableLayer);
-            foreach (var obj in hitObjects)
-            {
-                IHealth health = obj.GetComponent<IHealth>();
-                if (health is not null)
-                {
-                    health.TakeDamage(damage);
-                }
-            }
-        }
-
         private void OnDrawGizmosSelected()
         {
             Gizmos.color = Color.red;
@@ -55,8 +45,6 @@ namespace Entities.Weapons
         
         protected void HandleExplosionComplete()
         {
-            ApplyDamage(); // 폭발 후 데미지 적용
-
             // 폭탄이 폭발 후 플레이어의 OnBombExploded 메서드를 호출하여 폭탄을 풀로 반환
             PlayerAttack.OnBombExploded(gameObject);
 
