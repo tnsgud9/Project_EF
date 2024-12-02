@@ -1,4 +1,3 @@
-using System;
 using Collections;
 using UnityEngine;
 
@@ -6,17 +5,22 @@ namespace Entities.Player
 {
     public class PlayerController : BaseBehaviour
     {
-        [Inject] private IPlayerMovement _playerMovement;
-        [Inject] private IPlayerAttack _playerAttack;
-        [Inject] private PlayerInputHandler _inputHandler;
         [Inject] private IHealth _health;
+        [Inject] private PlayerInputHandler _inputHandler;
+        [Inject] private IPlayerAttack _playerAttack;
+        [Inject] private IPlayerMovement _playerMovement;
 
         private StateContext<PlayerController> _stateContext;
-        
+
+        private void Update()
+        {
+            _stateContext.CurrentState.Update(this);
+        }
+
         protected override void OnEnable()
         {
             base.OnEnable();
-            
+
             // 이벤트 구독
             _inputHandler.OnMoveEnter += HandleMoveEnter;
             _inputHandler.OnMoveStay += HandleMoveStay;
@@ -25,12 +29,6 @@ namespace Entities.Player
             _inputHandler.OnAttackEnter += HandleAttackEnter;
             _inputHandler.OnAttackStay += HandleAttackStay;
             _inputHandler.OnAttackExit += HandleAttackExit;
-            
-        }
-
-        private void Update()
-        {
-            _stateContext.CurrentState.Update(this);
         }
 
         private void HandleMoveEnter()

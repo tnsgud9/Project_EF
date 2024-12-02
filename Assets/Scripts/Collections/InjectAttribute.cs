@@ -1,11 +1,13 @@
-﻿namespace Collections
+﻿using System;
+
+namespace Collections
 {
-    [System.AttributeUsage(System.AttributeTargets.All, Inherited = false, AllowMultiple = false)]
-    class Inject : System.Attribute
+    [AttributeUsage(AttributeTargets.All, Inherited = false)]
+    internal class Inject : Attribute
     {
     }
-    
-    class InjectChild : System.Attribute
+
+    internal class InjectChild : Attribute
     {
     }
 }
