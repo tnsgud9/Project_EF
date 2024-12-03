@@ -1339,6 +1339,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: Dynamite
       objectReference: {fileID: 0}
+    - target: {fileID: 8762745853139515153, guid: 1f4304a2532987e4b9e9df57e32d297e, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9171602754011533654, guid: 1f4304a2532987e4b9e9df57e32d297e, type: 3}
+      propertyPath: m_Size.x
+      value: 0.29
+      objectReference: {fileID: 0}
+    - target: {fileID: 9171602754011533654, guid: 1f4304a2532987e4b9e9df57e32d297e, type: 3}
+      propertyPath: m_Size.y
+      value: 0.16
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
