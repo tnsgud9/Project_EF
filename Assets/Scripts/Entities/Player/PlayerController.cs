@@ -14,7 +14,7 @@ namespace Entities.Player
 
         private void Update()
         {
-            _stateContext.CurrentState.Update(this);
+            // _stateContext.CurrentState.Update(this);
         }
 
         protected override void OnEnable()

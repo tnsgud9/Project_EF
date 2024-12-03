@@ -72,13 +72,13 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: -1847482958, guid: 683e749f338fec94f94203b8878e8d53, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 0.94, y: 0.4}
+  m_Size: {x: 0.5, y: 0.5}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -94,6 +94,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4369558657704772851}
   - component: {fileID: 3195328496990273906}
+  - component: {fileID: 9043318326759826237}
   m_Layer: 0
   m_Name: Dynamite
   m_TagString: Untagged
@@ -135,3 +136,27 @@ MonoBehaviour:
   damageableLayer:
     serializedVersion: 2
     m_Bits: 384
+  startIdleAnimSpeed: 0.1
+  targetIdleAnimSpeed: 0.3
+  explosionImminentRate: 2
+--- !u!95 &9043318326759826237
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8762745853139515153}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 5744e2fd55d9d7340994774c5fae591c, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
