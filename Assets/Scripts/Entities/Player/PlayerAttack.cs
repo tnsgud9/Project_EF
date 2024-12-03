@@ -30,9 +30,9 @@ namespace Entities.Player
             // 폭탄 풀 생성
             _bombPool = new ObjectPool<GameObject>(
                 CreateBomb,
-                OnTakeFromPool,
-                OnReturnedToPool,
-                OnDestroyPoolObject,
+                GetBomb,
+                ReleaseBomb,
+                DestroyBomb,
                 false,
                 maxBombs + 1,
                 maxBombs * 2
@@ -45,20 +45,31 @@ namespace Entities.Player
             return bomb;
         }
 
-        private void OnTakeFromPool(GameObject bomb)
+        private void GetBomb(GameObject bomb)
         {
             bomb.SetActive(true);
         }
 
-        private void OnReturnedToPool(GameObject bomb)
+        private void ReleaseBomb(GameObject bomb)
         {
             bomb.SetActive(false);
         }
 
-        private void OnDestroyPoolObject(GameObject bomb)
+        private void DestroyBomb(GameObject bomb)
         {
             Destroy(bomb);
         }
+
+        public void BombExplotion()
+        {
+            _activeBombCount--;
+        }
+
+        public void BombExploded(GameObject bomb)
+        {
+            // 폭탄 폭발 후 풀에 반환
+            _bombPool.Release(bomb);
+        } // ReSharper disable Unity.PerformanceAnalysis
 
         public void PlantBomb()
         {
@@ -71,8 +82,9 @@ namespace Entities.Player
             // 플레이어 움직임 제한
             var movement = GetComponent<IPlayerMovement>();
             StartCoroutine(movement?.DelayMovement(plantDelay));
+
             // 설치 지연 후 폭탄 배치
-            Invoke(nameof(DeployBomb), plantDelay);
+            Invoke(nameof(DeployBomb), plantDelay); // 비동기로 처리 
         }
 
         private void DeployBomb()
@@ -88,12 +100,6 @@ namespace Entities.Player
             _isPlanting = false; // 설치 상태 해제
         }
 
-        public void OnBombExploded(GameObject bomb)
-        {
-            // 폭탄 폭발 후 풀에 반환
-            _bombPool.Release(bomb);
-            _activeBombCount--;
-        } // ReSharper disable Unity.PerformanceAnalysis
         public void Attack()
         {
             PlantBomb();

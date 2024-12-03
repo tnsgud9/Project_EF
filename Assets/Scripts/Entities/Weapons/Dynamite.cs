@@ -31,7 +31,10 @@ namespace Entities.Weapons
             CameraManager.Instance.CameraExplosionShake();
             Animator.SetTrigger(ExplodeAnimTrigger);
             ApplyDamage(); // 폭발 후 데미지 적용
-            // Invoke(nameof(ExplodeComplete), 3f);
+        }
+
+        protected override void AfterExplode()
+        {
         }
 
         // 폭발 범위 내 유닛에게 데미지

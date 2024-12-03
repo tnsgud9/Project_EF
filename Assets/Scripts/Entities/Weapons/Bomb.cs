@@ -1,4 +1,5 @@
-﻿using Collections;
+﻿using System.Collections;
+using Collections;
 using Entities.Player;
 using UnityEngine;
 
@@ -17,11 +18,10 @@ namespace Entities.Weapons
 
         [Inject] protected Animator Animator;
 
-        protected new virtual void OnEnable()
+        protected override void OnEnable()
         {
             base.OnEnable();
-            BeforeExplode();
-            Invoke(nameof(Explode), explosionDelay);
+            StartCoroutine(ExplodeExecutor());
         }
 
         private void OnDisable()
@@ -30,7 +30,7 @@ namespace Entities.Weapons
         }
 
         // 폭탄 초기화
-        public virtual void Initialize(PlayerAttack playerAttack)
+        public void Initialize(PlayerAttack playerAttack)
         {
             _playerAttack = playerAttack;
             explosionRadius = _playerAttack.bombRadius;
@@ -40,11 +40,22 @@ namespace Entities.Weapons
         // 폭발 처리 (자식 클래스에서 오버라이드 가능)
         protected abstract void BeforeExplode();
         protected abstract void Explode();
-
-        protected void ExplodeComplete()
+        protected abstract void AfterExplode(); // ReSharper disable Unity.PerformanceAnalysis
+        private IEnumerator ExplodeExecutor()
         {
-            // 폭탄이 폭발 종료 후 플레이어의 OnBombExploded 메서드를 호출하여 폭탄을 풀로 반환
-            _playerAttack.OnBombExploded(gameObject);
+            BeforeExplode();
+            yield return new WaitForSeconds(explosionDelay);
+            _playerAttack.BombExplotion();
+            Explode();
+            yield return new WaitForSeconds(3f);
+            AfterExplode();
+            ExplodeComplete();
+        }
+
+        private void ExplodeComplete()
+        {
+            // 폭탄이 폭발 종료 후 플레이어의 BombExploded 메서드를 호출하여 폭탄을 풀로 반환
+            _playerAttack.BombExploded(gameObject);
         }
     }
 }
