@@ -19,6 +19,7 @@ namespace Entities.Weapons
 
         [Inject] protected Animator Animator;
         [Inject] protected AudioSource Audio;
+        [InjectChild] protected SpriteRenderer SpriteRenderer;
 
         protected override void OnEnable()
         {
@@ -37,6 +38,7 @@ namespace Entities.Weapons
             _playerAttack = playerAttack;
             explosionRadius = _playerAttack.bombRadius;
             damage = _playerAttack.damage;
+            SpriteRenderer.sortingOrder = _playerAttack.GetComponentInChildren<SpriteRenderer>().sortingOrder;
         }
 
         // 폭발 처리 (자식 클래스에서 오버라이드 가능)

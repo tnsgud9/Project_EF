@@ -23,7 +23,7 @@ namespace Entities.Player
         {
             // Rigidbody2D를 사용해 물리적으로 이동시킨다.
             _rigid.velocity = direction * moveSpeed; // 이동 방향에 속도 적용
-            _spriteRenderer.sortingOrder = (int)transform.position.y;
+            _spriteRenderer.sortingOrder = Mathf.FloorToInt(-transform.position.y * 10);
         }
 
         public IEnumerator DelayMovement(float time, Action callback = null)
