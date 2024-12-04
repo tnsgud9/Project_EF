@@ -12,11 +12,31 @@ namespace Collections
         {
             InjectGetComponent();
             InjectGetChildrenComponent();
+            InjectGetAddComponent();
         }
 
         private void InjectGetComponent()
         {
             var fields = GetFieldsWithAttribute(typeof(Inject));
+            foreach (var field in fields)
+            {
+                var type = field.FieldType;
+                var component = GetComponent(type);
+                if (component == null)
+                {
+                    Debug.LogWarning("GetComponent typeof(" + type.Name + ") in game object '" + gameObject.name +
+                                     "' is null");
+                    // component = gameObject.AddComponent(type);
+                    continue;
+                }
+
+                field.SetValue(this, component);
+            }
+        }
+
+        private void InjectGetAddComponent()
+        {
+            var fields = GetFieldsWithAttribute(typeof(InjectAdd));
             foreach (var field in fields)
             {
                 var type = field.FieldType;

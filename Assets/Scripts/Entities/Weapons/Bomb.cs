@@ -7,6 +7,7 @@ namespace Entities.Weapons
 {
     /// <summary>
     ///     Bomb은 플레이어의 기본 공격 폼이다.
+    ///     데미지, 폭발 범위 등의 공격 데이터는 PlayerAttack의 정보를 기반으로 가져온다.
     /// </summary>
     public abstract class Bomb : BaseBehaviour
     {
@@ -17,6 +18,7 @@ namespace Entities.Weapons
         private PlayerAttack _playerAttack;
 
         [Inject] protected Animator Animator;
+        [Inject] protected AudioSource Audio;
 
         protected override void OnEnable()
         {
@@ -45,7 +47,7 @@ namespace Entities.Weapons
         {
             BeforeExplode();
             yield return new WaitForSeconds(explosionDelay);
-            _playerAttack.BombExplotion();
+            _playerAttack?.BombExplotion();
             Explode();
             yield return new WaitForSeconds(3f);
             AfterExplode();
@@ -55,7 +57,10 @@ namespace Entities.Weapons
         private void ExplodeComplete()
         {
             // 폭탄이 폭발 종료 후 플레이어의 BombExploded 메서드를 호출하여 폭탄을 풀로 반환
-            _playerAttack.BombExploded(gameObject);
+            if (_playerAttack is null)
+                Destroy(gameObject);
+            else
+                _playerAttack.BombExploded(gameObject);
         }
     }
 }

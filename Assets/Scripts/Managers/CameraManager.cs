@@ -1,5 +1,6 @@
 ﻿using Camera;
 using Collections;
+using UnityEngine;
 
 namespace Managers
 {
@@ -10,6 +11,7 @@ namespace Managers
         private void Start()
         {
             _camera = UnityEngine.Camera.main;
+            _camera.backgroundColor = Color.black;
         }
 
         public void CameraExplosionShake()

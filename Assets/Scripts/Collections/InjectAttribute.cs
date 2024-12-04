@@ -10,4 +10,8 @@ namespace Collections
     internal class InjectChild : Attribute
     {
     }
+
+    internal class InjectAdd : Attribute
+    {
+    }
 }

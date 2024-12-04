@@ -5,63 +5,67 @@ namespace Entities.Player
 {
     public class PlayerController : BaseBehaviour
     {
+        [Inject] public PlayerInputHandler inputHandler;
         [Inject] private IHealth _health;
-        [Inject] private PlayerInputHandler _inputHandler;
+
+        private PlayerAliveState _playerAliveState;
         [Inject] private IPlayerAttack _playerAttack;
+        private PlayerDeathState _playerDeathState;
         [Inject] private IPlayerMovement _playerMovement;
 
         private StateContext<PlayerController> _stateContext;
 
-        private void Update()
+        private void Start()
         {
-            // _stateContext.CurrentState.Update(this);
         }
 
         protected override void OnEnable()
         {
             base.OnEnable();
+            _stateContext = new StateContext<PlayerController>(this);
+
+            // 기본 State 설정
+            _playerAliveState = new PlayerAliveState();
+            _playerDeathState = new PlayerDeathState();
+            _stateContext.CurrentState = _playerAliveState;
 
             // 이벤트 구독
-            _inputHandler.OnMoveEnter += HandleMoveEnter;
-            _inputHandler.OnMoveStay += HandleMoveStay;
-            _inputHandler.OnMoveExit += HandleMoveExit;
+            inputHandler.OnMoveEnter += HandleMoveEnter;
+            inputHandler.OnMoveStay += HandleMoveStay;
+            inputHandler.OnMoveExit += HandleMoveExit;
 
-            _inputHandler.OnAttackEnter += HandleAttackEnter;
-            _inputHandler.OnAttackStay += HandleAttackStay;
-            _inputHandler.OnAttackExit += HandleAttackExit;
+            inputHandler.OnAttackEnter += HandleAttackEnter;
+            inputHandler.OnAttackStay += HandleAttackStay;
+            inputHandler.OnAttackExit += HandleAttackExit;
+
+            _health.OnDie += () => { _stateContext.CurrentState = _playerDeathState; };
         }
 
         private void HandleMoveEnter()
         {
-            Debug.Log("Move Started");
         }
 
         private void HandleMoveStay()
         {
-            Debug.Log("Moving...");
-            _playerMovement.Move(_inputHandler.movementInput); // 필요시 구현
+            _playerMovement.Move(inputHandler.movementInput);
         }
 
         private void HandleMoveExit()
         {
-            Debug.Log("Move Stopped");
             _playerMovement.Move(Vector2.zero);
         }
 
         private void HandleAttackEnter()
         {
-            Debug.Log("Attack Started");
             _playerAttack.Attack();
         }
 
         private void HandleAttackStay()
         {
-            Debug.Log("Charging Attack...");
         }
 
         private void HandleAttackExit()
         {
-            Debug.Log("Attack Released");
         }
     }
 }
