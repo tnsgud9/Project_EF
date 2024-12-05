@@ -1,29 +1,25 @@
 using Collections;
+using Entities.Abilities;
 using UnityEngine;
 
 namespace Entities.Player
 {
-    public class PlayerController : BaseBehaviour
+    public class PlayerController : BaseBehaviour, IController
     {
         [Inject] public PlayerInputHandler inputHandler;
-        [Inject] private IHealth _health;
+        [InjectAdd] private AudioSource _audioSource;
 
         private PlayerAliveState _playerAliveState;
         [Inject] private IPlayerAttack _playerAttack;
         private PlayerDeathState _playerDeathState;
         [Inject] private IPlayerMovement _playerMovement;
-
         private StateContext<PlayerController> _stateContext;
-
-        private void Start()
-        {
-        }
 
         protected override void OnEnable()
         {
             base.OnEnable();
             _stateContext = new StateContext<PlayerController>(this);
-
+            AudioSystem = new AudioSystem(_audioSource);
             // 기본 State 설정
             _playerAliveState = new PlayerAliveState();
             _playerDeathState = new PlayerDeathState();
@@ -38,8 +34,17 @@ namespace Entities.Player
             inputHandler.OnAttackStay += HandleAttackStay;
             inputHandler.OnAttackExit += HandleAttackExit;
 
-            _health.OnDie += () => { _stateContext.CurrentState = _playerDeathState; };
+            Health.OnDie += () => { _stateContext.CurrentState = _playerDeathState; };
         }
+
+        [Inject] public IHealth Health { get; set; }
+
+        public void AddAbility(AbilityData abilityData)
+        {
+            foreach (var ability in GetComponentsInChildren<IAbility>()) ability.ApplyEffect(abilityData);
+        }
+
+        public IAudioSystem AudioSystem { get; set; }
 
         private void HandleMoveEnter()
         {

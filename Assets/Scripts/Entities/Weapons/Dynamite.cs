@@ -13,9 +13,9 @@ namespace Entities.Weapons
         public float startIdleAnimSpeed = 0.1f; // 애니메이션의 시작 속도
         public float targetIdleAnimSpeed = 0.5f; // 애니메이션의 목표 속도
 
-        [Header("Audio Settings")] public AudioClip explodeSound;
-        public AudioClip explodeHitSound;
-        public AudioClip explodeFuseSound;
+        [Header("Audio Settings")] public AudioPreset explodeSound;
+        public AudioPreset explodeHitSound;
+        public AudioPreset explodeFuseSound;
 
         private Vector3 _originalScale;
 
@@ -27,25 +27,20 @@ namespace Entities.Weapons
 
         protected override void BeforeExplode()
         {
-            Audio.clip = explodeFuseSound;
-            Audio.loop = true;
-            Audio.Play();
+            AudioSystem.Play(explodeFuseSound);
             DOTween.To(() => startIdleAnimSpeed, x => Animator.speed = x, targetIdleAnimSpeed, explosionImminentRate)
                 .SetEase(Ease.Linear)
                 .OnComplete(() =>
                 {
                     Animator.SetTrigger(ExplosionImminentAnimTrigger);
-                    Audio.loop = false;
-                    Audio.Stop();
+                    AudioSystem.Stop();
                 });
             _originalScale = SpriteRenderer.transform.localScale;
         }
 
         protected override void Explode()
         {
-            Audio.clip = explodeSound;
-            Audio.loop = false;
-            Audio.Play();
+            AudioSystem.Play(explodeSound);
             // Sprite의 원래 크기 (픽셀 단위)
             Vector2 spriteSize = SpriteRenderer.sprite.bounds.size;
             // 원의 반지름에 맞게 크기를 설정
@@ -71,8 +66,15 @@ namespace Entities.Weapons
             var hitObjects = Physics2D.OverlapCircleAll(transform.position, explosionRadius, damageableLayer);
             foreach (var obj in hitObjects)
             {
-                obj.GetComponent<IHealth>()?.TakeDamage(damage);
-                obj.GetComponent<AudioSource>()?.PlayOneShot(explodeHitSound);
+                var controller = obj.GetComponent<IController>();
+                if (controller == null)
+                {
+                    Debug.LogWarning($"{gameObject.name} : Controller is not exist or null");
+                    continue;
+                }
+
+                controller.Health.TakeDamage(damage);
+                controller.AudioSystem.PlayOneShot(explodeHitSound);
             }
         }
     }

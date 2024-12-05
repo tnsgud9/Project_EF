@@ -15,15 +15,18 @@ namespace Entities.Weapons
         public float explosionRadius = 2f; // 폭발 범위
         public int damage = 50; // 폭탄 데미지
         public LayerMask damageableLayer; // 데미지를 받을 레이어
+
+        [Inject] private AudioSource _audio;
         private PlayerAttack _playerAttack;
 
         [Inject] protected Animator Animator;
-        [Inject] protected AudioSource Audio;
+        protected AudioSystem AudioSystem;
         [InjectChild] protected SpriteRenderer SpriteRenderer;
 
         protected override void OnEnable()
         {
             base.OnEnable();
+            AudioSystem = new AudioSystem(_audio);
             StartCoroutine(ExplodeExecutor());
         }
 

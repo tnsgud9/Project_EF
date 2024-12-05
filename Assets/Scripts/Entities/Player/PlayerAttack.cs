@@ -1,4 +1,5 @@
 using Collections;
+using Entities.Abilities;
 using Entities.Weapons;
 using UnityEngine;
 using UnityEngine.Pool;
@@ -10,7 +11,7 @@ namespace Entities.Player
         void Attack();
     }
 
-    public class PlayerAttack : BaseBehaviour, IPlayerAttack
+    public class PlayerAttack : BaseBehaviour, IPlayerAttack, IAbility
     {
         [Header("Bomb Placement Settings")] public GameObject bombPrefab; // 단일 폭탄 프리팹
 
@@ -20,7 +21,6 @@ namespace Entities.Player
         public float cirtical = 0.01f; // 치명타율
         public float plantDelay = 0.5f; // 설치 중 움직임 제한 시간
         private int _activeBombCount; // 현재 설치된 폭탄 개수
-
 
         private ObjectPool<GameObject> _bombPool;
         private bool _isPlanting;
@@ -103,6 +103,10 @@ namespace Entities.Player
         public void Attack()
         {
             PlantBomb();
+        }
+
+        public void ApplyEffect(AbilityData abilityData)
+        {
         }
     }
 }

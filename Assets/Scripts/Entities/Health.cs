@@ -1,4 +1,5 @@
 ﻿using System;
+using Entities.Abilities;
 using UnityEngine;
 
 namespace Entities
@@ -11,13 +12,18 @@ namespace Entities
         void TakeDamage(int damage);
     }
 
-    public class Health : MonoBehaviour, IHealth
+    public class Health : MonoBehaviour, IHealth, IAbility
     {
         [SerializeField] private int currentHealth;
 
         private void Start()
         {
             currentHealth = MaxHealth;
+        }
+
+        public void ApplyEffect(AbilityData abilityData)
+        {
+            throw new NotImplementedException();
         }
 
         public int CurrentHealth => currentHealth;

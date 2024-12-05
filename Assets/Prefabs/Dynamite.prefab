@@ -140,9 +140,9 @@ MonoBehaviour:
   explosionImminentRate: 2
   startIdleAnimSpeed: 0.1
   targetIdleAnimSpeed: 0.3
-  explodeSound: {fileID: 8300000, guid: 245d54347ae60be4e940cf29b0cdfbea, type: 3}
-  explodeHitSound: {fileID: 8300000, guid: 8c5339ecb5bb4804884a9e4768ea8636, type: 3}
-  explodeFuseSound: {fileID: 8300000, guid: fd3e1d60d9cab754eb252a5a8dc50d40, type: 3}
+  explodeSound: {fileID: 11400000, guid: 26bd87b79ba267441927a26f2f6ede43, type: 2}
+  explodeHitSound: {fileID: 11400000, guid: 58587d7a3bc33104bba12d2bf10f13b5, type: 2}
+  explodeFuseSound: {fileID: 11400000, guid: dd1bdc7600ed42343b49c095755dcbfa, type: 2}
 --- !u!95 &9043318326759826237
 Animator:
   serializedVersion: 5

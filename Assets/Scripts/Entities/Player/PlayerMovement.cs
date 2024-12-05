@@ -2,6 +2,7 @@ using System;
 using System.Collections;
 using Collections;
 using Commons;
+using Entities.Abilities;
 using UnityEngine;
 
 namespace Entities.Player
@@ -12,12 +13,17 @@ namespace Entities.Player
         public IEnumerator DelayMovement(float time, Action callback = null);
     }
 
-    public class PlayerMovement : BaseBehaviour, IPlayerMovement
+    public class PlayerMovement : BaseBehaviour, IPlayerMovement, IAbility
     {
         public float moveSpeed = Const.DefaultPlayerSpeed; // 이동 속도
         private Vector2 _movementInput; // 이동 입력값
         [Inject] private Rigidbody2D _rigid; // Rigidbody2D 컴포넌트
         [InjectChild] private SpriteRenderer _spriteRenderer;
+
+        public void ApplyEffect(AbilityData abilityData)
+        {
+            throw new NotImplementedException();
+        }
 
         public void Move(Vector2 direction)
         {
