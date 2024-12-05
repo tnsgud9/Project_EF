@@ -13,6 +13,7 @@ namespace Entities.Player
 
     public class PlayerAttack : BaseBehaviour, IPlayerAttack, IAbility
     {
+        private static readonly int Planting = Animator.StringToHash("Planting");
         [Header("Bomb Placement Settings")] public GameObject bombPrefab; // 단일 폭탄 프리팹
 
         public int maxBombs = 2; // 최대 설치 가능 폭탄 수
@@ -21,6 +22,7 @@ namespace Entities.Player
         public float cirtical = 0.01f; // 치명타율
         public float plantDelay = 0.5f; // 설치 중 움직임 제한 시간
         private int _activeBombCount; // 현재 설치된 폭탄 개수
+        [InjectChild] private Animator _animator;
 
         private ObjectPool<GameObject> _bombPool;
         private bool _isPlanting;
@@ -77,7 +79,9 @@ namespace Entities.Player
             if (_isPlanting) return;
             if (_activeBombCount >= maxBombs) return;
 
+
             _isPlanting = true;
+            _animator.SetBool(Planting, _isPlanting);
 
             // 플레이어 움직임 제한
             var movement = GetComponent<IPlayerMovement>();
@@ -98,6 +102,7 @@ namespace Entities.Player
 
             _activeBombCount++;
             _isPlanting = false; // 설치 상태 해제
+            _animator.SetBool(Planting, _isPlanting);
         }
 
         public void Attack()
@@ -105,8 +110,13 @@ namespace Entities.Player
             PlantBomb();
         }
 
-        public void ApplyEffect(AbilityData abilityData)
+        public void AddEffect(AbilityData abilityData)
         {
+            maxBombs += abilityData.bombPlant;
+            bombRadius += abilityData.bombRadius;
+            plantDelay = Mathf.Clamp(plantDelay - abilityData.bombPlant, 0.01f, int.MaxValue);
+            damage += abilityData.bombDamage;
+            // cirtical += abilityData.bombCritical;
         }
     }
 }

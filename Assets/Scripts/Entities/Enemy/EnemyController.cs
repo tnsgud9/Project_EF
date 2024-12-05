@@ -1,4 +1,6 @@
-﻿using Collections;
+﻿using System;
+using Collections;
+using Commons;
 using Entities.Abilities;
 using UnityEngine;
 
@@ -20,8 +22,10 @@ namespace Entities.Enemy
         public IAudioSystem AudioSystem { get; set; }
         public IHealth Health { get; set; }
 
-        public void AddAbility(AbilityData abilityData)
+        public void AddAbility(AbilityData abilityData,
+            Enums.AbilityMethodType abilityMethodType = Enums.AbilityMethodType.Add)
         {
+            throw new NotImplementedException();
         }
     }
 }

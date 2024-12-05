@@ -2,6 +2,6 @@
 {
     public interface IAbility
     {
-        void ApplyEffect(AbilityData abilityData);
+        void AddEffect(AbilityData abilityData);
     }
 }

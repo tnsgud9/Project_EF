@@ -1,4 +1,5 @@
 ﻿using Collections;
+using Commons;
 using Entities.Abilities;
 
 namespace Entities
@@ -8,6 +9,7 @@ namespace Entities
         public IAudioSystem AudioSystem { get; set; }
         public IHealth Health { get; set; }
 
-        void AddAbility(AbilityData abilityData);
+        void AddAbility(AbilityData abilityData,
+            Enums.AbilityMethodType abilityMethodType = Enums.AbilityMethodType.Add);
     }
 }

@@ -21,9 +21,9 @@ namespace Entities
             currentHealth = MaxHealth;
         }
 
-        public void ApplyEffect(AbilityData abilityData)
+        public void AddEffect(AbilityData abilityData)
         {
-            throw new NotImplementedException();
+            MaxHealth += abilityData.health;
         }
 
         public int CurrentHealth => currentHealth;

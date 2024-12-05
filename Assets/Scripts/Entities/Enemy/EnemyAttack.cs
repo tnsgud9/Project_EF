@@ -1,5 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using Collections;
 using Entities.Abilities;
 using Entities.Enemy.AttackPatterns;
@@ -18,9 +17,8 @@ namespace Entities.Enemy
             base.OnEnable();
         }
 
-        public void ApplyEffect(AbilityData abilityData)
+        public void AddEffect(AbilityData abilityData)
         {
-            throw new NotImplementedException();
         }
     }
 }

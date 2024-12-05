@@ -1,4 +1,5 @@
 using Collections;
+using Commons;
 using Entities.Abilities;
 using UnityEngine;
 
@@ -39,9 +40,10 @@ namespace Entities.Player
 
         [Inject] public IHealth Health { get; set; }
 
-        public void AddAbility(AbilityData abilityData)
+        public void AddAbility(AbilityData abilityData,
+            Enums.AbilityMethodType abilityMethodType = Enums.AbilityMethodType.Add)
         {
-            foreach (var ability in GetComponentsInChildren<IAbility>()) ability.ApplyEffect(abilityData);
+            foreach (var ability in GetComponentsInChildren<IAbility>()) ability.AddEffect(abilityData);
         }
 
         public IAudioSystem AudioSystem { get; set; }

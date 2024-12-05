@@ -143,6 +143,7 @@ MonoBehaviour:
   explodeSound: {fileID: 11400000, guid: 26bd87b79ba267441927a26f2f6ede43, type: 2}
   explodeHitSound: {fileID: 11400000, guid: 58587d7a3bc33104bba12d2bf10f13b5, type: 2}
   explodeFuseSound: {fileID: 11400000, guid: dd1bdc7600ed42343b49c095755dcbfa, type: 2}
+  plantSound: {fileID: 11400000, guid: b58d1bea73bad61468aa14f312ebc964, type: 2}
 --- !u!95 &9043318326759826237
 Animator:
   serializedVersion: 5

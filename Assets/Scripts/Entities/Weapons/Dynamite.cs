@@ -16,6 +16,7 @@ namespace Entities.Weapons
         [Header("Audio Settings")] public AudioPreset explodeSound;
         public AudioPreset explodeHitSound;
         public AudioPreset explodeFuseSound;
+        public AudioPreset plantSound;
 
         private Vector3 _originalScale;
 
@@ -27,6 +28,7 @@ namespace Entities.Weapons
 
         protected override void BeforeExplode()
         {
+            AudioSystem.PlayOneShot(plantSound);
             AudioSystem.Play(explodeFuseSound);
             DOTween.To(() => startIdleAnimSpeed, x => Animator.speed = x, targetIdleAnimSpeed, explosionImminentRate)
                 .SetEase(Ease.Linear)
