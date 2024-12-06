@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
 using Collections;
-using Cysharp.Threading.Tasks;
 using Entities.Abilities;
 using Entities.Enemy.AttackPatterns;
+using Managers;
 using UnityEngine;
 using Random = UnityEngine.Random;
 
@@ -16,14 +16,40 @@ namespace Entities.Enemy
         public List<BaseAttackPattern> attackPatterns; // 여러 패턴 목록
         public BaseAttackPattern currentPattern;
         [InjectChild] public Animator animator;
-        private GameObject target; // 공격 대상 (필요시 할당)
+
+        [SerializeField] private bool _isCurrentPatternRunning;
+        private GameObject _target; // 공격 대상 (필요시 할당)
 
         private void Update()
         {
             // 패턴 실행 중이거나 currentPattern이 없으면 실행
-            if (currentPattern is not null) return;
-            currentPattern = SelectRandomPattern();
-            ExecuteCurrentPattern().Forget(); // UniTask 실행
+            // TODO: ScriptableObject 상에서 사용가능한 IState로 리펙토링
+            if (currentPattern is not null && _isCurrentPatternRunning)
+            {
+                currentPattern.Update(this, _target);
+                return;
+            }
+
+            currentPattern = SelectPattern();
+            StartCoroutine(currentPattern.Execute(this, _target));
+            _isCurrentPatternRunning = true;
+        }
+
+        protected override void OnEnable()
+        {
+            base.OnEnable();
+            _target = GameManager.Instance.playerController.gameObject;
+            if (currentPattern is not null)
+            {
+                _isCurrentPatternRunning = true;
+                StartCoroutine(currentPattern.Execute(this, _target));
+            }
+        }
+
+        private void OnDrawGizmosSelected()
+        {
+            Gizmos.color = Color.red;
+            Gizmos.DrawWireSphere(transform.position, 4f);
         }
 
         public void AddEffect(AbilityData abilityData)
@@ -31,15 +57,15 @@ namespace Entities.Enemy
             throw new NotImplementedException();
         }
 
-        private async UniTask ExecuteCurrentPattern()
+        public void StopCurrentPattern()
         {
-            // 현재 패턴 실행
-            await currentPattern.Execute(this, target);
-            currentPattern = currentPattern.nextPattern;
+            _isCurrentPatternRunning = false;
         }
 
-        private BaseAttackPattern SelectRandomPattern()
+        private BaseAttackPattern SelectPattern()
         {
+            if (currentPattern?.nextPattern is not null)
+                return currentPattern.nextPattern;
             return attackPatterns[Random.Range(0, attackPatterns.Count)];
         }
     }

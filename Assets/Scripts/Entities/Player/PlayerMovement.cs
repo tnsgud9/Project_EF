@@ -19,11 +19,17 @@ namespace Entities.Player
         private static readonly int Vertical = Animator.StringToHash("Vertical");
         public float moveSpeed = Const.DefaultPlayerSpeed; // 이동 속도
         [InjectChild] private Animator _animator;
+        private bool _isKnockedBack;
         private Vector2 _movementInput; // 이동 입력값
-        private float _moveSpeed = Const.DefaultPlayerSpeed; // 이동 속도
+        private float _moveSpeed; // 이동 속도
         [Inject] private Rigidbody2D _rigid; // Rigidbody2D 컴포넌트
         [InjectChild] private SpriteRenderer _spriteRenderer;
-        private bool isKnockedBack;
+
+        protected override void OnEnable()
+        {
+            base.OnEnable();
+            _moveSpeed = moveSpeed;
+        }
 
         public void AddEffect(AbilityData abilityData)
         {
@@ -34,9 +40,9 @@ namespace Entities.Player
 
         public void Move(Vector2 direction)
         {
-            if (isKnockedBack) return;
+            if (_isKnockedBack) return; // TODO: 안티패턴 개선 필요
             // Rigidbody2D를 사용해 물리적으로 이동시킨다.
-            _rigid.velocity = direction * _moveSpeed; // 이동 방향에 속도 적용 , drag 영향을 받지 않음
+            _rigid.velocity = direction.normalized * _moveSpeed; // 이동 방향에 속도 적용 , drag 영향을 받지 않음
             _spriteRenderer.sortingOrder = Mathf.FloorToInt(-transform.position.y * 10);
             _animator.SetFloat(Horizontal, direction.y);
             _animator.SetFloat(Vertical, direction.x);
@@ -54,9 +60,9 @@ namespace Entities.Player
         {
             _animator.SetFloat(Horizontal, 0);
             _animator.SetFloat(Vertical, 0);
-            isKnockedBack = true;
+            _isKnockedBack = true;
             _rigid.AddForce(-_rigid.velocity.normalized * knockBackForce, ForceMode2D.Impulse);
-            StartCoroutine(DelayMovement(timeDelay, () => { isKnockedBack = false; }));
+            StartCoroutine(DelayMovement(timeDelay, () => { _isKnockedBack = false; }));
             // 반대 방향으로 튕겨나가게 힘을 적용
         }
     }

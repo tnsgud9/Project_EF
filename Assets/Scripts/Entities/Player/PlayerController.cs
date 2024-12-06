@@ -1,6 +1,7 @@
 using Collections;
 using Commons;
 using Entities.Abilities;
+using Managers;
 using UnityEngine;
 
 namespace Entities.Player
@@ -35,6 +36,9 @@ namespace Entities.Player
             inputHandler.OnAttackEnter += HandleAttackEnter;
             inputHandler.OnAttackStay += HandleAttackStay;
             inputHandler.OnAttackExit += HandleAttackExit;
+
+            var manager = GameManager.Instance;
+            if (manager != null) manager.playerController = this;
 
             Health.OnDie += () => { _stateContext.CurrentState = _playerDeathState; };
         }

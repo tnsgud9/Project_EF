@@ -21,7 +21,7 @@ namespace Entities.Enemy
 
         private void OnCollisionEnter2D(Collision2D collision)
         {
-            collision.gameObject.GetComponent<IController>()?.KnockBack();
+            collision.gameObject.GetComponent<IController>()?.KnockBack(5f);
         }
 
         public IAudioSystem AudioSystem { get; set; }

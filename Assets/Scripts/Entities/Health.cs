@@ -9,7 +9,7 @@ namespace Entities
         int CurrentHealth { get; }
         int MaxHealth { get; }
         event Action OnDie;
-        void TakeDamage(int damage);
+        void TakeDamage(int damage = 1);
     }
 
     public class Health : MonoBehaviour, IHealth, IAbility
@@ -32,7 +32,7 @@ namespace Entities
         // Die 이벤트 구현
         public event Action OnDie;
 
-        public void TakeDamage(int damage)
+        public void TakeDamage(int damage = 1)
         {
             currentHealth -= damage;
             currentHealth = Mathf.Max(0, currentHealth);
