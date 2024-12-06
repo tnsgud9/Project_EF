@@ -45,6 +45,7 @@ namespace Entities.Weapons
             AudioSystem.Play(explodeSound);
             // Sprite의 원래 크기 (픽셀 단위)
             Vector2 spriteSize = SpriteRenderer.sprite.bounds.size;
+            SpriteRenderer.sortingOrder = 1000;
             // 원의 반지름에 맞게 크기를 설정
             // radius에 맞추기 위해서 Scale 비율을 계산합니다.
             var scaleFactor = explosionRadius * 2f / Mathf.Max(spriteSize.x, spriteSize.y);

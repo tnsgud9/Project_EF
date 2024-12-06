@@ -117,7 +117,7 @@ namespace Collections
             }
         }
 
-        protected IEnumerable<FieldInfo> GetFieldsWithAttribute(Type attributeType)
+        private IEnumerable<FieldInfo> GetFieldsWithAttribute(Type attributeType)
         {
             var currentType = GetType();
             var fields = new List<FieldInfo>();
@@ -135,7 +135,7 @@ namespace Collections
             return fields;
         }
 
-        protected IEnumerable<PropertyInfo> GetPropertiesWithAttribute(Type attributeType)
+        private IEnumerable<PropertyInfo> GetPropertiesWithAttribute(Type attributeType)
         {
             var currentType = GetType();
             var properties = new List<PropertyInfo>();

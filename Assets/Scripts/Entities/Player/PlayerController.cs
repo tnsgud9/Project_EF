@@ -8,12 +8,13 @@ namespace Entities.Player
     public class PlayerController : BaseBehaviour, IController
     {
         [Inject] public PlayerInputHandler inputHandler;
+        [InjectChild] private Animator _animator;
         [InjectAdd] private AudioSource _audioSource;
+        [Inject] private PlayerMovement _movement;
 
         private PlayerAliveState _playerAliveState;
-        [Inject] private IPlayerAttack _playerAttack;
+        [Inject] private PlayerAttack _playerAttack;
         private PlayerDeathState _playerDeathState;
-        [Inject] private IPlayerMovement _playerMovement;
         private StateContext<PlayerController> _stateContext;
 
         protected override void OnEnable()
@@ -40,6 +41,13 @@ namespace Entities.Player
 
         [Inject] public IHealth Health { get; set; }
 
+        public void KnockBack(float knockBackForce = 1f, float timeDelay = 0.6f)
+        {
+            _movement.KnockBack(knockBackForce, timeDelay);
+            _playerAttack.enabled = false;
+            StartCoroutine(Logic.WaitThenCallback(timeDelay, () => _playerAttack.enabled = true));
+        }
+
         public void AddAbility(AbilityData abilityData,
             Enums.AbilityMethodType abilityMethodType = Enums.AbilityMethodType.Add)
         {
@@ -54,12 +62,12 @@ namespace Entities.Player
 
         private void HandleMoveStay()
         {
-            _playerMovement.Move(inputHandler.movementInput);
+            _movement.Move(inputHandler.movementInput);
         }
 
         private void HandleMoveExit()
         {
-            _playerMovement.Move(Vector2.zero);
+            _movement.Move(Vector2.zero);
         }
 
         private void HandleAttackEnter()

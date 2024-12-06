@@ -19,13 +19,22 @@ namespace Entities.Enemy
             Health.OnDie += () => { Debug.Log($"Enemy Die : {gameObject.name}"); };
         }
 
+        private void OnCollisionEnter2D(Collision2D collision)
+        {
+            collision.gameObject.GetComponent<IController>()?.KnockBack();
+        }
+
         public IAudioSystem AudioSystem { get; set; }
-        public IHealth Health { get; set; }
+        [Inject] public IHealth Health { get; set; }
 
         public void AddAbility(AbilityData abilityData,
             Enums.AbilityMethodType abilityMethodType = Enums.AbilityMethodType.Add)
         {
             throw new NotImplementedException();
+        }
+
+        public void KnockBack(float knockBackForce = 1, float timeDelay = 0.6f)
+        {
         }
     }
 }

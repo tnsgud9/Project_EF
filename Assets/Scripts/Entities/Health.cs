@@ -27,7 +27,7 @@ namespace Entities
         }
 
         public int CurrentHealth => currentHealth;
-        public int MaxHealth { get; set; } = 100;
+        [field: SerializeField] public int MaxHealth { get; set; } = 100;
 
         // Die 이벤트 구현
         public event Action OnDie;

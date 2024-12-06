@@ -84,7 +84,7 @@ namespace Entities.Player
             _animator.SetBool(Planting, _isPlanting);
 
             // 플레이어 움직임 제한
-            var movement = GetComponent<IPlayerMovement>();
+            var movement = GetComponent<IMovement>();
             StartCoroutine(movement?.DelayMovement(plantDelay));
 
             // 설치 지연 후 폭탄 배치

@@ -57,7 +57,7 @@ namespace Collections
 
         private void Awake()
         {
-            DontDestroyOnLoad(this);
+            DontDestroyOnLoad(gameObject);
         }
     }
 }
