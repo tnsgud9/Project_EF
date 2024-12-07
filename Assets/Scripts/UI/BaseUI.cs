@@ -1,4 +1,6 @@
 ﻿using Collections;
+using Managers;
+using UnityEngine;
 
 namespace UI
 {
@@ -7,6 +9,7 @@ namespace UI
         protected override void OnEnable()
         {
             base.OnEnable();
+            UiManager.Instance.AddUI(gameObject.name, gameObject);
         }
 
         public virtual void OnDisable()

@@ -4,25 +4,33 @@ using UnityEngine;
 
 namespace Entities.Enemy
 {
-    public class EnemyState
-    {
-    }
-
-    public class IdleState : ScriptableObject, IState<EnemyController>
+    public class EnemyAliveState : IState<EnemyController>
     {
         public void Start(EnemyController controller)
         {
-            throw new NotImplementedException();
         }
 
         public void Update(EnemyController controller)
         {
-            throw new NotImplementedException();
         }
 
         public void End(EnemyController controller)
         {
-            throw new NotImplementedException();
+        }
+    }
+
+    public class EnemyDeathState : IState<EnemyController>
+    {
+        public void Start(EnemyController controller)
+        {
+        }
+
+        public void Update(EnemyController controller)
+        {
+        }
+
+        public void End(EnemyController controller)
+        {
         }
     }
 }

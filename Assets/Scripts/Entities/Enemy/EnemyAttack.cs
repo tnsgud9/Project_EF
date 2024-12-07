@@ -46,12 +46,6 @@ namespace Entities.Enemy
             }
         }
 
-        private void OnDrawGizmosSelected()
-        {
-            Gizmos.color = Color.red;
-            Gizmos.DrawWireSphere(transform.position, 4f);
-        }
-
         public void AddEffect(AbilityData abilityData)
         {
             throw new NotImplementedException();

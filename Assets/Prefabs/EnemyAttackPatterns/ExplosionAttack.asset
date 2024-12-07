@@ -16,7 +16,8 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 128
   nextPattern: {fileID: 0}
-  radius: 4
+  radius: 2
+  radiusOffset: 0.1
   explosionDelay: 1.2
   exploedDelay: 1.2
   indicatorPrefab: {fileID: 3499037235372351266, guid: 35d7ba9579a4c7345ba24e246c09f8eb, type: 3}

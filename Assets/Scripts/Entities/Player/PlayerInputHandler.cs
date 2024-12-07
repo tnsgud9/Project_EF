@@ -46,8 +46,7 @@ namespace Entities.Player
 
         private void HandleAttackInput()
         {
-            if (Input.GetKeyDown(KeyCode.Space)) // 왼쪽 마우스 버튼
-                OnAttackEnter?.Invoke();
+            if (Input.GetKeyDown(KeyCode.Space)) OnAttackEnter?.Invoke();
 
             if (Input.GetKey(KeyCode.Space)) OnAttackStay?.Invoke();
 

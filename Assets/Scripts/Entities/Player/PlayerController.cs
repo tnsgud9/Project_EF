@@ -1,3 +1,4 @@
+using System;
 using Collections;
 using Commons;
 using Entities.Abilities;
@@ -17,6 +18,8 @@ namespace Entities.Player
         [Inject] private PlayerAttack _playerAttack;
         private PlayerDeathState _playerDeathState;
         private StateContext<PlayerController> _stateContext;
+
+        [Inject] public PlayerController playerController;
 
         protected override void OnEnable()
         {
@@ -39,8 +42,20 @@ namespace Entities.Player
 
             var manager = GameManager.Instance;
             if (manager != null) manager.playerController = this;
+            
+            Health.OnDie += () => _stateContext.CurrentState = _playerDeathState;
+        }
+        
+        private void OnDisable()
+        {
+            
+            inputHandler.OnMoveEnter -= HandleMoveEnter;
+            inputHandler.OnMoveStay -= HandleMoveStay;
+            inputHandler.OnMoveExit -= HandleMoveExit;
 
-            Health.OnDie += () => { _stateContext.CurrentState = _playerDeathState; };
+            inputHandler.OnAttackEnter -= HandleAttackEnter;
+            inputHandler.OnAttackStay -= HandleAttackStay;
+            inputHandler.OnAttackExit -= HandleAttackExit;
         }
 
         [Inject] public IHealth Health { get; set; }
