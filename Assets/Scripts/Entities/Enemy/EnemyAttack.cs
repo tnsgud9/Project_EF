@@ -1,11 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 using Collections;
 using Entities.Abilities;
 using Entities.Enemy.AttackPatterns;
 using Managers;
 using UnityEngine;
-using UnityEngine.Serialization;
 using Random = UnityEngine.Random;
 
 namespace Entities.Enemy
@@ -19,7 +19,13 @@ namespace Entities.Enemy
         [InjectChild] public Animator animator;
 
         [SerializeField] private bool isCurrentPatternRunning;
+        private List<BaseAttackPattern> _instanceAttackPatterns;
         private GameObject _target; // 공격 대상 (필요시 할당)
+
+        private void Start()
+        {
+            _instanceAttackPatterns = attackPatterns.Select(it => it.CreateInstance()).ToList();
+        }
 
         private void Update()
         {
@@ -61,7 +67,7 @@ namespace Entities.Enemy
         {
             if (currentPattern?.nextPattern is not null)
                 return currentPattern.nextPattern;
-            return attackPatterns[Random.Range(0, attackPatterns.Count)];
+            return _instanceAttackPatterns[Random.Range(0, _instanceAttackPatterns.Count)];
         }
     }
 }

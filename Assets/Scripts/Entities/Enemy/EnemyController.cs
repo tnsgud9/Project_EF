@@ -2,6 +2,7 @@
 using Collections;
 using Commons;
 using Entities.Abilities;
+using Managers;
 using UI;
 using UnityEngine;
 
@@ -9,33 +10,33 @@ namespace Entities.Enemy
 {
     public class EnemyController : BaseBehaviour, IController
     {
-        [Header("UI Settings")] public UIHealthBar uiHealthBar;
-
         [InjectAdd] private AudioSource _audioSource;
         private EnemyAliveState _enemyAliveState;
         [Inject] private EnemyAttack _enemyAttack;
         private EnemyDeathState _enemyDeathState;
         [Inject] private Health _health;
         private StateContext<EnemyController> _stateContext;
+        [Header("UI Settings")] private UIHealthBar _uiHealthBar;
 
         private void Start()
         {
             // Exta Component Init
             AudioSystem = new AudioSystem(_audioSource);
-            _stateContext = new StateContext<EnemyController>(this);
-            _enemyAliveState = new EnemyAliveState();
-            _enemyDeathState = new EnemyDeathState();
-
-            uiHealthBar.AddHealthTracking(_health);
-
+            // _uiHealthBar.AddHealthTracking(_health);
+            _uiHealthBar = UiManager.Instance.GetUI<UIHealthBar>();
+            _uiHealthBar.AddHealthTracking(_health);
             // EventBinding
             Health.OnDie += () => { _stateContext.CurrentState = _enemyDeathState; };
-            Health.OnHealthChanged += (currentHealth, damage) => { uiHealthBar.RefreshHealthBar(); };
+            Health.OnHealthChanged += (currentHealth, damage) => { _uiHealthBar.RefreshHealthBar(); };
         }
 
         protected override void OnEnable()
         {
             base.OnEnable();
+
+            _stateContext = new StateContext<EnemyController>(this);
+            _enemyAliveState = new EnemyAliveState();
+            _enemyDeathState = new EnemyDeathState();
             _stateContext.CurrentState = _enemyAliveState;
         }
 

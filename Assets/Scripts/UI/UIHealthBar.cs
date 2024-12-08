@@ -2,6 +2,7 @@
 using System.Linq;
 using Collections;
 using Entities;
+using Managers;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -21,10 +22,16 @@ namespace UI
             RefreshHealthBar();
         }
 
+        protected override void AssignUiManage()
+        {
+            UiManager.Instance.AssignUI(this);
+        }
+
         public void AddHealthTracking(IHealth health)
         {
             _trackingHealths.Add(health);
             _allMaxHealth = GetAllMaxHealth();
+            RefreshHealthBar();
         }
 
         public void AddHealthTracking(GameObject healthObject)

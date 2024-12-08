@@ -132,8 +132,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   explosionDelay: 3
-  explosionRadius: 1
-  damage: 50
+  explosionRadius: 1.2
+  damage: 1
   damageableLayer:
     serializedVersion: 2
     m_Bits: 384
