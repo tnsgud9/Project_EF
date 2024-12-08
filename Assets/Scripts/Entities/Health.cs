@@ -9,6 +9,7 @@ namespace Entities
         int CurrentHealth { get; }
         int MaxHealth { get; }
         event Action OnDie;
+        event Action<int, int> OnHealthChanged;
         void TakeDamage(int damage = 1);
     }
 
@@ -28,24 +29,17 @@ namespace Entities
 
         public int CurrentHealth => currentHealth;
         [field: SerializeField] public int MaxHealth { get; set; } = 100;
-
-        // Die 이벤트 구현
-        // 이벤트 선언 (단일 바인딩만 허용)
-        private Action _onDie;
-        public event Action OnDie
-        {
-            add => _onDie = value;
-            remove => _onDie = null;
-        }
+        public event Action OnDie;
+        public event Action<int, int> OnHealthChanged;
 
         public void TakeDamage(int damage = 1)
         {
             currentHealth -= damage;
             currentHealth = Mathf.Max(0, currentHealth);
+            OnHealthChanged?.Invoke(currentHealth, damage);
             if (currentHealth <= 0)
                 // Die 이벤트를 호출
-                _onDie?.Invoke();
+                OnDie?.Invoke();
         }
-
     }
 }

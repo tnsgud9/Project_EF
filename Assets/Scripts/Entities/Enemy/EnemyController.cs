@@ -2,12 +2,15 @@
 using Collections;
 using Commons;
 using Entities.Abilities;
+using UI;
 using UnityEngine;
 
 namespace Entities.Enemy
 {
     public class EnemyController : BaseBehaviour, IController
     {
+        [Header("UI Settings")] public UIHealthBar uiHealthBar;
+
         [InjectAdd] private AudioSource _audioSource;
         private EnemyAliveState _enemyAliveState;
         [Inject] private EnemyAttack _enemyAttack;
@@ -15,22 +18,30 @@ namespace Entities.Enemy
         [Inject] private Health _health;
         private StateContext<EnemyController> _stateContext;
 
-        protected override void OnEnable()
+        private void Start()
         {
-            base.OnEnable();
+            // Exta Component Init
             AudioSystem = new AudioSystem(_audioSource);
             _stateContext = new StateContext<EnemyController>(this);
             _enemyAliveState = new EnemyAliveState();
             _enemyDeathState = new EnemyDeathState();
-            _stateContext.CurrentState = _enemyAliveState;
+
+            uiHealthBar.AddHealthTracking(_health);
+
+            // EventBinding
             Health.OnDie += () => { _stateContext.CurrentState = _enemyDeathState; };
-            // Health.DamageCallback += (int health) => { _enemyHealthGauge.SetHealth(health);  };
+            Health.OnHealthChanged += (currentHealth, damage) => { uiHealthBar.RefreshHealthBar(); };
         }
 
-        private void OnDisable()
+        protected override void OnEnable()
         {
-            // TODO: 컨트롤러들이 직접 GameManager를 참조하여 호출하는 방식은 안티 패턴 개선 필요
-            // GameManager.Instance.totalEnemyMaxHealth -= _health.MaxHealth;
+            base.OnEnable();
+            _stateContext.CurrentState = _enemyAliveState;
+        }
+
+        private void OnDestroy()
+        {
+            // TODO: HealthTracker에서 빼기
         }
 
         private void OnCollisionEnter2D(Collision2D collision)

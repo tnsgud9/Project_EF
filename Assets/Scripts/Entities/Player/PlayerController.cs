@@ -1,4 +1,3 @@
-using System;
 using Collections;
 using Commons;
 using Entities.Abilities;
@@ -10,6 +9,8 @@ namespace Entities.Player
     public class PlayerController : BaseBehaviour, IController
     {
         [Inject] public PlayerInputHandler inputHandler;
+
+        [Inject] public PlayerController playerController;
         [InjectChild] private Animator _animator;
         [InjectAdd] private AudioSource _audioSource;
         [Inject] private PlayerMovement _movement;
@@ -19,19 +20,15 @@ namespace Entities.Player
         private PlayerDeathState _playerDeathState;
         private StateContext<PlayerController> _stateContext;
 
-        [Inject] public PlayerController playerController;
-
-        protected override void OnEnable()
+        private void Start()
         {
-            base.OnEnable();
-            _stateContext = new StateContext<PlayerController>(this);
+            // Exta Component Init
             AudioSystem = new AudioSystem(_audioSource);
-            // 기본 State 설정
+            _stateContext = new StateContext<PlayerController>(this);
             _playerAliveState = new PlayerAliveState();
             _playerDeathState = new PlayerDeathState();
-            _stateContext.CurrentState = _playerAliveState;
 
-            // 이벤트 구독
+            // Input 이벤트 구독
             inputHandler.OnMoveEnter += HandleMoveEnter;
             inputHandler.OnMoveStay += HandleMoveStay;
             inputHandler.OnMoveExit += HandleMoveExit;
@@ -40,22 +37,18 @@ namespace Entities.Player
             inputHandler.OnAttackStay += HandleAttackStay;
             inputHandler.OnAttackExit += HandleAttackExit;
 
-            var manager = GameManager.Instance;
-            if (manager != null) manager.playerController = this;
-            
+            // EventBinding
             Health.OnDie += () => _stateContext.CurrentState = _playerDeathState;
         }
-        
-        private void OnDisable()
-        {
-            
-            inputHandler.OnMoveEnter -= HandleMoveEnter;
-            inputHandler.OnMoveStay -= HandleMoveStay;
-            inputHandler.OnMoveExit -= HandleMoveExit;
 
-            inputHandler.OnAttackEnter -= HandleAttackEnter;
-            inputHandler.OnAttackStay -= HandleAttackStay;
-            inputHandler.OnAttackExit -= HandleAttackExit;
+        protected override void OnEnable()
+        {
+            base.OnEnable();
+
+            // 기본 State 설정
+            _stateContext.CurrentState = _playerAliveState;
+
+            GameManager.Instance.playerController = this; // TODO: Controller는 Manager를 직접 지정할 수 없음 수정 필요
         }
 
         [Inject] public IHealth Health { get; set; }

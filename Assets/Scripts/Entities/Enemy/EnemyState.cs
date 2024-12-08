@@ -1,35 +1,33 @@
-﻿using System;
-using Collections;
-using UnityEngine;
+﻿using Collections;
 
 namespace Entities.Enemy
 {
     public class EnemyAliveState : IState<EnemyController>
     {
-        public void Start(EnemyController controller)
+        public void StateStart(EnemyController controller)
         {
         }
 
-        public void Update(EnemyController controller)
+        public void StateUpdate(EnemyController controller)
         {
         }
 
-        public void End(EnemyController controller)
+        public void StateEnd(EnemyController controller)
         {
         }
     }
 
     public class EnemyDeathState : IState<EnemyController>
     {
-        public void Start(EnemyController controller)
+        public void StateStart(EnemyController controller)
         {
         }
 
-        public void Update(EnemyController controller)
+        public void StateUpdate(EnemyController controller)
         {
         }
 
-        public void End(EnemyController controller)
+        public void StateEnd(EnemyController controller)
         {
         }
     }

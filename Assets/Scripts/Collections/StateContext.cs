@@ -4,9 +4,9 @@ namespace Collections
 {
     public interface IState<TController>
     {
-        void Start(TController controller);
-        void Update(TController controller);
-        void End(TController controller);
+        void StateStart(TController controller);
+        void StateUpdate(TController controller);
+        void StateEnd(TController controller);
     }
 
     public class StateContext<TController>
@@ -25,9 +25,9 @@ namespace Collections
             set
             {
                 if (_currentState == value) return;
-                if (_currentState is not null) _currentState.End(_controller);
+                if (_currentState is not null) _currentState.StateEnd(_controller);
                 _currentState = value;
-                _currentState.Start(_controller);
+                _currentState.StateStart(_controller);
             }
         }
     }
@@ -45,17 +45,17 @@ namespace Collections
             _endAction = endAction;
         }
 
-        public void Start(TController controller)
+        public void StateStart(TController controller)
         {
             throw new NotImplementedException();
         }
 
-        public void Update(TController controller)
+        public void StateUpdate(TController controller)
         {
             _handleAction.Invoke();
         }
 
-        public void End(TController controller)
+        public void StateEnd(TController controller)
         {
             throw new NotImplementedException();
         }

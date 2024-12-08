@@ -1,6 +1,5 @@
 ﻿using Collections;
 using Managers;
-using UnityEngine;
 
 namespace UI
 {
@@ -10,24 +9,6 @@ namespace UI
         {
             base.OnEnable();
             UiManager.Instance.AddUI(gameObject.name, gameObject);
-        }
-
-        public virtual void OnDisable()
-        {
-        }
-
-        public virtual void Initialize()
-        {
-        }
-
-        public virtual void Open()
-        {
-            gameObject.SetActive(true);
-        }
-
-        public virtual void Close()
-        {
-            gameObject.SetActive(false);
         }
     }
 }

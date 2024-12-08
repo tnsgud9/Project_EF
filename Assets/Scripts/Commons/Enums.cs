@@ -10,6 +10,11 @@ namespace Commons
             Set
         }
 
+        public enum EntityEvent
+        {
+            Damaged
+        }
+
         public enum Event
         {
             GameOver,
