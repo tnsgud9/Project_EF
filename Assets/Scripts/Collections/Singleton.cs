@@ -55,7 +55,7 @@ namespace Collections
             }
         }
 
-        private void Awake()
+        protected virtual void Awake()
         {
             DontDestroyOnLoad(gameObject);
         }
