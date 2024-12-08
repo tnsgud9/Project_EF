@@ -5,6 +5,7 @@ using Entities.Abilities;
 using Entities.Enemy.AttackPatterns;
 using Managers;
 using UnityEngine;
+using UnityEngine.Serialization;
 using Random = UnityEngine.Random;
 
 namespace Entities.Enemy
@@ -17,14 +18,14 @@ namespace Entities.Enemy
         public BaseAttackPattern currentPattern;
         [InjectChild] public Animator animator;
 
-        [SerializeField] private bool _isCurrentPatternRunning;
+        [SerializeField] private bool isCurrentPatternRunning;
         private GameObject _target; // 공격 대상 (필요시 할당)
 
         private void Update()
         {
             // 패턴 실행 중이거나 currentPattern이 없으면 실행
             // TODO: ScriptableObject 상에서 사용가능한 IState로 리펙토링
-            if (currentPattern is not null && _isCurrentPatternRunning)
+            if (currentPattern is not null && isCurrentPatternRunning)
             {
                 currentPattern.Update(this, _target);
                 return;
@@ -32,7 +33,7 @@ namespace Entities.Enemy
 
             currentPattern = SelectPattern();
             StartCoroutine(currentPattern.Execute(this, _target));
-            _isCurrentPatternRunning = true;
+            isCurrentPatternRunning = true;
         }
 
         protected override void OnEnable()
@@ -41,7 +42,7 @@ namespace Entities.Enemy
             _target = GameManager.Instance.playerController.gameObject;
             if (currentPattern is not null)
             {
-                _isCurrentPatternRunning = true;
+                isCurrentPatternRunning = true;
                 StartCoroutine(currentPattern.Execute(this, _target));
             }
         }
@@ -53,7 +54,7 @@ namespace Entities.Enemy
 
         public void StopCurrentPattern()
         {
-            _isCurrentPatternRunning = false;
+            isCurrentPatternRunning = false;
         }
 
         private BaseAttackPattern SelectPattern()
