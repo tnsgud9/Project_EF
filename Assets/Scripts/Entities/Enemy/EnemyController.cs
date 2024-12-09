@@ -10,9 +10,10 @@ namespace Entities.Enemy
 {
     public class EnemyController : BaseBehaviour, IController
     {
+        [HideInInspector] [Inject] public EnemyAttack enemyAttack;
+        [HideInInspector] [Inject] public Rigidbody2D rigidbody;
         [InjectAdd] private AudioSource _audioSource;
         private EnemyAliveState _enemyAliveState;
-        [Inject] private EnemyAttack _enemyAttack;
         private EnemyDeathState _enemyDeathState;
         [Inject] private Health _health;
         private StateContext<EnemyController> _stateContext;

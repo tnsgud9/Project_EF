@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
 using Collections;
 using Entities.Abilities;
 using Entities.Enemy.AttackPatterns;
@@ -19,13 +18,10 @@ namespace Entities.Enemy
         [InjectChild] public Animator animator;
 
         [SerializeField] private bool isCurrentPatternRunning;
-        private List<BaseAttackPattern> _instanceAttackPatterns;
-        private GameObject _target; // 공격 대상 (필요시 할당)
 
-        private void Start()
-        {
-            _instanceAttackPatterns = attackPatterns.Select(it => it.CreateInstance()).ToList();
-        }
+        [HideInInspector] public GameObject indicator;
+        [HideInInspector] public SpriteRenderer indicatorRenderer;
+        private GameObject _target; // 공격 대상 (필요시 할당)
 
         private void Update()
         {
@@ -67,7 +63,7 @@ namespace Entities.Enemy
         {
             if (currentPattern?.nextPattern is not null)
                 return currentPattern.nextPattern;
-            return _instanceAttackPatterns[Random.Range(0, _instanceAttackPatterns.Count)];
+            return attackPatterns[Random.Range(0, attackPatterns.Count)];
         }
     }
 }

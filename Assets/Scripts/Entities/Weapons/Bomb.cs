@@ -46,14 +46,14 @@ namespace Entities.Weapons
 
         // 폭발 처리 (자식 클래스에서 오버라이드 가능)
         protected abstract void BeforeExplode();
-        protected abstract void Explode();
+        protected abstract IEnumerator Explode();
         protected abstract void AfterExplode(); // ReSharper disable Unity.PerformanceAnalysis
         private IEnumerator ExplodeExecutor()
         {
             BeforeExplode();
             yield return new WaitForSeconds(explosionDelay);
             _playerAttack?.BombExplotion();
-            Explode();
+            yield return StartCoroutine(Explode());
             yield return new WaitForSeconds(3f);
             AfterExplode();
             ExplodeComplete();

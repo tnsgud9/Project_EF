@@ -1,4 +1,5 @@
-﻿using DG.Tweening;
+﻿using System.Collections;
+using DG.Tweening;
 using Managers;
 using UnityEngine;
 
@@ -40,7 +41,7 @@ namespace Entities.Weapons
             _originalScale = SpriteRenderer.transform.localScale;
         }
 
-        protected override void Explode()
+        protected override IEnumerator Explode()
         {
             AudioSystem.Play(explodeSound);
             // Sprite의 원래 크기 (픽셀 단위)
@@ -56,6 +57,7 @@ namespace Entities.Weapons
             CameraManager.Instance.CameraExplosionShake();
             Animator.SetTrigger(ExplodeAnimTrigger);
             ApplyDamage(); // 폭발 후 데미지 적용
+            yield return null;
         }
 
         protected override void AfterExplode()

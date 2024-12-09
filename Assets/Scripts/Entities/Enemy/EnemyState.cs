@@ -6,6 +6,7 @@ namespace Entities.Enemy
     {
         public void StateStart(EnemyController controller)
         {
+            controller.enemyAttack.enabled = true;
         }
 
         public void StateUpdate(EnemyController controller)
@@ -21,6 +22,7 @@ namespace Entities.Enemy
     {
         public void StateStart(EnemyController controller)
         {
+            controller.enemyAttack.enabled = false;
         }
 
         public void StateUpdate(EnemyController controller)

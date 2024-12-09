@@ -1493,7 +1493,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 623726423}
-  - component: {fileID: 623726424}
   m_Layer: 7
   m_Name: Header
   m_TagString: Untagged
@@ -1523,22 +1522,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: -76.795166}
   m_SizeDelta: {x: 0, y: 150}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &623726424
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 623726422}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cb79983894c74f2db13ab52c1b825b3c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  slider: {fileID: 0}
-  availableLayer:
-    serializedVersion: 2
-    m_Bits: 0
 --- !u!1 &693233166
 GameObject:
   m_ObjectHideFlags: 0
@@ -1621,7 +1604,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 7
+  m_Constraints: 4
 --- !u!114 &693233169
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1654,6 +1637,8 @@ MonoBehaviour:
   currentPattern: {fileID: 11400000, guid: c7551c914b54a06419ed807e8102a27e, type: 2}
   animator: {fileID: 0}
   isCurrentPatternRunning: 0
+  indicator: {fileID: 0}
+  indicatorRenderer: {fileID: 0}
 --- !u!114 &693233171
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1666,6 +1651,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 01dde9d41b554abdbf33792207241a2a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  enemyAttack: {fileID: 0}
+  rigidbody: {fileID: 0}
 --- !u!4 &693233172
 Transform:
   m_ObjectHideFlags: 0
@@ -2319,6 +2306,8 @@ MonoBehaviour:
   currentPattern: {fileID: 11400000, guid: c7551c914b54a06419ed807e8102a27e, type: 2}
   animator: {fileID: 0}
   isCurrentPatternRunning: 0
+  indicator: {fileID: 0}
+  indicatorRenderer: {fileID: 0}
 --- !u!114 &1254672813
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2331,6 +2320,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 01dde9d41b554abdbf33792207241a2a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  enemyAttack: {fileID: 0}
+  rigidbody: {fileID: 0}
 --- !u!4 &1254672814
 Transform:
   m_ObjectHideFlags: 0
@@ -2423,7 +2414,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 7
+  m_Constraints: 4
 --- !u!1 &1329012222
 GameObject:
   m_ObjectHideFlags: 0
@@ -2958,10 +2949,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cb79983894c74f2db13ab52c1b825b3c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  slider: {fileID: 0}
+  slider: {fileID: 1977773200}
   availableLayer:
     serializedVersion: 2
     m_Bits: 256
+--- !u!114 &1977773200 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5199787726226430281, guid: 6a5002e57be84ed4aa56370c2827d4df, type: 3}
+  m_PrefabInstance: {fileID: 859004062}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1977773197}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 67db9e8f0e2ae9c40bc1e2b64352a6b4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2142036185
 GameObject:
   m_ObjectHideFlags: 0
