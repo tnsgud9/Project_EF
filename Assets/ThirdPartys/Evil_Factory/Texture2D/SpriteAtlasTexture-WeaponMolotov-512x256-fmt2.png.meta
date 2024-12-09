@@ -43,7 +43,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -108,7 +108,301 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: SpriteAtlasTexture-WeaponMolotov-512x256-fmt2_0
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 178
+        width: 24
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe9361c8ffefd524c8ed3b236a09d232
+      internalID: 1535646214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteAtlasTexture-WeaponMolotov-512x256-fmt2_1
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 107
+        width: 45
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04389121eed336149950d83eae93f87e
+      internalID: -1053685143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1_SpriteAtlasTexture-WeaponMolotov-512x256-fmt2_2
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 104
+        width: 17
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53b8f938c83a9ac4e8e80ab0b7916f9d
+      internalID: -1157972400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteAtlasTexture-WeaponMolotov-512x256-fmt2_3
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 80
+        width: 41
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad9a895d1ac2928488621f3e6eb9b9f4
+      internalID: 209392117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteAtlasTexture-WeaponMolotov-512x256-fmt2_4
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 118
+        width: 4
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96db5b1ef4aeadd43b4ffc7d7f47f59f
+      internalID: 88735130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteAtlasTexture-WeaponMolotov-512x256-fmt2_5
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 73
+        width: 46
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25a9f3a6ba170bf4c93ad3b13292821d
+      internalID: -180320514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteAtlasTexture-WeaponMolotov-512x256-fmt2_6
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 104
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3164a0ee4b93bf34e93ee72ce1d41ce1
+      internalID: -1484583877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteAtlasTexture-WeaponMolotov-512x256-fmt2_7
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 103
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a70489fca64110489f536bb048bb129
+      internalID: 491386777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteAtlasTexture-WeaponMolotov-512x256-fmt2_8
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 22
+        width: 60
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7afe5306b741aa45830c341f66ddc53
+      internalID: -959449564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteAtlasTexture-WeaponMolotov-512x256-fmt2_9
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 4
+        width: 47
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88d9d121af4b2c74da70401c44446e7e
+      internalID: -472864929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteAtlasTexture-WeaponMolotov-512x256-fmt2_10
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 5
+        width: 46
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e579c68bdeb50c14aaffc25123a7594a
+      internalID: 938793971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2_SpriteAtlasTexture-WeaponMolotov-512x256-fmt2_11
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 2
+        width: 17
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b4304863e8a9bd4aa5d7799bf8e9a5d
+      internalID: 602501000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteAtlasTexture-WeaponMolotov-512x256-fmt2_12
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 4
+        width: 29
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 825a0b6421afaaa48bf87c68f712d48a
+      internalID: -973907555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteAtlasTexture-WeaponMolotov-512x256-fmt2_13
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 4
+        width: 29
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d79888595af4a0c478f4ec5ee3de917d
+      internalID: -378621455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -119,7 +413,21 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      1_SpriteAtlasTexture-WeaponMolotov-512x256-fmt2_2: -1157972400
+      2_SpriteAtlasTexture-WeaponMolotov-512x256-fmt2_11: 602501000
+      SpriteAtlasTexture-WeaponMolotov-512x256-fmt2_0: 1535646214
+      SpriteAtlasTexture-WeaponMolotov-512x256-fmt2_1: -1053685143
+      SpriteAtlasTexture-WeaponMolotov-512x256-fmt2_10: 938793971
+      SpriteAtlasTexture-WeaponMolotov-512x256-fmt2_12: -973907555
+      SpriteAtlasTexture-WeaponMolotov-512x256-fmt2_13: -378621455
+      SpriteAtlasTexture-WeaponMolotov-512x256-fmt2_3: 209392117
+      SpriteAtlasTexture-WeaponMolotov-512x256-fmt2_4: 88735130
+      SpriteAtlasTexture-WeaponMolotov-512x256-fmt2_5: -180320514
+      SpriteAtlasTexture-WeaponMolotov-512x256-fmt2_6: -1484583877
+      SpriteAtlasTexture-WeaponMolotov-512x256-fmt2_7: 491386777
+      SpriteAtlasTexture-WeaponMolotov-512x256-fmt2_8: -959449564
+      SpriteAtlasTexture-WeaponMolotov-512x256-fmt2_9: -472864929
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
