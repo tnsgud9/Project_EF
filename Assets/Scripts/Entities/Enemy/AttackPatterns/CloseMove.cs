@@ -13,13 +13,13 @@ namespace Entities.Enemy.AttackPatterns
         public float timeLimit = 3f; // 제한 시간 (초)
         private float _timeElapsed; // 경과 시간
 
-        public override IEnumerator Execute(EnemyAttack enemyAttack, GameObject target = null)
+        public override IEnumerator AttackStart(EnemyAttack enemyAttack, GameObject target = null)
         {
             _timeElapsed = 0f;
             yield return null;
         }
 
-        public override void Update(EnemyAttack enemyAttack, GameObject target = null)
+        public override void AttackUpdate(EnemyAttack enemyAttack, GameObject target = null)
         {
             if (target is null) Debug.LogWarning("AttackPattern CloseMove target is null : pattern skip");
             if (_timeElapsed >= timeLimit)

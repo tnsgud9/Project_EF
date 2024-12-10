@@ -29,12 +29,12 @@ namespace Entities.Enemy
             // TODO: ScriptableObject 상에서 사용가능한 IState로 리펙토링
             if (currentPattern is not null && isCurrentPatternRunning)
             {
-                currentPattern.Update(this, _target);
+                currentPattern.AttackUpdate(this, _target);
                 return;
             }
 
             currentPattern = SelectPattern();
-            StartCoroutine(currentPattern.Execute(this, _target));
+            StartCoroutine(currentPattern.AttackStart(this, _target));
             isCurrentPatternRunning = true;
         }
 
@@ -45,7 +45,7 @@ namespace Entities.Enemy
             if (currentPattern is not null)
             {
                 isCurrentPatternRunning = true;
-                StartCoroutine(currentPattern.Execute(this, _target));
+                StartCoroutine(currentPattern.AttackStart(this, _target));
             }
         }
 

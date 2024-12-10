@@ -17,7 +17,7 @@ namespace Entities.Enemy.AttackPatterns
         // Use ObjectPool<Projectile> from UnityEngine.Pool
         private ObjectPool<Projectile> _projectilePool;
 
-        public override IEnumerator Execute(EnemyAttack enemyAttack, GameObject target = null)
+        public override IEnumerator AttackStart(EnemyAttack enemyAttack, GameObject target = null)
         {
             // Initialize the ObjectPool for projectiles if it's not already initialized
             if (_projectilePool == null)
@@ -48,7 +48,7 @@ namespace Entities.Enemy.AttackPatterns
             enemyAttack.StopCurrentPattern();
         }
 
-        public override void Update(EnemyAttack enemyAttack, GameObject target = null)
+        public override void AttackUpdate(EnemyAttack enemyAttack, GameObject target = null)
         {
             // Add any updates for the attack pattern (if needed)
         }

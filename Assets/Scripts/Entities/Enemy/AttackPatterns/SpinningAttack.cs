@@ -12,7 +12,7 @@ namespace Entities.Enemy.AttackPatterns
         public float rotationSpeed = 30f;
         public float attackDuration = 3f;
 
-        public override IEnumerator Execute(EnemyAttack enemyAttack, GameObject target = null)
+        public override IEnumerator AttackStart(EnemyAttack enemyAttack, GameObject target = null)
         {
             var elapsedTime = 0f;
             var projectiles = new List<GameObject>();
@@ -51,7 +51,7 @@ namespace Entities.Enemy.AttackPatterns
             enemyAttack.StopCurrentPattern();
         }
 
-        public override void Update(EnemyAttack enemyAttack, GameObject target = null)
+        public override void AttackUpdate(EnemyAttack enemyAttack, GameObject target = null)
         {
         }
     }

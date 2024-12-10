@@ -8,7 +8,7 @@ namespace Entities.Enemy.AttackPatterns
     {
         public LayerMask damageableLayer; // 데미지를 받을 레이어 
         [CanBeNull] public BaseAttackPattern nextPattern;
-        public abstract IEnumerator Execute(EnemyAttack enemyAttack, GameObject target = null);
-        public abstract void Update(EnemyAttack enemyAttack, GameObject target = null);
+        public abstract IEnumerator AttackStart(EnemyAttack enemyAttack, GameObject target = null);
+        public abstract void AttackUpdate(EnemyAttack enemyAttack, GameObject target = null);
     }
 }

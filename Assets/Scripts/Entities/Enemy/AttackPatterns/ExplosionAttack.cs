@@ -16,7 +16,7 @@ namespace Entities.Enemy.AttackPatterns
         // ReSharper disable Unity.PerformanceAnalysis
         public GameObject indicatorPrefab;
 
-        public override IEnumerator Execute(EnemyAttack enemyAttack, GameObject target = null)
+        public override IEnumerator AttackStart(EnemyAttack enemyAttack, GameObject target = null)
         {
             // 인디게이터 생성
             if (enemyAttack.indicator == null)
@@ -52,7 +52,7 @@ namespace Entities.Enemy.AttackPatterns
             yield return null;
         }
 
-        public override void Update(EnemyAttack enemyAttack, GameObject target = null)
+        public override void AttackUpdate(EnemyAttack enemyAttack, GameObject target = null)
         {
         }
     }
