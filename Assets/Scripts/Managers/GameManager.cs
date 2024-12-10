@@ -11,7 +11,7 @@ namespace Managers
         public PlayerController playerController;
 
         public List<AbilityData> abilities;
-        public List<IAbility> PlayerAbilities;
+        // public List<AbilityData> playerAbilities;
 
 
         protected override void Awake()
