@@ -55,10 +55,5 @@ namespace Entities.Enemy.AttackPatterns
         public override void Update(EnemyAttack enemyAttack, GameObject target = null)
         {
         }
-
-        public override BaseAttackPattern CreateInstance()
-        {
-            return CreateInstance<ExplosionAttack>();
-        }
     }
 }

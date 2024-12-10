@@ -10,6 +10,5 @@ namespace Entities.Enemy.AttackPatterns
         [CanBeNull] public BaseAttackPattern nextPattern;
         public abstract IEnumerator Execute(EnemyAttack enemyAttack, GameObject target = null);
         public abstract void Update(EnemyAttack enemyAttack, GameObject target = null);
-        public abstract BaseAttackPattern CreateInstance();
     }
 }

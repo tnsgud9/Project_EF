@@ -10,6 +10,7 @@ namespace Managers
     {
         public PlayerController playerController;
 
+        public List<AbilityData> abilities;
         public List<IAbility> PlayerAbilities;
 
 
@@ -19,6 +20,11 @@ namespace Managers
             // TODO: 추후에 카메라도 controller 의한 제어를 받아야한다.
             UnityEngine.Camera.main?.GetComponent<CameraFade>().FadeIn();
             // UiManager.Instance.CloseAllUIs();
+        }
+
+        public void AddAbility(AbilityData ability)
+        {
+            playerController.AddAbility(ability);
         }
     }
 }

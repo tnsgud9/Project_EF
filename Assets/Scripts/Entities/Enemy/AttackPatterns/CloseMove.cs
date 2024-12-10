@@ -53,10 +53,5 @@ namespace Entities.Enemy.AttackPatterns
         {
             _timeElapsed = 0f;
         }
-
-        public override BaseAttackPattern CreateInstance()
-        {
-            return CreateInstance<ExplosionAttack>();
-        }
     }
 }

@@ -2,7 +2,7 @@
 
 namespace Entities.Abilities
 {
-    [CreateAssetMenu(fileName = "Augment", menuName = "TFT/Augment")]
+    [CreateAssetMenu(fileName = "Ability", menuName = "Ability/AbilityData")]
     public class AbilityData : ScriptableObject
     {
         [Header("General Info")] public string abilityName; // 증강체 이름
