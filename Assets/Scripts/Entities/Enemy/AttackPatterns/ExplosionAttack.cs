@@ -41,7 +41,7 @@ namespace Entities.Enemy.AttackPatterns
             // 데미지 적용
             var hitColliders =
                 Physics2D.OverlapCircleAll(enemyAttack.transform.position, radius - radiusOffset, damageableLayer);
-            foreach (var hitCollider in hitColliders) hitCollider.GetComponent<IHealth>().TakeDamage();
+            foreach (var hitCollider in hitColliders) hitCollider.GetComponent<Health>().TakeDamage();
 
             yield return new WaitForSeconds(0.1f);
             enemyAttack.indicator.SetActive(false);

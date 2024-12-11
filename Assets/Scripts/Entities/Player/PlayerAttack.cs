@@ -1,6 +1,8 @@
 using Collections;
 using Entities.Abilities;
 using Entities.Weapons;
+using Managers;
+using UI;
 using UnityEngine;
 using UnityEngine.Pool;
 
@@ -39,6 +41,7 @@ namespace Entities.Player
                 maxBombs + 1,
                 maxBombs * 2
             );
+            UiManager.Instance.GetUI<UIPlayerInfo>()?.SetPlayerBomb(maxBombs);
         }
 
         private GameObject CreateBomb()
@@ -65,6 +68,7 @@ namespace Entities.Player
         public void BombExplotion()
         {
             _activeBombCount--;
+            UiManager.Instance.GetUI<UIPlayerInfo>()?.SetPlayerBomb(maxBombs - _activeBombCount);
         }
 
         public void BombExploded(GameObject bomb)
@@ -103,6 +107,7 @@ namespace Entities.Player
             _activeBombCount++;
             _isPlanting = false; // 설치 상태 해제
             _animator.SetBool(Planting, _isPlanting);
+            UiManager.Instance.GetUI<UIPlayerInfo>()?.SetPlayerBomb(maxBombs - _activeBombCount);
         }
 
         public void Attack()

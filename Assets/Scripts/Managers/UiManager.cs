@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
 using Collections;
 using UI;
 
@@ -8,50 +7,40 @@ namespace Managers
 {
     public class UiManager : Singleton<UiManager>
     {
-        private readonly Dictionary<Type, List<BaseUI>> _activeUIs = new();
+        private readonly Dictionary<Type, BaseUI> _assignUIs = new();
 
         public void AssignUI<T>(T ui) where T : BaseUI
         {
             var type = typeof(T);
-            if (!_activeUIs.ContainsKey(type)) _activeUIs[type] = new List<BaseUI>();
-
-            if (!_activeUIs[type].Contains(ui)) _activeUIs[type].Add(ui);
+            _assignUIs[type] = ui;
         }
 
         public T GetUI<T>() where T : BaseUI
         {
             var type = typeof(T);
-            return _activeUIs.ContainsKey(type) && _activeUIs[type].Count > 0
-                ? _activeUIs[type][0] as T
-                : null;
+            return _assignUIs.GetValueOrDefault(type) as T;
         }
 
-        public List<T> GetUIs<T>() where T : BaseUI
+        // public List<T> GetUIs<T>() where T : BaseUI
+        // {
+        //     var type = typeof(T);
+        //     return _assignUIs.ContainsKey(type)
+        //         ? _assignUIs[type].Cast<T>().ToList()
+        //         : new List<T>();
+        // }
+        //
+        // 특정 UI 비활성화
+        public void DisableUI(Type type)
         {
-            var type = typeof(T);
-            return _activeUIs.ContainsKey(type)
-                ? _activeUIs[type].Cast<T>().ToList()
-                : new List<T>();
+            _assignUIs[type]?.gameObject.SetActive(false);
         }
-        //
-        // // 특정 UI 비활성화
-        // public void DisableUI(string uiID)
-        // {
-        //     if (ActiveUIs.TryGetValue(uiID, out var ui))
-        //         ui.SetActive(false);
-        //     else
-        //         Debug.LogWarning($"UI ID '{uiID}' not found.");
-        // }
-        //
-        // // 특정 UI 활성화
-        // public void EnableUI(string uiID)
-        // {
-        //     if (ActiveUIs.TryGetValue(uiID, out var ui))
-        //         ui.SetActive(true);
-        //     else
-        //         Debug.LogWarning($"UI ID '{uiID}' not found.");
-        // }
-        //
+
+        // 특정 UI 활성화
+        public void EnableUI(Type type)
+        {
+            _assignUIs[type]?.gameObject.SetActive(true);
+        }
+
         // // 특정 UI 삭제
         // public void CloseUI(string uiID)
         // {

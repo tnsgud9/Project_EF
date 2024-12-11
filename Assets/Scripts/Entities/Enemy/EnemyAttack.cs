@@ -49,6 +49,12 @@ namespace Entities.Enemy
             }
         }
 
+        private void OnDisable()
+        {
+            StopCurrentPattern();
+            currentPattern = null;
+        }
+
         public void AddEffect(AbilityData abilityData)
         {
             throw new NotImplementedException();

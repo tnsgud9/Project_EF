@@ -1,24 +1,21 @@
 ﻿using System;
+using Collections;
+using Commons;
 using Entities.Abilities;
 using UnityEngine;
 
 namespace Entities
 {
-    public interface IHealth
-    {
-        int CurrentHealth { get; }
-        int MaxHealth { get; }
-        event Action OnDie;
-        event Action<int, int> OnHealthChanged;
-        void TakeDamage(int damage = 1);
-    }
-
-    public class Health : MonoBehaviour, IHealth, IAbility
+    public class Health : MonoBehaviour, IAbility
     {
         [SerializeField] private int currentHealth;
+        [field: SerializeField] public int MaxHealth { get; set; } = 100;
+
+        public int CurrentHealth => currentHealth;
 
         private void Start()
         {
+            EventBus<Enums.Event>.Subscribe(Enums.Event.StageReady, () => { currentHealth = MaxHealth; });
             currentHealth = MaxHealth;
         }
 
@@ -27,8 +24,6 @@ namespace Entities
             MaxHealth += abilityData.health;
         }
 
-        public int CurrentHealth => currentHealth;
-        [field: SerializeField] public int MaxHealth { get; set; } = 100;
         public event Action OnDie;
         public event Action<int, int> OnHealthChanged;
 
@@ -40,6 +35,12 @@ namespace Entities
             if (currentHealth <= 0)
                 // Die 이벤트를 호출
                 OnDie?.Invoke();
+        }
+
+        public void RegenHealth()
+        {
+            currentHealth = MaxHealth;
+            OnHealthChanged?.Invoke(currentHealth, 0);
         }
     }
 }

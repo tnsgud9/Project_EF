@@ -4,12 +4,32 @@ using UnityEngine;
 
 namespace Entities.Player
 {
+    public class PlayerReadyState : IState<PlayerController>
+    {
+        public void StateStart(PlayerController controller)
+        {
+            controller.inputHandler.enabled = false;
+            controller.movement.enabled = false;
+            controller.playerAttack.enabled = false;
+            controller.health.RegenHealth();
+        }
+
+        public void StateUpdate(PlayerController controller)
+        {
+        }
+
+        public void StateEnd(PlayerController controller)
+        {
+        }
+    }
+
     public class PlayerAliveState : IState<PlayerController>
     {
         public void StateStart(PlayerController controller)
         {
-            // TODO: 기본적인 플레이어 세팅 설정
             controller.inputHandler.enabled = true;
+            controller.movement.enabled = true;
+            controller.playerAttack.enabled = true;
         }
 
         public void StateUpdate(PlayerController controller)

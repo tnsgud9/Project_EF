@@ -11,6 +11,7 @@ namespace Managers
         public PlayerController playerController;
 
         public List<AbilityData> abilities;
+
         // public List<AbilityData> playerAbilities;
 
 

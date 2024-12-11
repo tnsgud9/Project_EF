@@ -2,21 +2,25 @@ using Collections;
 using Commons;
 using Entities.Abilities;
 using Managers;
+using UI;
 using UnityEngine;
 
 namespace Entities.Player
 {
     public class PlayerController : BaseBehaviour, IController
     {
-        public AudioPreset deathAudio;
-        [Inject] public PlayerInputHandler inputHandler;
         [InjectChild] public Animator animator;
-        [InjectAdd] private AudioSource _audioSource;
-        [Inject] private PlayerMovement _movement;
+        public AudioPreset deathAudio;
+        [HideInInspector] [Inject] public PlayerInputHandler inputHandler;
+        [HideInInspector] [Inject] public PlayerMovement movement;
+        [HideInInspector] [Inject] public PlayerAttack playerAttack;
 
+        [Inject] public Health health;
+
+        [InjectAdd] private AudioSource _audioSource;
         private PlayerAliveState _playerAliveState;
-        [Inject] private PlayerAttack _playerAttack;
         private PlayerDeathState _playerDeathState;
+        private PlayerReadyState _playerReadyState;
         private StateContext<PlayerController> _stateContext;
 
         private void Start()
@@ -34,8 +38,16 @@ namespace Entities.Player
             inputHandler.OnAttackExit += HandleAttackExit;
 
             // EventBinding
-            Health.OnDie += () => _stateContext.CurrentState = _playerDeathState;
-            Health.OnHealthChanged += (currentHealth, damage) => { };
+            health.OnDie += () => _stateContext.CurrentState = _playerDeathState;
+            health.OnHealthChanged += (currentHealth, damage) =>
+            {
+                UiManager.Instance.GetUI<UIPlayerInfo>()?.SetPlayerHealth(currentHealth);
+            };
+            UiManager.Instance.GetUI<UIPlayerInfo>()?.SetPlayerHealth(health.CurrentHealth);
+            EventBus<Enums.Event>.Subscribe(Enums.Event.StageReady,
+                () => { _stateContext.CurrentState = _playerReadyState; });
+            EventBus<Enums.Event>.Subscribe(Enums.Event.StageStart,
+                () => { _stateContext.CurrentState = _playerAliveState; });
         }
 
         protected override void OnEnable()
@@ -46,18 +58,18 @@ namespace Entities.Player
             _stateContext = new StateContext<PlayerController>(this);
             _playerAliveState = new PlayerAliveState();
             _playerDeathState = new PlayerDeathState(deathAudio);
+            _playerReadyState = new PlayerReadyState();
             _stateContext.CurrentState = _playerAliveState;
 
             GameManager.Instance.playerController = this; // TODO: Controller는 Manager를 직접 지정할 수 없음 수정 필요
+            UiManager.Instance.GetUI<UIPlayerInfo>()?.SetPlayerHealth(health.CurrentHealth);
         }
-
-        [Inject] public IHealth Health { get; set; }
 
         public void KnockBack(float knockBackForce = 1f, float timeDelay = 0.6f)
         {
-            _movement.KnockBack(knockBackForce, timeDelay);
-            _playerAttack.enabled = false;
-            StartCoroutine(Logic.WaitThenCallback(timeDelay, () => _playerAttack.enabled = true));
+            movement.KnockBack(knockBackForce, timeDelay);
+            playerAttack.enabled = false;
+            StartCoroutine(Logic.WaitThenCallback(timeDelay, () => playerAttack.enabled = true));
         }
 
         public void AddAbility(AbilityData abilityData,
@@ -74,17 +86,17 @@ namespace Entities.Player
 
         private void HandleMoveStay()
         {
-            _movement.Move(inputHandler.movementInput);
+            movement.Move(inputHandler.movementInput);
         }
 
         private void HandleMoveExit()
         {
-            _movement.Move(Vector2.zero);
+            movement.Move(Vector2.zero);
         }
 
         private void HandleAttackEnter()
         {
-            _playerAttack.Attack();
+            playerAttack.Attack();
         }
 
         private void HandleAttackStay()

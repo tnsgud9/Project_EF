@@ -71,14 +71,15 @@ namespace Entities.Weapons
             var hitObjects = Physics2D.OverlapCircleAll(transform.position, explosionRadius, damageableLayer);
             foreach (var obj in hitObjects)
             {
+                var health = obj.GetComponent<Health>();
                 var controller = obj.GetComponent<IController>();
-                if (controller == null)
+                if (health == null || controller == null)
                 {
                     Debug.LogWarning($"{gameObject.name} : Controller is not exist or null");
                     continue;
                 }
 
-                controller.Health.TakeDamage(damage);
+                health.TakeDamage(damage);
                 controller.AudioSystem.PlayOneShot(explodeHitSound);
             }
         }

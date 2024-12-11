@@ -1,6 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
 using Collections;
+using Commons;
 using Entities;
 using Managers;
 using UnityEngine;
@@ -13,8 +14,14 @@ namespace UI
         [Inject] public Slider slider;
         public LayerMask availableLayer;
 
-        private readonly List<IHealth> _trackingHealths = new();
+        private readonly List<Health> _trackingHealths = new();
         private int _allMaxHealth;
+
+        private void Start()
+        {
+            EventBus<Enums.Event>.Subscribe(Enums.Event.StageReady, RefreshHealthBar);
+            EventBus<Enums.Event>.Subscribe(Enums.Event.StageStart, RefreshHealthBar);
+        }
 
         protected override void OnEnable()
         {
@@ -27,16 +34,22 @@ namespace UI
             UiManager.Instance.AssignUI(this);
         }
 
-        public void AddHealthTracking(IHealth health)
+        private void OnHealthChangeHandler(int currentHealth, int damage)
+        {
+            RefreshHealthBar();
+        }
+
+        public void AddHealthTracking(Health health)
         {
             _trackingHealths.Add(health);
             _allMaxHealth = GetAllMaxHealth();
+            health.OnHealthChanged += OnHealthChangeHandler;
             RefreshHealthBar();
         }
 
         public void AddHealthTracking(GameObject healthObject)
         {
-            var health = healthObject.GetComponent<IHealth>();
+            var health = healthObject.GetComponent<Health>();
             if (health is null)
             {
                 Debug.LogError("Cannot add health tracking: health object is null");
@@ -58,10 +71,12 @@ namespace UI
             _allMaxHealth = 0;
         }
 
-        public void DestroyHealthTracking(IHealth health)
+        public void DestroyHealthTracking(Health health)
         {
-            _allMaxHealth = GetAllMaxHealth();
+            health.OnHealthChanged -= OnHealthChangeHandler;
             _trackingHealths.Remove(health);
+            _allMaxHealth = GetAllMaxHealth();
+            RefreshHealthBar();
         }
 
         public void RefreshHealthBar()

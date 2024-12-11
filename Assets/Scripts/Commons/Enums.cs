@@ -20,7 +20,10 @@ namespace Commons
             GameOver,
             GameStart,
             Restart,
-            MainMenu
+            MainMenu,
+            StageReady,
+            StageStart,
+            StageClear
         }
     }
 }

@@ -25,7 +25,7 @@ namespace Entities.Projectiles
         {
             if (((1 << collision.gameObject.layer) & damageableLayer) != 0)
             {
-                var health = collision.GetComponent<IHealth>();
+                var health = collision.GetComponent<Health>();
                 if (health != null) health.TakeDamage(damage);
                 _projectilePool.Release(this);
             }
