@@ -40,7 +40,7 @@ namespace Entities
         public void RegenHealth()
         {
             currentHealth = MaxHealth;
-            OnHealthChanged?.Invoke(currentHealth, 0);
+            // OnHealthChanged?.Invoke(currentHealth, 0);
         }
     }
 }

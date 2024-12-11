@@ -33,9 +33,15 @@ namespace Entities.Enemy
             _health.OnDie += () => { _stateContext.CurrentState = _enemyDeathState; };
             // Health.OnHealthChanged += (currentHealth, damage) => { _uiHealthBar.RefreshHealthBar(); };
             EventBus<Enums.Event>.Subscribe(Enums.Event.StageReady,
-                () => { _stateContext.CurrentState = _enemyReadyState; });
+                () =>
+                {
+                    _stateContext.CurrentState = _enemyReadyState;
+                    GetComponent<Collider2D>().enabled = true;
+                });
             EventBus<Enums.Event>.Subscribe(Enums.Event.StageStart,
                 () => { _stateContext.CurrentState = _enemyAliveState; });
+            EventBus<Enums.Event>.Subscribe(Enums.Event.GameOver,
+                () => { GetComponent<Collider2D>().enabled = false; });
         }
 
         protected override void OnEnable()

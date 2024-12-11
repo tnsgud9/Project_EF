@@ -16,6 +16,7 @@ public class Logic : MonoBehaviour
     {
         var uniqueNumbers = new HashSet<int>();
 
+        if (max < count) count = max;
         // count 만큼 랜덤 숫자를 추출
         while (uniqueNumbers.Count < count)
         {

@@ -59,6 +59,13 @@ namespace Entities.Weapons
             ExplodeComplete();
         }
 
+        public void ExplodeStop()
+        {
+            _playerAttack?.BombExplotion();
+            AfterExplode();
+            ExplodeComplete();
+        }
+
         private void ExplodeComplete()
         {
             // 폭탄이 폭발 종료 후 플레이어의 BombExploded 메서드를 호출하여 폭탄을 풀로 반환

@@ -25,7 +25,11 @@ namespace UI
             {
                 foreach (Transform child in transform) child.gameObject.SetActive(false);
             });
-            nextButton.onClick.AddListener(StageManager.Instance.NextStage);
+            nextButton.onClick.AddListener(() =>
+            {
+                UiManager.Instance.EnableUI(typeof(UIAbilityChoice));
+                // StageManager.Instance.NextStage();
+            });
         }
 
         protected override void AssignUiManage()

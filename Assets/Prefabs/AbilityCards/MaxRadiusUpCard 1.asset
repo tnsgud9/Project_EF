@@ -10,18 +10,17 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 90ee435419a04dd1a940d35450d443aa, type: 3}
-  m_Name: MaxHealth1UpCard 3
+  m_Name: MaxRadiusUpCard 1
   m_EditorClassIdentifier: 
-  abilityName: 3
-  description: "\uD50C\uB808\uC774\uC5B4 \uCD5C\uB300 HP\uB97C 1 \uC99D\uAC00\uD55C\uB2E4."
-  health: 2
-  attackPower: 0
+  abilityName: atk2
+  description: "\uD3ED\uD0C4 \uD3ED\uBC1C \uBC94\uC704 1 \uC99D\uAC00"
+  health: 0
   criticalChance: 0
   moveSpeed: 0
   refreshCount: 0
   bombSetupTime: 0
   bombPlant: 0
-  bombRadius: 0
+  bombRadius: 1
   bombDamage: 0
   enemyHealth: 0
   enemySpeed: 0

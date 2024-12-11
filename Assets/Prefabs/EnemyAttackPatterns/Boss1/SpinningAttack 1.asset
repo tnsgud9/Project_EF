@@ -9,13 +9,15 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 23d333ee97674ce4b65c9eb4cdba545a, type: 3}
-  m_Name: ProjectileAttack
+  m_Script: {fileID: 11500000, guid: 4c5748d4034d48f7895dc6809db39735, type: 3}
+  m_Name: SpinningAttack 1
   m_EditorClassIdentifier: 
   damageableLayer:
     serializedVersion: 2
     m_Bits: 128
   nextPattern: {fileID: 0}
   projectilePrefab: {fileID: 5179577735611149127, guid: 6e44b0d0d157ad542a28aaff52189992, type: 3}
-  projectileCount: 1
-  fireDelay: 0.5
+  projectileCount: 8
+  rotationSpeed: 1
+  attackDuration: 3
+  projectileSpawnInterval: 0.5

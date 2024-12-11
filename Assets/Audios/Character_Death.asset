@@ -10,9 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 87b8038f74cf4667852393b57bdc3299, type: 3}
-  m_Name: Dynamite_Death
+  m_Name: Character_Death
   m_EditorClassIdentifier: 
-  audioClip: {fileID: 8300000, guid: 4f472e7da3e10774e87e2172c6cda4e6, type: 3}
+  audioClip: {fileID: 8300000, guid: 48e6414c2e1467c45a8f5d7f7b1629ff, type: 3}
   volume: 1
   pitch: 1
   loop: 0

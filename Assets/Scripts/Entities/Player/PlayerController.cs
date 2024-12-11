@@ -11,6 +11,7 @@ namespace Entities.Player
     {
         [InjectChild] public Animator animator;
         public AudioPreset deathAudio;
+        public AudioPreset hitAudio;
         [HideInInspector] [Inject] public PlayerInputHandler inputHandler;
         [HideInInspector] [Inject] public PlayerMovement movement;
         [HideInInspector] [Inject] public PlayerAttack playerAttack;
@@ -41,6 +42,7 @@ namespace Entities.Player
             health.OnDie += () => _stateContext.CurrentState = _playerDeathState;
             health.OnHealthChanged += (currentHealth, damage) =>
             {
+                AudioSystem.PlayOneShot(hitAudio);
                 UiManager.Instance.GetUI<UIPlayerInfo>()?.SetPlayerHealth(currentHealth);
             };
             UiManager.Instance.GetUI<UIPlayerInfo>()?.SetPlayerHealth(health.CurrentHealth);
@@ -59,7 +61,7 @@ namespace Entities.Player
             _playerAliveState = new PlayerAliveState();
             _playerDeathState = new PlayerDeathState(deathAudio);
             _playerReadyState = new PlayerReadyState();
-            _stateContext.CurrentState = _playerAliveState;
+            _stateContext.CurrentState = _playerReadyState;
 
             GameManager.Instance.playerController = this; // TODO: Controller는 Manager를 직접 지정할 수 없음 수정 필요
             UiManager.Instance.GetUI<UIPlayerInfo>()?.SetPlayerHealth(health.CurrentHealth);
@@ -76,6 +78,8 @@ namespace Entities.Player
             Enums.AbilityMethodType abilityMethodType = Enums.AbilityMethodType.Add)
         {
             foreach (var ability in GetComponentsInChildren<IAbility>()) ability.AddEffect(abilityData);
+            UiManager.Instance.GetUI<UIPlayerInfo>().SetPlayerBomb(playerAttack.maxBombs);
+            UiManager.Instance.GetUI<UIPlayerInfo>().SetPlayerHealth(health.CurrentHealth);
         }
 
         public IAudioSystem AudioSystem { get; set; }

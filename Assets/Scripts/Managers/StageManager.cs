@@ -5,6 +5,7 @@ using Collections;
 using Commons;
 using DG.Tweening;
 using Entities;
+using Entities.Weapons;
 using Stage;
 using UI;
 using UnityEngine;
@@ -27,7 +28,7 @@ namespace Managers
             audioSystem = new AudioSystem(GetComponent<AudioSource>());
             _stageIter = stages.GetEnumerator();
             _stageIter.MoveNext();
-            ChangeStage(_stageIter.Current);
+            // ChangeStage(_stageIter.Current);
             EventBus<Enums.Event>.Subscribe(Enums.Event.GameOver, () => { audioSystem.Stop(); });
         }
 
@@ -41,11 +42,14 @@ namespace Managers
             }
         }
 
+
         public void ChangeStage(StageData stageData)
         {
             // 1. 이전 레벨 삭제
             Destroy(GameObject.FindGameObjectWithTag("Map"));
             foreach (var enemyObj in GameObject.FindGameObjectsWithTag("Enemy")) Destroy(enemyObj);
+            foreach (var bombObj in GameObject.FindGameObjectsWithTag("Bomb"))
+                bombObj.GetComponent<Bomb>().ExplodeStop();
 
             // 2. 신규 스테이지 생성 및 보스 생성
             currentMap = Instantiate(stageData.mapPrefab);
@@ -78,6 +82,11 @@ namespace Managers
                         audioSystem.Play(stageData.bgAudioPreset);
                         EventBus<Enums.Event>.Publish(Enums.Event.StageStart); // 게임 시작
                     }));
+        }
+
+        public void StageStart()
+        {
+            ChangeStage(_stageIter.Current);
         }
 
         public void NextStage()

@@ -69,7 +69,8 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 7241fb6ebbb012449b6b181334fa9d16, type: 2}
   - {fileID: 11400000, guid: c7551c914b54a06419ed807e8102a27e, type: 2}
   - {fileID: 11400000, guid: 75b6c53c2b3584c4785a9af619d68a49, type: 2}
-  currentPattern: {fileID: 11400000, guid: c7551c914b54a06419ed807e8102a27e, type: 2}
+  - {fileID: 11400000, guid: 685528d33cc51404fb5b603a2ab157e8, type: 2}
+  currentPattern: {fileID: 11400000, guid: 685528d33cc51404fb5b603a2ab157e8, type: 2}
   animator: {fileID: 0}
   isCurrentPatternRunning: 0
   indicator: {fileID: 0}

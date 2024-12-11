@@ -11,7 +11,6 @@ namespace Entities.Abilities
         // public Sprite icon;
 
         [Header("Player Modifiers")] public int health; // 최대 체력 증가
-        public float attackPower; // 추가 공격력
         public float criticalChance; // 치명타 확률 증가 (퍼센트)
         public float moveSpeed; // 이동 속도 증가
         public int refreshCount; // 선택지 새로고침 횟수 증가

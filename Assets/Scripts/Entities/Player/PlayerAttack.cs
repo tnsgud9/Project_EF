@@ -119,7 +119,7 @@ namespace Entities.Player
         {
             maxBombs += abilityData.bombPlant;
             bombRadius += abilityData.bombRadius;
-            plantDelay = Mathf.Clamp(plantDelay - abilityData.bombPlant, 0.01f, int.MaxValue);
+            plantDelay = Mathf.Clamp(plantDelay - abilityData.bombSetupTime, 0.01f, int.MaxValue);
             damage += abilityData.bombDamage;
             // cirtical += abilityData.bombCritical;
         }

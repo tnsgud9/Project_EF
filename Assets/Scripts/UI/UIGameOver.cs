@@ -33,6 +33,7 @@ namespace UI
 
             restartButton.onClick.AddListener(() =>
             {
+                StageManager.Instance.StageStart();
                 // TODO: Scene Restart Init;
             });
         }
