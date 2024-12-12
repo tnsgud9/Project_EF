@@ -16,7 +16,7 @@ namespace Entities.Abilities
         public int refreshCount; // 선택지 새로고침 횟수 증가
         public float bombSetupTime; // 폭탄 설치 시간 감소
         public int bombPlant; // 폭탄 설치 횟수
-        public int bombRadius; // 폭탄 폭발 범위
+        public float bombRadius; // 폭탄 폭발 범위
         public int bombDamage; // 폭탄 폭발 범위
 
         [Header("Enemy Modifiers")] public float enemyHealth; // 적 체력 감소

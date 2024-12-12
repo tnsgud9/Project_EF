@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7af9c1c1fe034c449245d553fd1ed7eb, type: 3}
+  m_Name: Stage 4
+  m_EditorClassIdentifier: 
+  titleName: Smile Type 4?
+  bgAudioPreset: {fileID: 11400000, guid: 6f17dbb0f551ec44389bf5285b8a6cec, type: 2}
+  mapPrefab: {fileID: 1616531084866035614, guid: 44d901ccc182a4d4091cc5487e3c62c8, type: 3}
+  enemies:
+  - enemyPrefab: {fileID: 5091351297984438891, guid: 173f9817f6e22b74087ddfd6692c562f, type: 3}
+    position: {x: 0, y: 3.45, z: 0}
+  - enemyPrefab: {fileID: 5091351297984438891, guid: 8aeae1b9137effc449acbb27b8d78472, type: 3}
+    position: {x: 3, y: 3.45, z: 0}
+  - enemyPrefab: {fileID: 5091351297984438891, guid: ebafaca063d327542b78f540885af059, type: 3}
+    position: {x: -3, y: 3.45, z: 0}
+  - enemyPrefab: {fileID: 5091351297984438891, guid: ebafaca063d327542b78f540885af059, type: 3}
+    position: {x: -3, y: -3.45, z: 0}
+  - enemyPrefab: {fileID: 5091351297984438891, guid: 8aeae1b9137effc449acbb27b8d78472, type: 3}
+    position: {x: -3, y: -3.45, z: 0}

@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7af9c1c1fe034c449245d553fd1ed7eb, type: 3}
   m_Name: Stage 1
   m_EditorClassIdentifier: 
-  titleName: TestBoss1
+  titleName: Smile Type 1
   bgAudioPreset: {fileID: 11400000, guid: 460fc0d02e4c0b64798ac3079df35171, type: 2}
   mapPrefab: {fileID: 1616531084866035614, guid: d2be8712b85bae24b80cf8f3448f169a, type: 3}
   enemies:

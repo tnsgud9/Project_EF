@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4c5748d4034d48f7895dc6809db39735, type: 3}
+  m_Name: SpinningAttack Boss 4
+  m_EditorClassIdentifier: 
+  damageableLayer:
+    serializedVersion: 2
+    m_Bits: 128
+  nextPattern: {fileID: 0}
+  projectilePrefab: {fileID: 5179577735611149127, guid: 6e44b0d0d157ad542a28aaff52189992, type: 3}
+  projectileCount: 8
+  rotationSpeed: 1
+  attackDuration: 3
+  projectileSpawnInterval: 0.5

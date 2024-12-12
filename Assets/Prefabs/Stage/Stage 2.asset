@@ -12,11 +12,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7af9c1c1fe034c449245d553fd1ed7eb, type: 3}
   m_Name: Stage 2
   m_EditorClassIdentifier: 
-  titleName: TestBoss1
-  bgAudioPreset: {fileID: 11400000, guid: 460fc0d02e4c0b64798ac3079df35171, type: 2}
-  mapPrefab: {fileID: 1616531084866035614, guid: d2be8712b85bae24b80cf8f3448f169a, type: 3}
+  titleName: Smile Type 2
+  bgAudioPreset: {fileID: 11400000, guid: bd632e57f0b7de24faa17a8de575baf7, type: 2}
+  mapPrefab: {fileID: 1616531084866035614, guid: 6a5cf92ce5a91324391913e060e725f3, type: 3}
   enemies:
-  - enemyPrefab: {fileID: 5091351297984438891, guid: 7f9c422e24865204b95a422aa2b8e3e1, type: 3}
+  - enemyPrefab: {fileID: 5091351297984438891, guid: f6f7ce4bddfe3b04faebf2f9dfaaa2d0, type: 3}
     position: {x: 0, y: 3.45, z: 0}
-  - enemyPrefab: {fileID: 5091351297984438891, guid: 7f9c422e24865204b95a422aa2b8e3e1, type: 3}
-    position: {x: 2.78, y: 3.45, z: 0}
+  - enemyPrefab: {fileID: 5091351297984438891, guid: 5500a672daf5dc44d8f50dc2b1e460e5, type: 3}
+    position: {x: -3, y: 3.45, z: 0}
+  - enemyPrefab: {fileID: 5091351297984438891, guid: 5500a672daf5dc44d8f50dc2b1e460e5, type: 3}
+    position: {x: 3, y: 3.45, z: 0}

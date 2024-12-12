@@ -622,8 +622,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 11a71d3e683e4885a73ee664f7a1be50, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  currentHealth: 1
-  <MaxHealth>k__BackingField: 1
+  currentHealth: 2
+  <MaxHealth>k__BackingField: 2
 --- !u!82 &271172649
 AudioSource:
   m_ObjectHideFlags: 0
@@ -2254,6 +2254,8 @@ MonoBehaviour:
   stages:
   - {fileID: 11400000, guid: 99ff650c782ddc14f936804edebacf80, type: 2}
   - {fileID: 11400000, guid: 4bd76362a8ea37349939770ac29195b3, type: 2}
+  - {fileID: 11400000, guid: c92885d9ea91a8d4e9c54429db6e97e8, type: 2}
+  - {fileID: 11400000, guid: 022ccb0c1d9ad7740a86b286d481f95b, type: 2}
   currentMap: {fileID: 0}
   currentEnemies: []
   bossAppearAudioPreset: {fileID: 11400000, guid: 41509da220d04c24b843cfb2168bc095, type: 2}
@@ -5764,6 +5766,10 @@ PrefabInstance:
     - target: {fileID: 5091351297984438891, guid: 7f9c422e24865204b95a422aa2b8e3e1, type: 3}
       propertyPath: m_Name
       value: Enemy
+      objectReference: {fileID: 0}
+    - target: {fileID: 5091351297984438891, guid: 7f9c422e24865204b95a422aa2b8e3e1, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 9143877591991371955, guid: 7f9c422e24865204b95a422aa2b8e3e1, type: 3}
       propertyPath: m_LocalPosition.x
