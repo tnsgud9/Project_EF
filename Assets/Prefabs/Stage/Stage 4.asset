@@ -19,10 +19,14 @@ MonoBehaviour:
   - enemyPrefab: {fileID: 5091351297984438891, guid: 173f9817f6e22b74087ddfd6692c562f, type: 3}
     position: {x: 0, y: 3.45, z: 0}
   - enemyPrefab: {fileID: 5091351297984438891, guid: 8aeae1b9137effc449acbb27b8d78472, type: 3}
-    position: {x: 3, y: 3.45, z: 0}
+    position: {x: 3, y: 0, z: 0}
   - enemyPrefab: {fileID: 5091351297984438891, guid: ebafaca063d327542b78f540885af059, type: 3}
     position: {x: -3, y: 3.45, z: 0}
   - enemyPrefab: {fileID: 5091351297984438891, guid: ebafaca063d327542b78f540885af059, type: 3}
     position: {x: -3, y: -3.45, z: 0}
   - enemyPrefab: {fileID: 5091351297984438891, guid: 8aeae1b9137effc449acbb27b8d78472, type: 3}
+    position: {x: -3, y: 0, z: 0}
+  - enemyPrefab: {fileID: 5091351297984438891, guid: ebafaca063d327542b78f540885af059, type: 3}
     position: {x: -3, y: -3.45, z: 0}
+  - enemyPrefab: {fileID: 5091351297984438891, guid: ebafaca063d327542b78f540885af059, type: 3}
+    position: {x: 3, y: -3.45, z: 0}

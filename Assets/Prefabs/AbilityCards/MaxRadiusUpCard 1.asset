@@ -13,14 +13,14 @@ MonoBehaviour:
   m_Name: MaxRadiusUpCard 1
   m_EditorClassIdentifier: 
   abilityName: atk2
-  description: "\uD3ED\uD0C4 \uD3ED\uBC1C \uBC94\uC704 1 \uC99D\uAC00"
+  description: "\uD3ED\uD0C4 \uD3ED\uBC1C \uBC94\uC704 0.2 \uC99D\uAC00"
   health: 0
   criticalChance: 0
   moveSpeed: 0
   refreshCount: 0
   bombSetupTime: 0
   bombPlant: 0
-  bombRadius: 1
+  bombRadius: 0.2
   bombDamage: 0
   enemyHealth: 0
   enemySpeed: 0
